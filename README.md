@@ -1,4 +1,5 @@
-![Uploading logo.png…]()
+<img width="720" height="360" alt="logo" src="https://github.com/user-attachments/assets/9397e6d0-4dd6-42c8-babd-0bdb3e6d7da3" />
+
 
 
 You are welcome to choose and download this open source version of Chinese-style school and home: Unofficial version mod,

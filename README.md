@@ -1,0 +1,3 @@
+You are welcome to choose and download this open source version of Chinese-style school and home: Unofficial version mod,
+This update may be slower than the release version, but you can add, change, delete mod content and files yourself.
+Just indicate that it is not made by you.

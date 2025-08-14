@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/satellite_television",
+  "textures": {
+    "all": "school:block/satellite_television",
+    "particle": "school:block/satellite_television",
+    "0": "school:block/satellite_television"
+  },
+  "render_type": "solid"
+}

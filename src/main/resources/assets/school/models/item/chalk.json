@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/chalk_-_converted",
+  "textures": {
+    "0": "school:block/chalk",
+    "particle": "school:item/chalk"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "school:greyconcretestair",
+    "school:blackconcretestair",
+    "school:yellowconcretestair",
+    "school:orangeconcretestair_q",
+    "school:blueconcretestairq",
+    "school:greenconcretestair",
+    "school:re_dconcretestair",
+    "school:white_concrete_stair",
+    "school:laboratory_light"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "school:block/itmusthavbeenptifinetodoit",
+    "up": "school:block/itmusthavbeenptifinetodoit",
+    "north": "school:block/itmusthavbeenptifinetodoit",
+    "east": "school:block/itmusthavbeenptifinetodoit",
+    "south": "school:block/itmusthavbeenptifinetodoit",
+    "west": "school:block/itmusthavbeenptifinetodoit",
+    "particle": "school:block/itmusthavbeenptifinetodoit"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/aircondition",
+  "textures": {
+    "all": "school:block/acout",
+    "particle": "school:block/acout",
+    "1": "school:block/acout"
+  },
+  "render_type": "solid"
+}

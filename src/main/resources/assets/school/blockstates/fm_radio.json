@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/fm_radio"
+    },
+    "facing=east": {
+      "model": "school:block/fm_radio",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/fm_radio",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/fm_radio",
+      "y": 270
+    }
+  }
+}

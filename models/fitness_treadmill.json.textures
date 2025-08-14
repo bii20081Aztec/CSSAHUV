@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fitness_treadmill"
+      },
+      "name": "default"
+    }
+  }
+}

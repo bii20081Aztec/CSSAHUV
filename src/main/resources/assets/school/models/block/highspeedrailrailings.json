@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/tall_iron_fence",
+  "textures": {
+    "all": "school:block/tall",
+    "particle": "school:block/tall",
+    "1": "school:block/tall"
+  },
+  "render_type": "solid"
+}

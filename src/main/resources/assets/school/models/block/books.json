@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/book",
+  "textures": {
+    "all": "school:block/books",
+    "particle": "school:block/books",
+    "0": "school:block/books"
+  },
+  "render_type": "solid"
+}

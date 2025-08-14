@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "redflag"
+      },
+      "name": "default"
+    },
+    "aws": {
+      "map": {
+        "0": "blackflag"
+      },
+      "name": "aws"
+    }
+  }
+}

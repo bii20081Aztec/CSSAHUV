@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/seewo",
+  "textures": {
+    "all": "school:block/ubuntu_64",
+    "particle": "school:block/ubuntu_64",
+    "1": "school:block/seewo",
+    "4": "school:block/ubuntu_64"
+  },
+  "render_type": "solid"
+}

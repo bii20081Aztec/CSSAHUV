@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/orangetallwall"
+    },
+    "facing=east": {
+      "model": "school:block/orangetallwall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/orangetallwall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/orangetallwall",
+      "y": 270
+    }
+  }
+}

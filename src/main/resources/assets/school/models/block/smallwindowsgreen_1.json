@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/small_windows1",
+  "textures": {
+    "all": "school:block/small_windows_s_3",
+    "particle": "school:block/small_windows_s_3",
+    "1": "school:block/small_windows_s_3"
+  },
+  "render_type": "translucent"
+}

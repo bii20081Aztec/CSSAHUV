@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "pipe_a"
+      },
+      "name": "default"
+    }
+  }
+}

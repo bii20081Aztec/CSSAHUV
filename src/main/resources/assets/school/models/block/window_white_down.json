@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/window-black-down",
+  "textures": {
+    "all": "school:block/white-down",
+    "particle": "school:block/white-down",
+    "1": "school:block/white-down"
+  },
+  "render_type": "translucent"
+}

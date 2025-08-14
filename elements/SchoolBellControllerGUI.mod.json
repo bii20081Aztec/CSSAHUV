@@ -1,0 +1,182 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 220,
+    "height": 140,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_school_bell_controller",
+          "text": {
+            "fixedValue": "School Bell Controller"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 114,
+          "y": 56,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_class_beginover",
+          "text": "Class Begin/Over",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ClassBeginOver"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 108,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_go_downstairs",
+          "text": "Recess",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Recess"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 204,
+          "y": 142,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stop_all_sound",
+          "text": "Stop All Sound",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StopSound"
+          },
+          "width": 120,
+          "height": 20,
+          "x": 108,
+          "y": 72,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_dancing_youth",
+          "text": "Dancing youth",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DancingYouth"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 108,
+          "y": 119,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_colorful_sunshine",
+          "text": "Colorful sunshine",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ColorfulSunshine"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 204,
+          "y": 119,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_eye_exercises",
+          "text": "Eye exercises",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Eyeexercises"
+          },
+          "width": 93,
+          "height": 20,
+          "x": 108,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_running_drills",
+          "text": "Running drill music",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Runningdrillmusic"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 203,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_modified_based_on_the_rabbit_ver",
+          "text": {
+            "fixedValue": "Modified based on the Rabbit version"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 111,
+          "y": 170,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shut_down",
+          "text": "Shut down",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Shutdown"
+          },
+          "width": 55,
+          "height": 20,
+          "x": 264,
+          "y": 54,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

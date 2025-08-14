@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "seewo",
+        "4": "seewohd"
+      },
+      "name": "default"
+    },
+    "win10": {
+      "map": {
+        "1": "seewo",
+        "4": "seewohdpwon10"
+      },
+      "name": "win10"
+    },
+    "winbsod": {
+      "map": {
+        "1": "seewo",
+        "4": "seewohdpwon11bsod"
+      },
+      "name": "winbsod"
+    },
+    "win11": {
+      "map": {
+        "1": "seewo",
+        "4": "ctyh"
+      },
+      "name": "win11"
+    },
+    "ubuntu": {
+      "map": {
+        "1": "seewo",
+        "4": "ubuntu_64"
+      },
+      "name": "ubuntu"
+    }
+  }
+}

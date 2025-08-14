@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/m110",
+  "textures": {
+    "0": "school:block/m110",
+    "particle": "school:item/m110"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "school:block/blackconcretestair"
+    },
+    "type=top": {
+      "model": "school:block/blackconcretestair_top"
+    },
+    "type=double": {
+      "model": "school:block/blackconcretestair_full"
+    }
+  }
+}

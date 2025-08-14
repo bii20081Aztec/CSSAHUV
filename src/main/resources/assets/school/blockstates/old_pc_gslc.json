@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/old_pc_gslc"
+    },
+    "facing=east": {
+      "model": "school:block/old_pc_gslc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/old_pc_gslc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/old_pc_gslc",
+      "y": 270
+    }
+  }
+}

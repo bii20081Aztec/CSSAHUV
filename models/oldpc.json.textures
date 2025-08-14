@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "oldpc"
+      },
+      "name": "default"
+    },
+    "gslc": {
+      "map": {
+        "1": "oldpcysqd"
+      },
+      "name": "gslc"
+    },
+    "on": {
+      "map": {
+        "1": "oldpcon"
+      },
+      "name": "on"
+    }
+  }
+}

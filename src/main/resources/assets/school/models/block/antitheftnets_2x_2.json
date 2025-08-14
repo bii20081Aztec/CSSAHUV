@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/security_window_large",
+  "textures": {
+    "all": "school:block/security_window_large",
+    "particle": "school:block/security_window_large",
+    "0": "school:block/security_window_large"
+  },
+  "render_type": "translucent"
+}

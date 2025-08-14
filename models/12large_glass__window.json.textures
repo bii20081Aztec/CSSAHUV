@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "0": "large_glass_window_black"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "0": "large_glass_window"
+      },
+      "name": "default"
+    },
+    "b": {
+      "map": {
+        "0": "large_glass_window_blue"
+      },
+      "name": "b"
+    },
+    "c": {
+      "map": {
+        "0": "large_glass_window_green"
+      },
+      "name": "c"
+    }
+  }
+}

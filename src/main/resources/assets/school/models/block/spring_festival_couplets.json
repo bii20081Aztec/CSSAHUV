@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/spring_festival_couplets",
+  "textures": {
+    "all": "school:block/spring_festival_couplets",
+    "particle": "school:block/spring_festival_couplets",
+    "0": "school:block/spring_festival_couplets"
+  },
+  "render_type": "solid"
+}

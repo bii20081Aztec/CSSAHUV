@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/table_tennis_table",
+  "textures": {
+    "all": "school:block/table_tennis_table",
+    "particle": "school:block/table_tennis_table",
+    "0": "school:block/table_tennis_table"
+  },
+  "render_type": "solid"
+}

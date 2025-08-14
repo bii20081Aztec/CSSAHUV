@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "certificate_of_merit"
+      },
+      "name": "default"
+    }
+  }
+}

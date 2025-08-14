@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/pushpullblackboardd",
+  "textures": {
+    "all": "school:block/pushpullblackboard",
+    "particle": "school:block/pushpullblackboard",
+    "0": "school:block/pushpullblackboard"
+  },
+  "render_type": "solid"
+}

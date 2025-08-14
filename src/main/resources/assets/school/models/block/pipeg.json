@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/pipe_g",
+  "textures": {
+    "all": "school:block/pipe_a",
+    "particle": "school:block/pipe_a",
+    "0": "school:block/pipe_a"
+  },
+  "render_type": "solid"
+}

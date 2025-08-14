@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/casementwindows"
+    },
+    "facing=east": {
+      "model": "school:block/casementwindows",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/casementwindows",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/casementwindows",
+      "y": 270
+    }
+  }
+}

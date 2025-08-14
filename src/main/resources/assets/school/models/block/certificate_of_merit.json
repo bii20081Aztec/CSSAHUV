@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/certificate_of_merit",
+  "textures": {
+    "all": "school:block/certificate_of_merit",
+    "particle": "school:block/certificate_of_merit",
+    "1": "school:block/certificate_of_merit"
+  },
+  "render_type": "solid"
+}

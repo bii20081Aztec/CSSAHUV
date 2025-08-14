@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/screen",
+  "textures": {
+    "all": "school:block/pc",
+    "particle": "school:block/pc",
+    "0": "school:block/pconn",
+    "1": "school:block/cta"
+  },
+  "render_type": "solid"
+}

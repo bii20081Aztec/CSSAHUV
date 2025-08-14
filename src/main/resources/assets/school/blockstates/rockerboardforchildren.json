@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/rockerboardforchildren"
+    },
+    "facing=east": {
+      "model": "school:block/rockerboardforchildren",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/rockerboardforchildren",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/rockerboardforchildren",
+      "y": 270
+    }
+  }
+}

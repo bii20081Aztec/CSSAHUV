@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "active_optical_access_devices"
+      },
+      "name": "default"
+    }
+  }
+}

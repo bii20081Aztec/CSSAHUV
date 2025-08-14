@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "school:blocks/antitheftnets_2_x_1",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "school:antitheftnets_2_x_1"
+        }
+      ]
+    }
+  ]
+}

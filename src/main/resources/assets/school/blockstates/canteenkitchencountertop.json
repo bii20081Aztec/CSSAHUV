@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/canteenkitchencountertop"
+    },
+    "facing=east": {
+      "model": "school:block/canteenkitchencountertop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/canteenkitchencountertop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/canteenkitchencountertop",
+      "y": 270
+    }
+  }
+}

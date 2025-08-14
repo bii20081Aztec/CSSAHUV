@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/nocrttv"
+    },
+    "facing=east": {
+      "model": "school:block/nocrttv",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/nocrttv",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/nocrttv",
+      "y": 270
+    }
+  }
+}

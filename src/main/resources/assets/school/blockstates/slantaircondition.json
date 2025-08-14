@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/slantaircondition"
+    },
+    "facing=east": {
+      "model": "school:block/slantaircondition",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/slantaircondition",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/slantaircondition",
+      "y": 270
+    }
+  }
+}

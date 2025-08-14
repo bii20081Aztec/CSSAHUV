@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/acbracket",
+  "textures": {
+    "all": "school:block/acbracket",
+    "particle": "school:block/acbracket",
+    "0": "school:block/acbracket"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/aircondition",
+  "textures": {
+    "all": "school:block/nvidia",
+    "particle": "school:block/nvidia",
+    "1": "school:block/nvidia"
+  },
+  "render_type": "solid"
+}

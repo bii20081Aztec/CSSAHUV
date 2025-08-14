@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/largeglassslidingwindowsgreen"
+    },
+    "facing=east": {
+      "model": "school:block/largeglassslidingwindowsgreen",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/largeglassslidingwindowsgreen",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/largeglassslidingwindowsgreen",
+      "y": 270
+    }
+  }
+}

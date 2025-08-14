@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/whitewall-c",
+  "textures": {
+    "all": "school:block/green_tall_wall",
+    "particle": "school:block/green_tall_wall",
+    "2": "school:block/green_concrete"
+  },
+  "render_type": "solid"
+}

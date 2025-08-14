@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "school:mobile_red_flags"
+    },
+    "title": {
+      "translate": "advancements.yourclassisverygood.title"
+    },
+    "description": {
+      "translate": "advancements.yourclassisverygood.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "yourclassisverygood_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "school:mobile_red_flags"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "school:computer_time"
+}

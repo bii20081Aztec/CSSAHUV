@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "laptop",
+		"particle": "laptop"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 4],
+			"to": [15, 0.75, 14],
+			"faces": {
+				"north": {"uv": [7, 0, 14, 0.375], "texture": "#1"},
+				"east": {"uv": [7, 1, 12, 1.375], "texture": "#1"},
+				"south": {"uv": [7, 0.5, 14, 0.875], "texture": "#1"},
+				"west": {"uv": [7, 1.5, 12, 1.875], "texture": "#1"},
+				"up": {"uv": [7, 5, 0, 0], "texture": "#1"},
+				"down": {"uv": [7, 5, 0, 10], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [-163.01, -6.22, 179.99],
+			"translation": [0.25, 6, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

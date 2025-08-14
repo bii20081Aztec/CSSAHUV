@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "school:greyconcretewall",
+    "school:blackconcretewall",
+    "school:yellowconcretewall",
+    "school:orangeconcretestair",
+    "school:blueconcretewall",
+    "school:greenconcretewall",
+    "school:redconcretewall",
+    "school:white_concrete_wall",
+    "school:tall_wall"
+  ]
+}

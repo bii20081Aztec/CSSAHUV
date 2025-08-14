@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/pcmc"
+    },
+    "facing=east": {
+      "model": "school:block/pcmc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/pcmc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/pcmc",
+      "y": 270
+    }
+  }
+}

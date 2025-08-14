@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/spring_festival_couplets"
+    },
+    "facing=east": {
+      "model": "school:block/spring_festival_couplets",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/spring_festival_couplets",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/spring_festival_couplets",
+      "y": 270
+    }
+  }
+}

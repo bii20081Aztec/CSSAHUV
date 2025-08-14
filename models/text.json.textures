@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "text_a"
+      },
+      "name": "default"
+    },
+    "tab": {
+      "map": {
+        "3": "text_b"
+      },
+      "name": "tab"
+    }
+  }
+}

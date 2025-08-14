@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/strip_chandelier",
+  "textures": {
+    "all": "school:block/strip_chandelier",
+    "particle": "school:block/strip_chandelier",
+    "0": "school:block/strip_chandelier"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "school:block/orange_concrete",
+    "bottom": "school:block/orange_concrete",
+    "top": "school:block/orange_concrete",
+    "side": "school:block/orange_concrete"
+  },
+  "render_type": "solid"
+}

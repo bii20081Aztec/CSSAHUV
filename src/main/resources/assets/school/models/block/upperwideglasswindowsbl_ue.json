@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/upper_1_wide_glass_windows",
+  "textures": {
+    "all": "school:block/upper_wide_glass_windows_blue",
+    "particle": "school:block/upper_wide_glass_windows_blue",
+    "0": "school:block/upper_wide_glass_windows_blue"
+  },
+  "render_type": "translucent"
+}

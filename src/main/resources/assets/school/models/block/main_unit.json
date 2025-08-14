@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/main_unit",
+  "textures": {
+    "all": "school:block/mainunit",
+    "particle": "school:block/mainunit",
+    "1": "school:block/mainunit"
+  },
+  "render_type": "solid"
+}

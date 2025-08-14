@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/static_cards",
+  "textures": {
+    "0": "school:block/static_cards",
+    "particle": "school:item/static_cards"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "canteen_insulated_table"
+      },
+      "name": "default"
+    }
+  }
+}

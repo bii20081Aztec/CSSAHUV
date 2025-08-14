@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/canteen_kitchen_countertop",
+  "textures": {
+    "all": "school:block/canteen_insulated_table",
+    "particle": "school:block/canteen_insulated_table",
+    "1": "school:block/canteen_kitchen_countertop"
+  },
+  "render_type": "solid"
+}

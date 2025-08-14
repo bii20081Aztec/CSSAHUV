@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/podium",
+  "textures": {
+    "all": "school:block/podium",
+    "particle": "school:block/podium",
+    "0": "school:block/podium",
+    "1": "school:block/white_concrete_stir"
+  },
+  "render_type": "solid"
+}

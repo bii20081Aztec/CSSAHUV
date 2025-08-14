@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "1st_childrens_network",
+        "1": "june_1st_childrens_network"
+      },
+      "name": "default"
+    },
+    "as": {
+      "map": {
+        "0": "qaza",
+        "1": "june_1st_childrens_network"
+      },
+      "name": "as"
+    }
+  }
+}

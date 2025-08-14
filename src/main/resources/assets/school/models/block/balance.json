@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/balance",
+  "textures": {
+    "all": "school:block/balance",
+    "particle": "school:block/balance",
+    "0": "school:block/balance"
+  },
+  "render_type": "solid"
+}

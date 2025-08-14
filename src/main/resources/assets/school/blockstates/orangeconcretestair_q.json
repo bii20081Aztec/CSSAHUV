@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "school:block/orangeconcretestair_q"
+    },
+    "type=top": {
+      "model": "school:block/orangeconcretestair_q_top"
+    },
+    "type=double": {
+      "model": "school:block/orangeconcretestair_q_full"
+    }
+  }
+}

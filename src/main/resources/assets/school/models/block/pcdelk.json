@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/pcdesk",
+  "textures": {
+    "all": "school:block/pcdesk",
+    "particle": "school:block/pcdesk",
+    "2": "school:block/pcdesk"
+  },
+  "render_type": "solid"
+}

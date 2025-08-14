@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "school:greytallwallcorner",
+    "school:blacktallwallcorner",
+    "school:yellowtallwallcorner",
+    "school:orangetallwallcorner",
+    "school:bluetallwallcorner",
+    "school:greentallwallcorner",
+    "school:re_dtallwallcorner",
+    "school:greytallwall",
+    "school:blacktallwall",
+    "school:yellowtallwall",
+    "school:orangetallwall",
+    "school:bluetallwall",
+    "school:greentallwall",
+    "school:redtallwall",
+    "school:greyconcretewall",
+    "school:blackconcretewall",
+    "school:yellowconcretewall",
+    "school:orangeconcretestair",
+    "school:blueconcretewall",
+    "school:greenconcretewall",
+    "school:redconcretewall",
+    "school:tall_wall_corner",
+    "school:white_board",
+    "school:white_concrete_wall",
+    "school:tall_wall"
+  ]
+}

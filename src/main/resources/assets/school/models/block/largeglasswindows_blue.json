@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/12large_glass__window",
+  "textures": {
+    "all": "school:block/large_glass_window_blue",
+    "particle": "school:block/large_glass_window_blue",
+    "0": "school:block/large_glass_window_blue"
+  },
+  "render_type": "translucent"
+}

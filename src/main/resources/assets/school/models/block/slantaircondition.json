@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/acinsideb",
+  "textures": {
+    "all": "school:block/acinside",
+    "particle": "school:block/acinside",
+    "1": "school:block/acinside"
+  },
+  "render_type": "solid"
+}

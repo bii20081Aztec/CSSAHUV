@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/space_walker",
+  "textures": {
+    "all": "school:block/rocker_board_for_children",
+    "particle": "school:block/rocker_board_for_children",
+    "0": "school:block/space_walker"
+  },
+  "render_type": "solid"
+}

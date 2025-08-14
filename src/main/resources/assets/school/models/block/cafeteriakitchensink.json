@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/cafeteria_kitchen_sink",
+  "textures": {
+    "all": "school:block/canteen_insulated_table",
+    "particle": "school:block/canteen_insulated_table",
+    "1": "school:block/cafeteria_kitchen_sink"
+  },
+  "render_type": "solid"
+}

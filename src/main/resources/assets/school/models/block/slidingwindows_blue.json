@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/sliding_windows",
+  "textures": {
+    "all": "school:block/sliding_windows_blue",
+    "particle": "school:block/sliding_windows_blue",
+    "0": "school:block/sliding_windows_blue"
+  },
+  "render_type": "translucent"
+}

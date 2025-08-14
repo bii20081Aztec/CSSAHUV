@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/set_square",
+  "textures": {
+    "0": "school:block/setsquare",
+    "particle": "school:item/setsquare"
+  }
+}

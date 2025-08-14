@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toilet_doors_on"
+      },
+      "name": "default"
+    }
+  }
+}

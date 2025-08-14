@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/desk",
+  "textures": {
+    "all": "school:block/deskhd",
+    "particle": "school:block/deskhd",
+    "0": "school:block/deskhd"
+  },
+  "render_type": "solid"
+}

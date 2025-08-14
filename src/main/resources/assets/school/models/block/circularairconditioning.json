@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/cylinderaircondition",
+  "textures": {
+    "all": "school:block/cylinderaircondition",
+    "particle": "school:block/cylinderaircondition",
+    "0": "school:block/cylinderaircondition"
+  },
+  "render_type": "solid"
+}

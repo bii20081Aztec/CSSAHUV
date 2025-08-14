@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/water_dispenser",
+  "textures": {
+    "all": "school:block/water_dispenser",
+    "particle": "school:block/water_dispenser",
+    "0": "school:block/water_dispenser"
+  },
+  "render_type": "solid"
+}

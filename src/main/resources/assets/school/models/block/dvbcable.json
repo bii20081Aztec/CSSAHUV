@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/dvb_cable",
+  "textures": {
+    "all": "school:block/dvb_cable",
+    "particle": "school:block/dvb_cable",
+    "0": "school:block/dvb_cable"
+  },
+  "render_type": "solid"
+}

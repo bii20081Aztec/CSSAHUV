@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "school:block/white_concrete_stir",
+    "particle": "school:block/white_concrete_stir"
+  },
+  "render_type": "solid"
+}

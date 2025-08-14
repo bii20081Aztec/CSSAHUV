@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/pipeh"
+    },
+    "facing=east": {
+      "model": "school:block/pipeh",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/pipeh",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/pipeh",
+      "y": 270
+    }
+  }
+}

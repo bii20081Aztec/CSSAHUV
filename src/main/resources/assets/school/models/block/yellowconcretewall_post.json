@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "school:block/yellow_concrete",
+    "particle": "school:block/yellow_concrete"
+  },
+  "render_type": "solid"
+}

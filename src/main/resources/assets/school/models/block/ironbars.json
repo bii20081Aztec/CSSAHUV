@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/tall_iron_fee",
+  "textures": {
+    "all": "school:block/tallv",
+    "particle": "school:block/tallv",
+    "1": "school:block/tallv"
+  },
+  "render_type": "solid"
+}

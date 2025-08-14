@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laboratory_cabinet",
+  "textures": {
+    "all": "school:block/laboratory_cabinet",
+    "particle": "school:block/laboratory_cabinet",
+    "0": "school:block/laboratory_cabinet"
+  },
+  "render_type": "translucent"
+}

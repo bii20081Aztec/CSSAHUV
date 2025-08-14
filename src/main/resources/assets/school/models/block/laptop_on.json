@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laptopon",
+  "textures": {
+    "all": "school:block/laptopon",
+    "particle": "school:block/laptopon",
+    "1": "school:block/laptopon"
+  },
+  "render_type": "solid"
+}

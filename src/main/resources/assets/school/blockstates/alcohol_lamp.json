@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/alcohol_lamp"
+    },
+    "facing=east": {
+      "model": "school:block/alcohol_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/alcohol_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/alcohol_lamp",
+      "y": 270
+    }
+  }
+}

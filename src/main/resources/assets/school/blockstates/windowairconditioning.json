@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/windowairconditioning"
+    },
+    "facing=east": {
+      "model": "school:block/windowairconditioning",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/windowairconditioning",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/windowairconditioning",
+      "y": 270
+    }
+  }
+}

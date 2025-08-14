@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "0": "pconn",
+        "1": "cta"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "0": "pc",
+        "1": "qaza"
+      },
+      "name": "default"
+    }
+  }
+}

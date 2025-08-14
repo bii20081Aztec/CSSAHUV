@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/fitness_treadmill",
+  "textures": {
+    "all": "school:block/fitness_treadmill",
+    "particle": "school:block/fitness_treadmill",
+    "0": "school:block/fitness_treadmill"
+  },
+  "render_type": "solid"
+}

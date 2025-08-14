@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/radiator",
+  "textures": {
+    "all": "school:block/radiator",
+    "particle": "school:block/radiator",
+    "0": "school:block/radiator"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "table_tennis_table"
+      },
+      "name": "default"
+    }
+  }
+}

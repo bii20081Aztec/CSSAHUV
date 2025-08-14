@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laptop",
+  "textures": {
+    "all": "school:block/laptop",
+    "particle": "school:block/laptop",
+    "1": "school:block/laptop"
+  },
+  "render_type": "solid"
+}

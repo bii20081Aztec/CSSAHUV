@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/tandem_pedal_trainer",
+  "textures": {
+    "all": "school:block/tandem_pedal_trainer",
+    "particle": "school:block/tandem_pedal_trainer",
+    "0": "school:block/tandem_pedal_trainer"
+  },
+  "render_type": "solid"
+}

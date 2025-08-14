@@ -1,0 +1,24 @@
+{
+  "_fv": 73,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "It must have been Optifine to do it!",
+    "achievementDescription": "You're running Chinese-style school and home mods in Minecraft with optifine!",
+    "achievementIcon": {
+      "value": "CUSTOM:ItmusthavebeenOptifinetodoit"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"advancement_trigger\" deletable=\"false\" x=\"40\" y=\"80\"><next><block type=\"block_placed\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:ItmusthavebeenOptifinetodoit</field></block></value></block></next></block></xml>"
+  }
+}

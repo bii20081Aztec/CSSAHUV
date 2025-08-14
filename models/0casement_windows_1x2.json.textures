@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "casement_windows_1x2"
+      },
+      "name": "default"
+    },
+    "bal": {
+      "map": {
+        "0": "casement_windows_1x2_black"
+      },
+      "name": "bal"
+    }
+  }
+}

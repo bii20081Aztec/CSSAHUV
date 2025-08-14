@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/spacewalker"
+    },
+    "facing=east": {
+      "model": "school:block/spacewalker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/spacewalker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/spacewalker",
+      "y": 270
+    }
+  }
+}

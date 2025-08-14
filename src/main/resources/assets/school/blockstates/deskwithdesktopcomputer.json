@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/deskwithdesktopcomputer"
+    },
+    "facing=east": {
+      "model": "school:block/deskwithdesktopcomputer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/deskwithdesktopcomputer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/deskwithdesktopcomputer",
+      "y": 270
+    }
+  }
+}

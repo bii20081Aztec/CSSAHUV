@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "c3": {
+      "map": {
+        "0": "corner_windows_4"
+      },
+      "name": "c3"
+    },
+    "default": {
+      "map": {
+        "0": "corner_windows"
+      },
+      "name": "default"
+    },
+    "c1": {
+      "map": {
+        "0": "corner_windows_2"
+      },
+      "name": "c1"
+    },
+    "c2": {
+      "map": {
+        "0": "corner_windows_3"
+      },
+      "name": "c2"
+    }
+  }
+}

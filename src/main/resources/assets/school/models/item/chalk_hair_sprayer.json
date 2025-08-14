@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/chalk_hair_sprayer",
+  "textures": {
+    "0": "school:block/chalk-hair-sprayer",
+    "particle": "school:item/chalk-hair-sprayer"
+  }
+}

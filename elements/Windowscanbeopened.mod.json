@@ -1,0 +1,11 @@
+{
+  "_fv": 73,
+  "_type": "tab",
+  "definition": {
+    "name": "Windows can be opened",
+    "icon": {
+      "value": "CUSTOM:Smallslidingwindow"
+    },
+    "showSearch": false
+  }
+}

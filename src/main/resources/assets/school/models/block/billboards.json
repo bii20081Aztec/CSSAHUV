@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/bulletin_board",
+  "textures": {
+    "all": "school:block/bulletin_board",
+    "particle": "school:block/bulletin_board",
+    "0": "school:block/bulletin_board"
+  },
+  "render_type": "solid"
+}

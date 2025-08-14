@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/canteen_insulated_table",
+  "textures": {
+    "all": "school:block/canteen_insulated_table",
+    "particle": "school:block/canteen_insulated_table",
+    "0": "school:block/canteen_insulated_table"
+  },
+  "render_type": "solid"
+}

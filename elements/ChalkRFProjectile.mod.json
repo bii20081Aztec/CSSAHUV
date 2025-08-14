@@ -1,0 +1,27 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Items.IRON_NUGGET"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "CUSTOM:smgshoot"
+    },
+    "igniteFire": false,
+    "power": 8.0,
+    "damage": 2.0,
+    "knockback": 2,
+    "entityModel": "Modelchalk",
+    "customModelTexture": "chalk.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsPlayer": {
+      "name": "ChalkRFHurt"
+    },
+    "onHitsEntity": {
+      "name": "ChalkRFHurt"
+    }
+  }
+}

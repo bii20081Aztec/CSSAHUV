@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "whitewall"
+      },
+      "name": "default"
+    },
+    "grey": {
+      "map": {
+        "1": "grey_tall_wall"
+      },
+      "name": "grey"
+    },
+    "black": {
+      "map": {
+        "1": "black_tall_wall"
+      },
+      "name": "black"
+    },
+    "yellow": {
+      "map": {
+        "1": "yello_wtall_wall"
+      },
+      "name": "yellow"
+    },
+    "orange": {
+      "map": {
+        "1": "orange_tall_wall"
+      },
+      "name": "orange"
+    },
+    "blue": {
+      "map": {
+        "1": "light_blue_concrete"
+      },
+      "name": "blue"
+    },
+    "green": {
+      "map": {
+        "1": "green_tall_wall"
+      },
+      "name": "green"
+    },
+    "red": {
+      "map": {
+        "1": "red_tall_wall"
+      },
+      "name": "red"
+    }
+  }
+}

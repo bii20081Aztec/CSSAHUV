@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/pc",
+  "textures": {
+    "all": "school:block/win8",
+    "particle": "school:block/win8",
+    "1": "school:block/pconn",
+    "2": "school:block/win8"
+  },
+  "render_type": "solid"
+}

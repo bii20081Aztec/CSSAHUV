@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/pc",
+  "textures": {
+    "all": "school:block/ctf",
+    "particle": "school:block/ctf",
+    "1": "school:block/pconn",
+    "2": "school:block/ctf"
+  },
+  "render_type": "solid"
+}

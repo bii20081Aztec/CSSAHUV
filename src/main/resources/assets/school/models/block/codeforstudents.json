@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/paint",
+  "textures": {
+    "all": "school:block/paint2",
+    "particle": "school:block/paint2",
+    "0": "school:block/paint2"
+  },
+  "render_type": "cutout"
+}

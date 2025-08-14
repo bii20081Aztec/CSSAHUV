@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/oldpc",
+  "textures": {
+    "all": "school:block/oldpc",
+    "particle": "school:block/oldpc",
+    "1": "school:block/oldpc"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/classroom-light",
+  "textures": {
+    "all": "school:block/classroom-light",
+    "particle": "school:block/classroom-light",
+    "1": "school:block/classroom-light"
+  },
+  "render_type": "translucent"
+}

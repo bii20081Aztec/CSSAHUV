@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/ac-in-a",
+  "textures": {
+    "all": "school:block/acin-a",
+    "particle": "school:block/acin-a",
+    "0": "school:block/acin-a"
+  },
+  "render_type": "solid"
+}

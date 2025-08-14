@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "tvopen"
+      },
+      "name": "default"
+    },
+    "no": {
+      "map": {
+        "2": "tvclose"
+      },
+      "name": "no"
+    }
+  }
+}

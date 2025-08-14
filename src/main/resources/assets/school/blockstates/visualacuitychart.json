@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/visualacuitychart"
+    },
+    "facing=east": {
+      "model": "school:block/visualacuitychart",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/visualacuitychart",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/visualacuitychart",
+      "y": 270
+    }
+  }
+}

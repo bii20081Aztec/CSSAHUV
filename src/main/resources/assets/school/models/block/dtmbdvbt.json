@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/dtmb_dvb-t",
+  "textures": {
+    "all": "school:block/dtmb_dvb-t",
+    "particle": "school:block/dtmb_dvb-t",
+    "0": "school:block/dtmb_dvb-t"
+  },
+  "render_type": "solid"
+}

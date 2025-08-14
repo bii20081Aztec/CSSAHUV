@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/school_tables",
+  "textures": {
+    "all": "school:block/school_tables",
+    "particle": "school:block/school_tables",
+    "0": "school:block/school_tables"
+  },
+  "render_type": "solid"
+}

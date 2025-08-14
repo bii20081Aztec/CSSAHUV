@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laboratory_exhaust_hood",
+  "textures": {
+    "all": "school:block/laboratory_exhaust_hood",
+    "particle": "school:block/laboratory_exhaust_hood",
+    "1": "school:block/laboratory_exhaust_hood"
+  },
+  "render_type": "solid"
+}

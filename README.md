@@ -9,3 +9,5 @@ This update may be slower than the release version, but you can add, change, del
 Just indicate that it is not made by you.
 
 This module is open source under the MIT protocol, but the finished module file is not available, and the MIT license may not be used
+
+If you see my open source project on a platform like Gitcode instead of GitHub, don't believe it

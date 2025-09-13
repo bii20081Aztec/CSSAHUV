@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/aaclargeout",
+  "textures": {
+    "all": "school:block/aclarge",
+    "particle": "school:block/aclarge",
+    "2": "school:block/aclarge"
+  },
+  "render_type": "solid"
+}

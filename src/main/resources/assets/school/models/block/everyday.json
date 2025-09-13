@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/text",
+  "textures": {
+    "all": "school:block/text_b",
+    "particle": "school:block/text_b",
+    "3": "school:block/text_b"
+  },
+  "render_type": "translucent"
+}

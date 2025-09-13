@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/corner_windows",
+  "textures": {
+    "all": "school:block/corner_windows_large",
+    "particle": "school:block/corner_windows_large",
+    "0": "school:block/corner_windows_large"
+  },
+  "render_type": "translucent"
+}

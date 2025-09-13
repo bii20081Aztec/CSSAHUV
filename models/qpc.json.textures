@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "3": "win8"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "3": "winxp"
+      },
+      "name": "default"
+    }
+  }
+}

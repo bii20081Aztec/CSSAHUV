@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "small_windows_s"
+      },
+      "name": "default"
+    },
+    "wer": {
+      "map": {
+        "1": "small_windows_s_1"
+      },
+      "name": "wer"
+    },
+    "wet": {
+      "map": {
+        "1": "small_windows_s_2"
+      },
+      "name": "wet"
+    },
+    "wey": {
+      "map": {
+        "1": "small_windows_s_3"
+      },
+      "name": "wey"
+    }
+  }
+}

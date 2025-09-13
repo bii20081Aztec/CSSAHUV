@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Acina"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:smgshoot"
+    },
+    "igniteFire": false,
+    "power": 1.5,
+    "damage": 3.0,
+    "knockback": 0,
+    "entityModel": "Modelchalk",
+    "customModelTexture": "chalk.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}

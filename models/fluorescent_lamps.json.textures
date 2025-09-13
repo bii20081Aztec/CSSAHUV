@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fluorescent_lamp"
+      },
+      "name": "default"
+    }
+  }
+}

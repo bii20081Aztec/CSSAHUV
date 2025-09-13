@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/tabletennistable"
+    },
+    "facing=east": {
+      "model": "school:block/tabletennistable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/tabletennistable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/tabletennistable",
+      "y": 270
+    }
+  }
+}

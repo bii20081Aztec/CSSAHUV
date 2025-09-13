@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "school:block/laboratorylight",
+    "bottom": "school:block/laboratorylight",
+    "top": "school:block/laboratorylight",
+    "side": "school:block/laboratorylight"
+  },
+  "render_type": "cutout_mipped"
+}

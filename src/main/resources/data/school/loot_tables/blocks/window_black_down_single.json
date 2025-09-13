@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "school:blocks/window_black_down_single",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "school:window_black_down_single"
+        }
+      ]
+    }
+  ]
+}

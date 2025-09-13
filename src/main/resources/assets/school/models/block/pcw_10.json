@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/pc",
+  "textures": {
+    "all": "school:block/qscf",
+    "particle": "school:block/qscf",
+    "1": "school:block/pconn",
+    "2": "school:block/qscf"
+  },
+  "render_type": "solid"
+}

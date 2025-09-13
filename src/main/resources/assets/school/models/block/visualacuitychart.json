@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/paint",
+  "textures": {
+    "all": "school:block/visual_acuity_chart",
+    "particle": "school:block/visual_acuity_chart",
+    "0": "school:block/visual_acuity_chart"
+  },
+  "render_type": "cutout"
+}

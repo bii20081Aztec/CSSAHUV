@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "0": "desk_with_desktop_computer",
+        "1": "display",
+        "2": "hgfd"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "0": "desk_with_desktop_computer",
+        "1": "display",
+        "2": "qaza"
+      },
+      "name": "default"
+    },
+    "b": {
+      "map": {
+        "0": "desk_with_desktop_computer_ubuntu",
+        "1": "display",
+        "2": "ubuntu_64"
+      },
+      "name": "b"
+    }
+  }
+}

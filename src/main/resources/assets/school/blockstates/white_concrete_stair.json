@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "school:block/white_concrete_stair"
+    },
+    "type=top": {
+      "model": "school:block/white_concrete_stair_top"
+    },
+    "type=double": {
+      "model": "school:block/white_concrete_stair_full"
+    }
+  }
+}

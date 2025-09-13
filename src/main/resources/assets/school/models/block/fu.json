@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/fu",
+  "textures": {
+    "all": "school:block/fu",
+    "particle": "school:block/fu",
+    "1": "school:block/fu"
+  },
+  "render_type": "solid"
+}

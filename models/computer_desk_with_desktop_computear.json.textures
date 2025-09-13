@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "hgfd",
+        "2": "ondesk_with_desktop_computer"
+      },
+      "name": "default"
+    },
+    "qas": {
+      "map": {
+        "1": "ubuntu_64",
+        "2": "desk_with_desktop_computer_ubuntu"
+      },
+      "name": "qas"
+    }
+  }
+}

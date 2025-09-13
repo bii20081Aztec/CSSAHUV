@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "school:block/grey_concrete",
+    "bottom": "school:block/grey_concrete",
+    "top": "school:block/grey_concrete",
+    "side": "school:block/grey_concrete"
+  },
+  "render_type": "solid"
+}

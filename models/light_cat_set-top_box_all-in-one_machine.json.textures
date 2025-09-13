@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "light_cat_set-top_box_all-in-one_machine"
+      },
+      "name": "default"
+    }
+  }
+}

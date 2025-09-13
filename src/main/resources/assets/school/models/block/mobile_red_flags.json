@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/flag",
+  "textures": {
+    "all": "school:block/redflag",
+    "particle": "school:block/redflag",
+    "0": "school:block/redflag"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,39 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "musicchair",
+        "missing": "light_blue_concrete"
+      },
+      "name": "default"
+    },
+    "orange": {
+      "map": {
+        "0": "musicchair",
+        "missing": "orange_concrete"
+      },
+      "name": "orange"
+    },
+    "green": {
+      "map": {
+        "0": "musicchair",
+        "missing": "green_concrete"
+      },
+      "name": "green"
+    },
+    "yellow": {
+      "map": {
+        "0": "musicchair",
+        "missing": "yellow_concrete"
+      },
+      "name": "yellow"
+    },
+    "red": {
+      "map": {
+        "0": "musicchair",
+        "missing": "red_concrete"
+      },
+      "name": "red"
+    }
+  }
+}

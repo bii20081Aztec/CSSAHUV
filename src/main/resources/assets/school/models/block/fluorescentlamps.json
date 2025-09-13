@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/fluorescent_lamps",
+  "textures": {
+    "all": "school:block/fluorescent_lamp",
+    "particle": "school:block/fluorescent_lamp",
+    "0": "school:block/fluorescent_lamp"
+  },
+  "render_type": "solid"
+}

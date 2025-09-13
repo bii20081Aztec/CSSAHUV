@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "upper_wide_glass_windows"
+      },
+      "name": "default"
+    },
+    "grs": {
+      "map": {
+        "1": "upper_wide_glass_windows_green"
+      },
+      "name": "grs"
+    },
+    "bks": {
+      "map": {
+        "1": "upper_wide_glass_windows_black"
+      },
+      "name": "bks"
+    },
+    "bro": {
+      "map": {
+        "1": "upper_wide_glass_windows_blue"
+      },
+      "name": "bro"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/fm_radio",
+  "textures": {
+    "all": "school:block/fm_radio",
+    "particle": "school:block/fm_radio",
+    "0": "school:block/fm_radio"
+  },
+  "render_type": "solid"
+}

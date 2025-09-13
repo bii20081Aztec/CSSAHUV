@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/june_1st_childrens_network",
+  "textures": {
+    "all": "school:block/june_1st_childrens_network",
+    "particle": "school:block/june_1st_childrens_network",
+    "0": "school:block/1st_childrens_network",
+    "1": "school:block/june_1st_childrens_network"
+  },
+  "render_type": "solid"
+}

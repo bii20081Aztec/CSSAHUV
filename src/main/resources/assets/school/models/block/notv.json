@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/btvb",
+  "textures": {
+    "all": "school:block/atvb",
+    "particle": "school:block/atvb",
+    "2": "school:block/tvclose"
+  },
+  "render_type": "solid"
+}

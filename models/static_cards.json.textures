@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "static_cards"
+      },
+      "name": "default"
+    }
+  }
+}

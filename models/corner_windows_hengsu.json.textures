@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "b2": {
+      "map": {
+        "0": "corner_windows_hengsu_3"
+      },
+      "name": "b2"
+    },
+    "b3": {
+      "map": {
+        "0": "corner_windows_hengsu_4"
+      },
+      "name": "b3"
+    },
+    "default": {
+      "map": {
+        "0": "corner_windows_hengsu"
+      },
+      "name": "default"
+    },
+    "b1": {
+      "map": {
+        "0": "corner_windows_hengsu_2"
+      },
+      "name": "b1"
+    }
+  }
+}

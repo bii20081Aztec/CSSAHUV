@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="school"
+version="0.999"
+displayName="Chinese-style school as well as home beta"
+displayURL="https://space.bilibili.com/1685065897"
+logoFile="logo.png"
+credits="By MCreator"
+authors="Variapieabe5171 \u6C5F\u7AF9\u96E8offical"
+description="\u6A21\u7EC4\u7684\u539F\u4F5C\u8005\u662F\u6C5F\u7AF9\u96E8offical\uFF0C\u76EE\u524D\u4F5C\u8005\u4E0D\u662F\u539F\u4F5C\u8005\uFF0C\u6240\u4EE5\u6A21\u7EC4\u4F1A\u6309\u7167\u65B0\u4F5C\u8005\u7684\u60F3\u6CD5\u6765\u505A\u8D21\u732E\u8005: MC\u767E\u79D1 Imposter"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.school]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

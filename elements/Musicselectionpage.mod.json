@@ -1,0 +1,166 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 120,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_school_bell_controller",
+          "text": {
+            "fixedValue": "Music selection page"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 90,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_shut_down",
+          "text": "Shut down",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Shutdown"
+          },
+          "width": 55,
+          "height": 20,
+          "x": 272,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_blind_date_you_love_each_other",
+          "text": "Blind date you love each other",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta4"
+          },
+          "width": 181,
+          "height": 20,
+          "x": 90,
+          "y": 78,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_welcome_to_beijing",
+          "text": "Welcome to Beijing",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta1"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 91,
+          "y": 124,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_embrace_spring",
+          "text": "Embrace spring",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta5"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 112,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_unafraid",
+          "text": "unafraid",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta3"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 143,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mexican_folk_songs",
+          "text": "Mexican folk songs",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta2"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 211,
+          "y": 101,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_naughty_blue_cat",
+          "text": "Naughty blue cat",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DoctorSound"
+          },
+          "width": 108,
+          "height": 20,
+          "x": 211,
+          "y": 124,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_stop_the_audio",
+          "text": "Stop the audio",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StopSound"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 211,
+          "y": 146,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 20,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

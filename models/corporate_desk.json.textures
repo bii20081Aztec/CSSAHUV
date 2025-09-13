@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "desk_power_supply",
+        "2": "corporate_desk"
+      },
+      "name": "default"
+    }
+  }
+}

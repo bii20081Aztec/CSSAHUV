@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laboratory_chair",
+  "textures": {
+    "all": "school:block/laboratory_chair",
+    "particle": "school:block/laboratory_chair",
+    "0": "school:block/laboratory_chair"
+  },
+  "render_type": "solid"
+}

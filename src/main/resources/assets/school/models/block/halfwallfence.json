@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/slabfence",
+  "textures": {
+    "all": "school:block/gray_concrete",
+    "particle": "school:block/gray_concrete",
+    "0": "school:block/gray_concrete"
+  },
+  "render_type": "solid"
+}

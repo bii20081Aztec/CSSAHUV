@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/fluorescentlamps"
+    },
+    "facing=east": {
+      "model": "school:block/fluorescentlamps",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/fluorescentlamps",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/fluorescentlamps",
+      "y": 270
+    }
+  }
+}

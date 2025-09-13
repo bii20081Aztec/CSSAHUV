@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "school:block/laboratory_light"
+    },
+    "type=top": {
+      "model": "school:block/laboratory_light_top"
+    },
+    "type=double": {
+      "model": "school:block/laboratory_light_full"
+    }
+  }
+}

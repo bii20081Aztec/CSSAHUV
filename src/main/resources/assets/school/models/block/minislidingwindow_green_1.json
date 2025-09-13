@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/1mini_sliding_window",
+  "textures": {
+    "all": "school:block/mini_sliding_window_green",
+    "particle": "school:block/mini_sliding_window_green",
+    "0": "school:block/mini_sliding_window_green"
+  },
+  "render_type": "translucent"
+}

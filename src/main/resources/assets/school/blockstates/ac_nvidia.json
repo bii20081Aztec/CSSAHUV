@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/ac_nvidia"
+    },
+    "facing=east": {
+      "model": "school:block/ac_nvidia",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/ac_nvidia",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/ac_nvidia",
+      "y": 270
+    }
+  }
+}

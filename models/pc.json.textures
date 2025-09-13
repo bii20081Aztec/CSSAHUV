@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "1": "pconn",
+        "2": "win8"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "1": "pconn",
+        "2": "ctyh"
+      },
+      "name": "default"
+    },
+    "b": {
+      "map": {
+        "1": "pconn",
+        "2": "qscf"
+      },
+      "name": "b"
+    },
+    "d": {
+      "map": {
+        "1": "pc",
+        "2": "qaza"
+      },
+      "name": "d"
+    },
+    "c": {
+      "map": {
+        "1": "pconn",
+        "2": "pcminecraft"
+      },
+      "name": "c"
+    },
+    "e": {
+      "map": {
+        "1": "pconn",
+        "2": "win8"
+      },
+      "name": "e"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/crt_tv",
+  "textures": {
+    "all": "school:block/crt_tv_-_fu_ben_",
+    "particle": "school:block/crt_tv_-_fu_ben_",
+    "0": "school:block/crt_tv_-_fu_ben_",
+    "1": "school:block/qaz"
+  },
+  "render_type": "solid"
+}

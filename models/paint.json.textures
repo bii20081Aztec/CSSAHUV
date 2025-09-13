@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "visual_acuity_chart"
+      },
+      "name": "default"
+    },
+    "asd": {
+      "map": {
+        "0": "paint2"
+      },
+      "name": "asd"
+    }
+  }
+}

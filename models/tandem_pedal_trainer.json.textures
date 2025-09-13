@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tandem_pedal_trainer"
+      },
+      "name": "default"
+    }
+  }
+}

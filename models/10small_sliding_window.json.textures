@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "ab": {
+      "map": {
+        "0": "small_sliding_window_blue"
+      },
+      "name": "ab"
+    },
+    "default": {
+      "map": {
+        "0": "small_sliding_window"
+      },
+      "name": "default"
+    },
+    "az": {
+      "map": {
+        "0": "small_sliding_window_black"
+      },
+      "name": "az"
+    },
+    "an": {
+      "map": {
+        "0": "small_sliding_window_green"
+      },
+      "name": "an"
+    }
+  }
+}

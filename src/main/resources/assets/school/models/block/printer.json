@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/printer",
+  "textures": {
+    "all": "school:block/printer",
+    "particle": "school:block/printer",
+    "0": "school:block/printer"
+  },
+  "render_type": "solid"
+}

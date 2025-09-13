@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "window_air_conditioning1",
+        "1": "window_air_conditioning2",
+        "2": "window_air_conditioning3"
+      },
+      "name": "default"
+    },
+    "blackglasswindows": {
+      "map": {
+        "0": "window_air_conditioning12",
+        "1": "window_air_conditioning2",
+        "2": "window_air_conditioning3"
+      },
+      "name": "blackglasswindows"
+    },
+    "blueglasswindows": {
+      "map": {
+        "0": "window_air_conditioning13",
+        "1": "window_air_conditioning2",
+        "2": "window_air_conditioning3"
+      },
+      "name": "blueglasswindows"
+    },
+    "greenglasswindows": {
+      "map": {
+        "0": "window_air_conditioning14",
+        "1": "window_air_conditioning2",
+        "2": "window_air_conditioning3"
+      },
+      "name": "greenglasswindows"
+    }
+  }
+}

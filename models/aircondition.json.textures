@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "acout"
+      },
+      "name": "default"
+    },
+    "nvidia": {
+      "map": {
+        "1": "nvidia"
+      },
+      "name": "nvidia"
+    }
+  }
+}

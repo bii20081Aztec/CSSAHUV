@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "school:printer"
+    },
+    "title": {
+      "translate": "advancements.paperless_office.title"
+    },
+    "description": {
+      "translate": "advancements.paperless_office.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "paperless_office_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "school:computer_time"
+}

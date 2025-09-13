@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "aq": {
+      "map": {
+        "0": "large_sliding_windows_black"
+      },
+      "name": "aq"
+    },
+    "default": {
+      "map": {
+        "0": "large_sliding_windows"
+      },
+      "name": "default"
+    },
+    "ae": {
+      "map": {
+        "0": "large_sliding_windows_green"
+      },
+      "name": "ae"
+    },
+    "aw": {
+      "map": {
+        "0": "large_sliding_windows_blue"
+      },
+      "name": "aw"
+    }
+  }
+}

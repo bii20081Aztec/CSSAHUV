@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/btvb",
+  "textures": {
+    "all": "school:block/tvopen",
+    "particle": "school:block/tvopen",
+    "2": "school:block/tvopen"
+  },
+  "render_type": "solid"
+}

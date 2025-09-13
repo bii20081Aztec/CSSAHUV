@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/highspeedrailrailings"
+    },
+    "facing=east": {
+      "model": "school:block/highspeedrailrailings",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/highspeedrailrailings",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/highspeedrailrailings",
+      "y": 270
+    }
+  }
+}

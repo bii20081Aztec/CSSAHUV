@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/active_optical_access_devices",
+  "textures": {
+    "all": "school:block/active_optical_access_devices",
+    "particle": "school:block/active_optical_access_devices",
+    "0": "school:block/active_optical_access_devices"
+  },
+  "render_type": "solid"
+}

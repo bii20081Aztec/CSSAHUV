@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "podium",
+        "1": "white_concrete_stir"
+      },
+      "name": "default"
+    }
+  }
+}

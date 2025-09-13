@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "with_crossbar_window"
+      },
+      "name": "default"
+    },
+    "n1": {
+      "map": {
+        "0": "with_crossbar_window1"
+      },
+      "name": "n1"
+    },
+    "n2": {
+      "map": {
+        "0": "with_crossbar_window3"
+      },
+      "name": "n2"
+    },
+    "n3": {
+      "map": {
+        "0": "with_crossbar_window2"
+      },
+      "name": "n3"
+    }
+  }
+}

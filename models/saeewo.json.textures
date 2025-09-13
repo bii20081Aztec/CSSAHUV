@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "seewohdpwon",
+        "2": "screenon"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/ubuntu"
+    },
+    "facing=east": {
+      "model": "school:block/ubuntu",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/ubuntu",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/ubuntu",
+      "y": 270
+    }
+  }
+}

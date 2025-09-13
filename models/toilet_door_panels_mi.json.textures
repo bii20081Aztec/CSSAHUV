@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toilet_door_panels"
+      },
+      "name": "default"
+    }
+  }
+}

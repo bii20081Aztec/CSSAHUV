@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "school:block/classroom_door_down",
+    "bottom": "school:block/classroom_door_down",
+    "top": "school:block/classroom_door_up"
+  },
+  "render_type": "translucent"
+}

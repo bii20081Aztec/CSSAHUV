@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/chalks",
+  "textures": {
+    "0": "school:block/chalks",
+    "particle": "school:item/chalks"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dvb_cable"
+      },
+      "name": "default"
+    },
+    "ts": {
+      "map": {
+        "0": "dvb-t-s"
+      },
+      "name": "ts"
+    }
+  }
+}

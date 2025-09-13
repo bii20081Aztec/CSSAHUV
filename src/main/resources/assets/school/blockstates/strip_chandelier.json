@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/strip_chandelier"
+    },
+    "facing=east": {
+      "model": "school:block/strip_chandelier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/strip_chandelier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/strip_chandelier",
+      "y": 270
+    }
+  }
+}

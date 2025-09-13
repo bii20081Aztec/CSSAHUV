@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/upperwideglasswindows_ge"
+    },
+    "facing=east": {
+      "model": "school:block/upperwideglasswindows_ge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/upperwideglasswindows_ge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/upperwideglasswindows_ge",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/musicchair",
+  "textures": {
+    "all": "school:block/orange_concrete",
+    "particle": "school:block/orange_concrete",
+    "0": "school:block/musicchair",
+    "missing": "school:block/orange_concrete"
+  },
+  "render_type": "solid"
+}

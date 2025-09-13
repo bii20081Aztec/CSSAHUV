@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/white_board"
+    },
+    "facing=east": {
+      "model": "school:block/white_board",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/white_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/white_board",
+      "y": 270
+    }
+  }
+}

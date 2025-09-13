@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "translate": "advancements.angry_chemistry_teacher.title"
+    },
+    "description": {
+      "translate": "advancements.angry_chemistry_teacher.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "angry_chemistry_teacher_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "school:school_mod"
+}

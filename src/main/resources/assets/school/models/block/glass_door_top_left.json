@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left",
+  "textures": {
+    "particle": "school:block/glassdoordown",
+    "bottom": "school:block/glassdoordown",
+    "top": "school:block/glassdoorup"
+  },
+  "render_type": "translucent"
+}

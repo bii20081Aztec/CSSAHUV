@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/blackboard",
+  "textures": {
+    "all": "school:block/blackboard",
+    "particle": "school:block/blackboard",
+    "2": "school:block/blackboard"
+  },
+  "render_type": "solid"
+}

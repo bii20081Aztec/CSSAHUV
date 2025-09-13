@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/dvbcable"
+    },
+    "facing=east": {
+      "model": "school:block/dvbcable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/dvbcable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/dvbcable",
+      "y": 270
+    }
+  }
+}

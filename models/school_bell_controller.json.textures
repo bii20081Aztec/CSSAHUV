@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "display",
+        "2": "school_bell_controller",
+        "3": "wic"
+      },
+      "name": "default"
+    }
+  }
+}

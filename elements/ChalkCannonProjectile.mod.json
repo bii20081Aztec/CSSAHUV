@@ -1,0 +1,30 @@
+{
+  "_fv": 73,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Chalks"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.firework.shoot"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 6.0,
+    "knockback": 1,
+    "entityModel": "Modelchalks",
+    "customModelTexture": "chalks.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "ChalkCannonExplode"
+    },
+    "onHitsPlayer": {
+      "name": "ChalkCannonExplode"
+    },
+    "onHitsEntity": {
+      "name": "ChalkCannonExplode"
+    }
+  }
+}

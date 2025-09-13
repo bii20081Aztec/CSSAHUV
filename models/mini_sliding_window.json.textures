@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "a": {
+      "map": {
+        "0": "mini_sliding_window_black"
+      },
+      "name": "a"
+    },
+    "default": {
+      "map": {
+        "0": "mini_sliding_window"
+      },
+      "name": "default"
+    },
+    "b": {
+      "map": {
+        "0": "mini_sliding_window_blue"
+      },
+      "name": "b"
+    },
+    "c": {
+      "map": {
+        "0": "mini_sliding_window_green"
+      },
+      "name": "c"
+    }
+  }
+}

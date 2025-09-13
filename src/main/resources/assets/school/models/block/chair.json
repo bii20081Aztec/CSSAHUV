@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/chair",
+  "textures": {
+    "all": "school:block/chairhd",
+    "particle": "school:block/chairhd",
+    "0": "school:block/chairhd"
+  },
+  "render_type": "solid"
+}

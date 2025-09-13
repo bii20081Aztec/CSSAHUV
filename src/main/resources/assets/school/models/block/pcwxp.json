@@ -1,0 +1,11 @@
+{
+  "parent": "school:custom/xppc",
+  "textures": {
+    "all": "school:block/winxp",
+    "particle": "school:block/winxp",
+    "1": "school:block/display",
+    "2": "school:block/winxc",
+    "3": "school:block/winxp"
+  },
+  "render_type": "solid"
+}

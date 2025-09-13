@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/loudspeakerb",
+  "textures": {
+    "all": "school:block/loudspeakerb",
+    "particle": "school:block/loudspeakerb",
+    "0": "school:block/loudspeakerb"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "a1": {
+      "map": {
+        "0": "corner_windows_large_2"
+      },
+      "name": "a1"
+    },
+    "a2": {
+      "map": {
+        "0": "corner_windows_large_3"
+      },
+      "name": "a2"
+    },
+    "default": {
+      "map": {
+        "0": "corner_windows_large"
+      },
+      "name": "default"
+    },
+    "a3": {
+      "map": {
+        "0": "corner_windows_large_4"
+      },
+      "name": "a3"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "display",
+        "2": "winxc",
+        "3": "winxp"
+      },
+      "name": "default"
+    }
+  }
+}

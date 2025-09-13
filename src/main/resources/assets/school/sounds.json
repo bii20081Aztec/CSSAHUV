@@ -1,0 +1,118 @@
+{
+  "shoot": {
+    "subtitle": "subtitles.shoot",
+    "sounds": [
+      {
+        "name": "school:m870-shoot",
+        "stream": false
+      }
+    ]
+  },
+  "athletemarch": {
+    "subtitle": "subtitles.athletemarch",
+    "sounds": [
+      {
+        "name": "school:athlete_march",
+        "stream": true
+      }
+    ]
+  },
+  "classover-ring": {
+    "subtitle": "subtitles.classover-ring",
+    "sounds": [
+      {
+        "name": "school:ring",
+        "stream": false
+      }
+    ]
+  },
+  "rfshoot": {
+    "subtitle": "subtitles.rfshoot",
+    "sounds": [
+      {
+        "name": "school:chalkrf-shoot",
+        "stream": false
+      }
+    ]
+  },
+  "smgshoot": {
+    "subtitle": "subtitles.smgshoot",
+    "sounds": [
+      {
+        "name": "school:chalksmg-shoot",
+        "stream": false
+      }
+    ]
+  },
+  "rundrillmusic": {
+    "subtitle": "subtitles.rundrillmusic",
+    "sounds": [
+      {
+        "name": "school:pao_cao_yin_le_",
+        "stream": false
+      }
+    ]
+  },
+  "colorfulsunshine": {
+    "subtitle": "subtitles.colorfulsunshine",
+    "sounds": [
+      {
+        "name": "school:qi_cai_yang_guang_",
+        "stream": false
+      }
+    ]
+  },
+  "eyeexercises": {
+    "subtitle": "subtitles.eyeexercises",
+    "sounds": [
+      {
+        "name": "school:2008yan_bao_jian_cao_",
+        "stream": false
+      }
+    ]
+  },
+  "dancingyouth": {
+    "subtitle": "subtitles.dancingyouth",
+    "sounds": [
+      {
+        "name": "school:wu_dong_qing_chun_",
+        "stream": false
+      }
+    ]
+  },
+  "abletennistabl": {
+    "sounds": [
+      {
+        "name": "school:crash",
+        "stream": false
+      }
+    ]
+  },
+  "how_do_you_sleep": {
+    "subtitle": "subtitles.how_do_you_sleep",
+    "sounds": [
+      {
+        "name": "school:how_do_you_sleep_how_do_you_sleep_at_your_age_how_do_you_sleep_at_this_stage_its_a_little_bit_out_of_breath",
+        "stream": false
+      }
+    ]
+  },
+  "doctor_sound": {
+    "subtitle": "subtitles.doctor_sound",
+    "sounds": [
+      {
+        "name": "school:doctor_sound1",
+        "stream": false
+      }
+    ]
+  },
+  "june_1st_children_s_network": {
+    "subtitle": "subtitles.june_1st_children_s_network",
+    "sounds": [
+      {
+        "name": "school:june_children_s_network",
+        "stream": false
+      }
+    ]
+  }
+}

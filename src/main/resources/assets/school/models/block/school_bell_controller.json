@@ -1,0 +1,11 @@
+{
+  "parent": "school:custom/school_bell_controller",
+  "textures": {
+    "all": "school:block/school_bell_controller",
+    "particle": "school:block/school_bell_controller",
+    "1": "school:block/display",
+    "2": "school:block/school_bell_controller",
+    "3": "school:block/wic"
+  },
+  "render_type": "solid"
+}

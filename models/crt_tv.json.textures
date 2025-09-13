@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crt_tv",
+        "1": "qaza"
+      },
+      "name": "default"
+    },
+    "on": {
+      "map": {
+        "0": "crt_tv_-_fu_ben_",
+        "1": "qaz"
+      },
+      "name": "on"
+    }
+  }
+}

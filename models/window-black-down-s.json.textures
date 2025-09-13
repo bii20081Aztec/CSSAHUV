@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "black-down-s"
+      },
+      "name": "default"
+    },
+    "white": {
+      "map": {
+        "1": "white-down-s"
+      },
+      "name": "white"
+    },
+    "old": {
+      "map": {
+        "1": "old-down-s"
+      },
+      "name": "old"
+    },
+    "green": {
+      "map": {
+        "1": "1234"
+      },
+      "name": "green"
+    }
+  }
+}

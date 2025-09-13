@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/toiletdoors_mion"
+    },
+    "facing=east": {
+      "model": "school:block/toiletdoors_mion",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/toiletdoors_mion",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/toiletdoors_mion",
+      "y": 270
+    }
+  }
+}

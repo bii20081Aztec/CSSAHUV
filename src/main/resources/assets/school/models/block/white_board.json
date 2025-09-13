@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/whiteboard",
+  "textures": {
+    "all": "school:block/whiteboard",
+    "particle": "school:block/whiteboard",
+    "0": "school:block/whiteboard"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/lightcatsettopbox"
+    },
+    "facing=east": {
+      "model": "school:block/lightcatsettopbox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/lightcatsettopbox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/lightcatsettopbox",
+      "y": 270
+    }
+  }
+}

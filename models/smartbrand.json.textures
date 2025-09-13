@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "smartbrand"
+      },
+      "name": "default"
+    },
+    "on": {
+      "map": {
+        "0": "smartbrand_on"
+      },
+      "name": "on"
+    }
+  }
+}

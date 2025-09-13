@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "school:block/tile1",
+    "up": "school:block/tile1",
+    "north": "school:block/tile1",
+    "east": "school:block/tile1",
+    "south": "school:block/tile1",
+    "west": "school:block/tile1",
+    "particle": "school:block/tile1"
+  },
+  "render_type": "solid"
+}

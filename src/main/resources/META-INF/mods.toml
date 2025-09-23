@@ -4,8 +4,8 @@ license="MIT License"
 
 [[mods]]
 modId="school"
-version="0.999"
-displayName="Chinese-style school as well as home beta"
+version="0.90.1"
+displayName="Chinese-style school as well as home"
 displayURL="https://space.bilibili.com/1685065897"
 logoFile="logo.png"
 credits="By MCreator"

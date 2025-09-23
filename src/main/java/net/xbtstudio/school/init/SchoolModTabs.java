@@ -306,6 +306,7 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.PIPEJ.get().asItem());
 				tabData.accept(SchoolModBlocks.FLUORESCENTLAMPS.get().asItem());
 				tabData.accept(SchoolModBlocks.RECALSOOM.get().asItem());
+				tabData.accept(SchoolModBlocks.RESTAURANTEXHAUSTHOOD.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
 
 	@SubscribeEvent

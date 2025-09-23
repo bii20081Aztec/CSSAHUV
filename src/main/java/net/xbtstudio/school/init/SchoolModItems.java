@@ -364,6 +364,7 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> LIGHTCATSETTOPBOX = block(SchoolModBlocks.LIGHTCATSETTOPBOX);
 	public static final RegistryObject<Item> FLUORESCENTLAMPS = block(SchoolModBlocks.FLUORESCENTLAMPS);
 	public static final RegistryObject<Item> RECALSOOM = block(SchoolModBlocks.RECALSOOM);
+	public static final RegistryObject<Item> RESTAURANTEXHAUSTHOOD = block(SchoolModBlocks.RESTAURANTEXHAUSTHOOD);
 
 	// Start of user code block custom items
 	// End of user code block custom items

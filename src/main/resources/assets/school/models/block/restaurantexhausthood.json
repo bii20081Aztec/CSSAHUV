@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/restaurant_exhaust_hood",
+  "textures": {
+    "all": "school:block/canteen_insulated_table",
+    "particle": "school:block/canteen_insulated_table",
+    "0": "school:block/restaurant_exhaust_hood"
+  },
+  "render_type": "solid"
+}

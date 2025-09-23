@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "restaurant_exhaust_hood"
+      },
+      "name": "default"
+    }
+  }
+}

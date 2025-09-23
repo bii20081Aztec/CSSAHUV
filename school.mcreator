@@ -10004,6 +10004,22 @@
           "src/main/resources/assets/school/models/item/recalsoom.json"
         ]
       }
+    },
+    {
+      "name": "Restaurantexhausthood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "restaurantexhausthood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/block/RestaurantexhausthoodBlock.java",
+          "src/main/resources/assets/school/models/item/restaurantexhausthood.json",
+          "src/main/resources/data/school/loot_tables/blocks/restaurantexhausthood.json",
+          "src/main/resources/assets/school/blockstates/restaurantexhausthood.json",
+          "src/main/resources/assets/school/models/block/restaurantexhausthood.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -10138,6 +10154,17 @@
       "~CUSTOM:WhiteConcreteStair",
       "~CUSTOM:LaboratoryLight"
     ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:Greyconcretewall",
+      "~CUSTOM:Blackconcretewall",
+      "~CUSTOM:Yellowconcretewall",
+      "~CUSTOM:Orangeconcretestair",
+      "~CUSTOM:Blueconcretestair",
+      "~CUSTOM:Greenconcretewall",
+      "~CUSTOM:Redconcretewall",
+      "CUSTOM:WhiteConcreteWall",
+      "CUSTOM:TallWall"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Greytallwallcorner",
       "~CUSTOM:Blacktallwallcorner",
@@ -10173,9 +10200,6 @@
       "~CUSTOM:WhiteConcreteStair",
       "~CUSTOM:TallWall"
     ],
-    "BLOCKS:minecraft:mineable/axe": [
-      "~CUSTOM:Printer"
-    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Greytallwallcorner",
       "~CUSTOM:Blacktallwallcorner",
@@ -10203,16 +10227,8 @@
       "~CUSTOM:WhiteConcreteWall",
       "~CUSTOM:TallWall"
     ],
-    "BLOCKS:minecraft:walls": [
-      "~CUSTOM:Greyconcretewall",
-      "~CUSTOM:Blackconcretewall",
-      "~CUSTOM:Yellowconcretewall",
-      "~CUSTOM:Orangeconcretestair",
-      "~CUSTOM:Blueconcretestair",
-      "~CUSTOM:Greenconcretewall",
-      "~CUSTOM:Redconcretewall",
-      "CUSTOM:WhiteConcreteWall",
-      "CUSTOM:TallWall"
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:Printer"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:SetSquare",
@@ -10446,6 +10462,7 @@
       "block.school.classroomdoors": "Classroom doors",
       "block.school.largeslidingwindows_bl": "Large sliding windows (Blue)",
       "block.school.chair": "Chair",
+      "block.school.restaurantexhausthood": "Restaurant exhaust hood",
       "advancements.angry_chemistry_teacher.title": "Angry Chemistry Teacher",
       "block.school.minislidingwindow_green": "Small sliding window (Green)",
       "itemGroup.tablaboratory": "Laboratory",
@@ -10664,8 +10681,8 @@
       "block.school.see_10": "Seewo(Win11)",
       "block.school.window_black_up_single": "迷你黑色玻璃窗（上半）",
       "block.school.acina": "空调挂机",
-      "item_group.school.school": "教室和实验室",
       "block.school.largeslidingwindows_1": "大推拉窗",
+      "item_group.school.school": "教室和实验室",
       "block.school.smallslidingwindow_black_1": "小推拉窗 ( 黑 )",
       "block.school.extralargeslidingwindows_black": "特大推拉窗 （黑）",
       "advancements.yourclassisverygood.title": "§4流动红旗",
@@ -10698,8 +10715,8 @@
       "block.school.largeglassslidingwindowsblue": "大玻璃推拉窗 ( 蓝 )",
       "block.school.strip_chandelier": "条形吊灯",
       "block.school.pipe": "桥架",
-      "block.school.toiletdoors_mion": "厕所门",
       "subtitles.smgshoot": "粉笔头冲锋枪：射击",
+      "block.school.toiletdoors_mion": "厕所门",
       "subtitles.classover-ring": "铃声：响起",
       "item.school.ferule": "戒尺",
       "block.school.smallwindowsblack_1": "带横杠小窗户 ( 黑色 )",
@@ -10719,13 +10736,13 @@
       "gui.school.school_bell_controller_gui.button_colorful_sunshine": "七彩阳光",
       "block.school.smallslidinwindowblue": "推拉窗 ( 蓝色 )",
       "block.school.extralargeslidingwindows_blue_1": "特大推拉窗 （蓝）",
-      "block.school.studyhard": "§4好好学习",
-      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
       "advancements.computer_time.descr": "拥有一台电脑！",
+      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
+      "block.school.studyhard": "§4好好学习",
       "block.school.main_unit": "电脑主机",
       "gui.school.musicselectionpage.button_naughty_blue_cat": "淘气蓝猫",
-      "block.school.dvbts": "卫星-地面电视接收机 ",
       "advancements.seewoq.title": "U盘断头台",
+      "block.school.dvbts": "卫星-地面电视接收机 ",
       "block.school.window_white_down_single": "迷你白色玻璃窗（下半）",
       "block.school.ac_large_out": "大型空调外机",
       "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
@@ -10758,10 +10775,10 @@
       "block.school.cornerwindows_hengsu_4": "带横杠转角窗户 ( 绿色 )",
       "block.school.cornerwindows_hengsu_3": "带横杠转角窗户 ( 蓝色 )",
       "block.school.upperwideglasswindows_ge": "大玻璃窗（绿）（上）",
-      "block.school.cornerwindows_hengsu_1": "带横杠转角窗户 ( 黑色 )",
       "block.school.yellowconcretewall": "黄色混凝土墙",
-      "block.school.largeslidingwindows_green": "大推拉窗（绿）",
+      "block.school.cornerwindows_hengsu_1": "带横杠转角窗户 ( 黑色 )",
       "block.school.orangeconcretestair": "橙色混凝土台阶",
+      "block.school.largeslidingwindows_green": "大推拉窗（绿）",
       "block.school.q_largeglassslidingwindows": "大玻璃推拉窗 ",
       "block.school.canteenkitchenstove": "食堂厨房灶台 ",
       "block.school.window_white_up": "白色玻璃窗（上半）",
@@ -10875,6 +10892,7 @@
       "block.school.classroomdoors": "教室门",
       "block.school.largeslidingwindows_bl": "大推拉窗（绿）",
       "block.school.chair": "椅子",
+      "block.school.restaurantexhausthood": "饭店吸烟机",
       "block.school.minislidingwindow_green": "迷你推拉窗（绿）",
       "advancements.angry_chemistry_teacher.title": "化学老师发出尖锐的爆鸣声",
       "itemGroup.tablaboratory": "实验室",
@@ -11095,8 +11113,8 @@
   },
   "workspaceSettings": {
     "modid": "school",
-    "modName": "Chinese-style school as well as home beta",
-    "version": "0.999",
+    "modName": "Chinese-style school as well as home",
+    "version": "0.90.1",
     "description": "模组的原作者是江竹雨offical，目前作者不是原作者，所以模组会按照新作者的想法来做贡献者: MC百科 Imposter",
     "author": "Variapieabe5171 江竹雨offical",
     "websiteURL": "https://space.bilibili.com/1685065897",

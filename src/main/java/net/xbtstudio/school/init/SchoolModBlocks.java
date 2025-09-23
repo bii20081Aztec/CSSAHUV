@@ -103,6 +103,7 @@ import net.xbtstudio.school.block.SchooltablesBlock;
 import net.xbtstudio.school.block.SchoolBellControllerBlock;
 import net.xbtstudio.school.block.SatellitetelevisionBlock;
 import net.xbtstudio.school.block.RockerboardforchildrenBlock;
+import net.xbtstudio.school.block.RestaurantexhausthoodBlock;
 import net.xbtstudio.school.block.RedtallwallBlock;
 import net.xbtstudio.school.block.RedmusicchairBlock;
 import net.xbtstudio.school.block.RedconcretewallBlock;
@@ -648,6 +649,7 @@ public class SchoolModBlocks {
 	public static final RegistryObject<Block> LIGHTCATSETTOPBOX = REGISTRY.register("lightcatsettopbox", () -> new LightcatsettopboxBlock());
 	public static final RegistryObject<Block> FLUORESCENTLAMPS = REGISTRY.register("fluorescentlamps", () -> new FluorescentlampsBlock());
 	public static final RegistryObject<Block> RECALSOOM = REGISTRY.register("recalsoom", () -> new RecalsoomBlock());
+	public static final RegistryObject<Block> RESTAURANTEXHAUSTHOOD = REGISTRY.register("restaurantexhausthood", () -> new RestaurantexhausthoodBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

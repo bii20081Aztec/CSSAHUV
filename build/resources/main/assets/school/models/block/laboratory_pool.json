@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/laboratory_pool",
+  "textures": {
+    "all": "school:block/laboratory_pool",
+    "particle": "school:block/laboratory_pool",
+    "0": "school:block/laboratory_pool"
+  },
+  "render_type": "solid"
+}

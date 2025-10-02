@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/toilet_doors",
+  "textures": {
+    "all": "school:block/toilet_door_panels",
+    "particle": "school:block/toilet_door_panels",
+    "0": "school:block/toilet_doors"
+  },
+  "render_type": "solid"
+}

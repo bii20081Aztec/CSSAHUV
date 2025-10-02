@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/pc",
+  "textures": {
+    "all": "school:block/pcminecraft",
+    "particle": "school:block/pcminecraft",
+    "1": "school:block/pconn",
+    "2": "school:block/pcminecraft"
+  },
+  "render_type": "solid"
+}

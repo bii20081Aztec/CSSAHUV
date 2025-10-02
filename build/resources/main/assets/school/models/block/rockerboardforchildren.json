@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/rocker_board_for_children",
+  "textures": {
+    "all": "school:block/rocker_board_for_children",
+    "particle": "school:block/rocker_board_for_children",
+    "0": "school:block/rocker_board_for_children"
+  },
+  "render_type": "solid"
+}

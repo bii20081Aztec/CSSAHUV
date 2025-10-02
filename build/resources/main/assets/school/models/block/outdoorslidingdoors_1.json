@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/sliding_door",
+  "textures": {
+    "all": "school:block/sliding_door",
+    "particle": "school:block/sliding_door",
+    "0": "school:block/sliding_door"
+  },
+  "render_type": "solid"
+}

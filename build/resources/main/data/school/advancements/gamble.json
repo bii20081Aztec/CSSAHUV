@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "school:laboratory_sugar"
+    },
+    "title": {
+      "translate": "advancements.gamble.title"
+    },
+    "description": {
+      "translate": "advancements.gamble.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gamble_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "school:school_mod"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/1extra-large_sliding_windows",
+  "textures": {
+    "all": "school:block/extra-large_sliding_windows",
+    "particle": "school:block/extra-large_sliding_windows",
+    "0": "school:block/extra-large_sliding_windows"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/small_windows2",
+  "textures": {
+    "all": "school:block/with_crossbar_window",
+    "particle": "school:block/with_crossbar_window",
+    "0": "school:block/with_crossbar_window"
+  },
+  "render_type": "translucent"
+}

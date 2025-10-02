@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "school:blocks/p_con",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "school:p_con"
+        }
+      ]
+    }
+  ]
+}

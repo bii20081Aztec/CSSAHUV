@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/certificate_of_merit"
+    },
+    "facing=east": {
+      "model": "school:block/certificate_of_merit",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/certificate_of_merit",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/certificate_of_merit",
+      "y": 270
+    }
+  }
+}

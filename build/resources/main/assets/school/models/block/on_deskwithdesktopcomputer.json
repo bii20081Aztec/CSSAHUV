@@ -1,0 +1,11 @@
+{
+  "parent": "school:custom/computer_desk_with_desktop_computer",
+  "textures": {
+    "all": "school:block/desk_with_desktop_computer",
+    "particle": "school:block/desk_with_desktop_computer",
+    "0": "school:block/desk_with_desktop_computer",
+    "1": "school:block/display",
+    "2": "school:block/hgfd"
+  },
+  "render_type": "solid"
+}

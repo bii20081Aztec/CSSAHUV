@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/uzi",
+  "textures": {
+    "0": "school:block/uzi",
+    "particle": "school:item/uzi"
+  }
+}

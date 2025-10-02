@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/0casement_windows_1x2",
+  "textures": {
+    "all": "school:block/casement_windows_1x2",
+    "particle": "school:block/casement_windows_1x2",
+    "0": "school:block/casement_windows_1x2"
+  },
+  "render_type": "translucent"
+}

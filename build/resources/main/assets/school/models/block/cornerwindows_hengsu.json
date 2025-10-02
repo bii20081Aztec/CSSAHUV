@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/corner_windows_hengsu",
+  "textures": {
+    "all": "school:block/corner_windows_hengsu",
+    "particle": "school:block/corner_windows_hengsu",
+    "0": "school:block/corner_windows_hengsu"
+  },
+  "render_type": "translucent"
+}

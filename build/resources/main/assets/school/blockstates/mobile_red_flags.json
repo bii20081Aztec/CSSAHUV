@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/mobile_red_flags"
+    },
+    "facing=east": {
+      "model": "school:block/mobile_red_flags",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/mobile_red_flags",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/mobile_red_flags",
+      "y": 270
+    }
+  }
+}

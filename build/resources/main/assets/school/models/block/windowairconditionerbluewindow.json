@@ -1,0 +1,11 @@
+{
+  "parent": "school:custom/window_air_conditioning",
+  "textures": {
+    "all": "school:block/window_air_conditioning13",
+    "particle": "school:block/window_air_conditioning13",
+    "0": "school:block/window_air_conditioning13",
+    "1": "school:block/window_air_conditioning2",
+    "2": "school:block/window_air_conditioning3"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/light_cat_set-top_box_all-in-one_machine",
+  "textures": {
+    "all": "school:block/light_cat_set-top_box_all-in-one_machine",
+    "particle": "school:block/light_cat_set-top_box_all-in-one_machine",
+    "0": "school:block/light_cat_set-top_box_all-in-one_machine"
+  },
+  "render_type": "solid"
+}

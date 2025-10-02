@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/casement_windows",
+  "textures": {
+    "all": "school:block/casement_windows_black",
+    "particle": "school:block/casement_windows_black",
+    "0": "school:block/casement_windows_black"
+  },
+  "render_type": "translucent"
+}

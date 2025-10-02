@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/whitewall",
+  "textures": {
+    "all": "school:block/whitewall",
+    "particle": "school:block/whitewall",
+    "1": "school:block/whitewall"
+  },
+  "render_type": "cutout"
+}

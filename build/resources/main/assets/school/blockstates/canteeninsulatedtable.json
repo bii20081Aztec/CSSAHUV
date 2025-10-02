@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/canteeninsulatedtable"
+    },
+    "facing=east": {
+      "model": "school:block/canteeninsulatedtable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/canteeninsulatedtable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/canteeninsulatedtable",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/corporate_desk",
+  "textures": {
+    "all": "school:block/corporate_desk",
+    "particle": "school:block/corporate_desk",
+    "1": "school:block/desk_power_supply",
+    "2": "school:block/corporate_desk"
+  },
+  "render_type": "translucent"
+}

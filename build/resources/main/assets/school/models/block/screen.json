@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/screen",
+  "textures": {
+    "all": "school:block/pc",
+    "particle": "school:block/pc",
+    "0": "school:block/pc",
+    "1": "school:block/qaza"
+  },
+  "render_type": "solid"
+}

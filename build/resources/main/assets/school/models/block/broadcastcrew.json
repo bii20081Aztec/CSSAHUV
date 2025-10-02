@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/broadcast_crews",
+  "textures": {
+    "all": "school:block/broadcast_crews",
+    "particle": "school:block/broadcast_crews",
+    "0": "school:block/broadcast_crews"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/smallslidingwindobbk"
+    },
+    "facing=east": {
+      "model": "school:block/smallslidingwindobbk",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/smallslidingwindobbk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/smallslidingwindobbk",
+      "y": 270
+    }
+  }
+}

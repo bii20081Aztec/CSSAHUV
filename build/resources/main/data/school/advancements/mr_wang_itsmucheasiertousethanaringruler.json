@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "school:chalk_hair_sprayer"
+    },
+    "title": {
+      "translate": "advancements.mr_wang_itsmucheasiertousethanaringruler.title"
+    },
+    "description": {
+      "translate": "advancements.mr_wang_itsmucheasiertousethanaringruler.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mr_wang_itsmucheasiertousethanaringruler_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "school:chalk"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/window-black-up-s",
+  "textures": {
+    "all": "school:block/1234567",
+    "particle": "school:block/1234567",
+    "0": "school:block/1234567"
+  },
+  "render_type": "translucent"
+}

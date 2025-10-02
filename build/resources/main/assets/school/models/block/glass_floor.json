@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/glassfloor",
+  "textures": {
+    "all": "school:block/glassfloor",
+    "particle": "school:block/glassfloor",
+    "0": "school:block/glassfloor"
+  },
+  "render_type": "translucent"
+}

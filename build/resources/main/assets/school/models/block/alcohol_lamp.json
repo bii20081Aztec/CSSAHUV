@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/alcohol_lamp",
+  "textures": {
+    "all": "school:block/alcohollamp",
+    "particle": "school:block/alcohollamp",
+    "1": "school:block/alcohollamp"
+  },
+  "render_type": "translucent"
+}

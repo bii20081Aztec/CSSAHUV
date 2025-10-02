@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "school:item/glassdoor"
+  },
+  "render_type": "translucent"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "school:block/white_concrete_stir",
+    "bottom": "school:block/white_concrete_stir",
+    "top": "school:block/white_concrete_stir",
+    "side": "school:block/white_concrete_stir"
+  },
+  "render_type": "solid"
+}

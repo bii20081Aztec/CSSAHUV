@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/brand2",
+  "textures": {
+    "all": "school:block/brand",
+    "particle": "school:block/brand",
+    "0": "school:block/brand2"
+  },
+  "render_type": "solid"
+}

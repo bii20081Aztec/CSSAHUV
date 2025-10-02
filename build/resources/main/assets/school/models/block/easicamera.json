@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/easicamera",
+  "textures": {
+    "all": "school:block/easicamera",
+    "particle": "school:block/easicamera",
+    "0": "school:block/easicamera"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/floorlamp",
+  "textures": {
+    "all": "school:block/flamp",
+    "particle": "school:block/flamp",
+    "2": "school:block/flamp"
+  },
+  "render_type": "solid"
+}

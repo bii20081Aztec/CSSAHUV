@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/poe",
+  "textures": {
+    "all": "school:block/poe",
+    "particle": "school:block/poe",
+    "0": "school:block/pof",
+    "1": "school:block/poe"
+  },
+  "render_type": "solid"
+}

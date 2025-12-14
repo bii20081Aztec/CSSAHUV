@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/set_square",
+  "textures": {
+    "all": "school:block/bulletin_board",
+    "particle": "school:block/bulletin_board",
+    "0": "school:block/setsquare"
+  },
+  "render_type": "solid"
+}

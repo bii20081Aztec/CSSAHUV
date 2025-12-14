@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "spring_festival_couplets"
+        "1": "spring_festival_couplets"
       },
       "name": "default"
     }

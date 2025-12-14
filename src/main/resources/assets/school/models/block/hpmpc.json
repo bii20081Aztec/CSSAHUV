@@ -1,0 +1,13 @@
+{
+  "parent": "school:custom/hpmpc",
+  "textures": {
+    "all": "school:block/laboratorylight",
+    "particle": "school:block/laboratorylight",
+    "0": "school:block/hgfd",
+    "1": "school:block/hp_pc",
+    "2": "school:block/desk",
+    "3": "school:block/mainunit",
+    "4": "school:block/pc"
+  },
+  "render_type": "solid"
+}

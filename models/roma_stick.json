@@ -1,0 +1,30 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/GG",
+		"particle": "block/GG"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 14.8],
+			"to": [16, 17, 15.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15, 16, 2]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 1], "texture": "#0"},
+				"east": {"uv": [9, 6, 10, 7], "texture": "#0"},
+				"south": {"uv": [0, 1, 16, 2], "texture": "#0"},
+				"west": {"uv": [7, 9, 8, 10], "texture": "#0"},
+				"up": {"uv": [16, 3, 0, 2], "texture": "#0"},
+				"down": {"uv": [16, 3, 0, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [0, 38, 19],
+			"translation": [-2.5, -0.75, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

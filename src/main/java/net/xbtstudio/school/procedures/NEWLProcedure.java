@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 public class NEWLProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world instanceof ServerLevel _serverworld) {
-			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("school", "newa"));
+			StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("school", "ner"));
 			if (template != null) {
 				template.placeInWorld(_serverworld, BlockPos.containing(x, y, z), BlockPos.containing(x, y, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 			}

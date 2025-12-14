@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/hpmpc"
+    },
+    "facing=east": {
+      "model": "school:block/hpmpc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/hpmpc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/hpmpc",
+      "y": 270
+    }
+  }
+}

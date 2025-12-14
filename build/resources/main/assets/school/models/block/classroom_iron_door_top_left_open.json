@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "school:block/classroom_iron_door_a",
+    "bottom": "school:block/classroom_iron_door_a",
+    "top": "school:block/classroom_iron_door_b"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "school:block/zhuan_qiang_7",
+    "up": "school:block/zhuan_qiang_7",
+    "north": "school:block/zhuan_qiang_7",
+    "east": "school:block/zhuan_qiang_7",
+    "south": "school:block/zhuan_qiang_7",
+    "west": "school:block/zhuan_qiang_7",
+    "particle": "school:block/zhuan_qiang_7"
+  },
+  "render_type": "solid"
+}

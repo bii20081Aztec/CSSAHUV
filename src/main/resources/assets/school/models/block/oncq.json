@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/oncurtain1",
+  "textures": {
+    "all": "school:block/grey_concrete",
+    "particle": "school:block/grey_concrete",
+    "missing": "school:block/light_blue_concrete"
+  },
+  "render_type": "solid"
+}

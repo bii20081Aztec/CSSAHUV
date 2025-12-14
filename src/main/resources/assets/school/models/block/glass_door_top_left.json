@@ -5,5 +5,5 @@
     "bottom": "school:block/glassdoordown",
     "top": "school:block/glassdoorup"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

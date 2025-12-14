@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/roma_stick",
+  "textures": {
+    "all": "school:block/grey_concrete",
+    "particle": "school:block/grey_concrete",
+    "0": "school:block/grey_concrete"
+  },
+  "render_type": "solid"
+}

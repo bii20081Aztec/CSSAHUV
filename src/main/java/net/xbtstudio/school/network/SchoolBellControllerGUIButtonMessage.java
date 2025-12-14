@@ -6,6 +6,7 @@ import net.xbtstudio.school.procedures.StopSoundProcedure;
 import net.xbtstudio.school.procedures.ShutdownProcedure;
 import net.xbtstudio.school.procedures.RunningdrillmusicProcedure;
 import net.xbtstudio.school.procedures.RecessProcedure;
+import net.xbtstudio.school.procedures.NapbellProcedure;
 import net.xbtstudio.school.procedures.EyeexercisesProcedure;
 import net.xbtstudio.school.procedures.DancingYouthProcedure;
 import net.xbtstudio.school.procedures.ColorfulSunshineProcedure;
@@ -100,6 +101,10 @@ public class SchoolBellControllerGUIButtonMessage {
 		if (buttonID == 7) {
 
 			ShutdownProcedure.execute(entity);
+		}
+		if (buttonID == 8) {
+
+			NapbellProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

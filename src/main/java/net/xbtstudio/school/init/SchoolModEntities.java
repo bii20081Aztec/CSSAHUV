@@ -4,6 +4,7 @@
  */
 package net.xbtstudio.school.init;
 
+import net.xbtstudio.school.entity.SighingCatEntity;
 import net.xbtstudio.school.entity.ChalkSMGProjectileEntity;
 import net.xbtstudio.school.entity.ChalkRFProjectileEntity;
 import net.xbtstudio.school.entity.ChalkHairSprayerProjectileEntity;
@@ -13,7 +14,10 @@ import net.xbtstudio.school.SchoolMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
@@ -31,10 +35,26 @@ public class SchoolModEntities {
 			.setCustomClientFactory(ChalkRFProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<ChalkCannonProjectileEntity>> CHALK_CANNON_PROJECTILE = register("chalk_cannon_projectile", EntityType.Builder.<ChalkCannonProjectileEntity>of(ChalkCannonProjectileEntity::new, MobCategory.MISC)
 			.setCustomClientFactory(ChalkCannonProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SighingCatEntity>> SIGHING_CAT = register("sighing_cat",
+			EntityType.Builder.<SighingCatEntity>of(SighingCatEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(5).setUpdateInterval(3).setCustomClientFactory(SighingCatEntity::new)
+
+					.sized(0.6f, 0.7f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
+	}
+
+	@SubscribeEvent
+	public static void init(FMLCommonSetupEvent event) {
+		event.enqueueWork(() -> {
+			SighingCatEntity.init();
+		});
+	}
+
+	@SubscribeEvent
+	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(SIGHING_CAT.get(), SighingCatEntity.createAttributes().build());
 	}
 }

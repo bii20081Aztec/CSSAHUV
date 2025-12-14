@@ -5,5 +5,5 @@
     "particle": "school:block/classroom-light",
     "1": "school:block/classroom-light"
   },
-  "render_type": "translucent"
+  "render_type": "solid"
 }

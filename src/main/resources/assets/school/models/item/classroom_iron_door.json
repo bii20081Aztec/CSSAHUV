@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "school:item/classroom_iron_door"
+  },
+  "render_type": "translucent"
+}

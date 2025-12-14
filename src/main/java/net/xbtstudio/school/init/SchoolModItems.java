@@ -25,6 +25,7 @@ import net.xbtstudio.school.SchoolMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -365,6 +366,28 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> FLUORESCENTLAMPS = block(SchoolModBlocks.FLUORESCENTLAMPS);
 	public static final RegistryObject<Item> RECALSOOM = block(SchoolModBlocks.RECALSOOM);
 	public static final RegistryObject<Item> RESTAURANTEXHAUSTHOOD = block(SchoolModBlocks.RESTAURANTEXHAUSTHOOD);
+	public static final RegistryObject<Item> BLACK_BOARD_LIGHT = block(SchoolModBlocks.BLACK_BOARD_LIGHT);
+	public static final RegistryObject<Item> CLASSROOM_IRON_DOOR = doubleBlock(SchoolModBlocks.CLASSROOM_IRON_DOOR);
+	public static final RegistryObject<Item> SETSQUAREBLA = block(SchoolModBlocks.SETSQUAREBLA);
+	public static final RegistryObject<Item> FERUL = block(SchoolModBlocks.FERUL);
+	public static final RegistryObject<Item> SIGHING_CAT_SPAWN_EGG = REGISTRY.register("sighing_cat_spawn_egg", () -> new ForgeSpawnEggItem(SchoolModEntities.SIGHING_CAT, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> TVDVB = block(SchoolModBlocks.TVDVB);
+	public static final RegistryObject<Item> HPC = block(SchoolModBlocks.HPC);
+	public static final RegistryObject<Item> AEAT = block(SchoolModBlocks.AEAT);
+	public static final RegistryObject<Item> LAWN = block(SchoolModBlocks.LAWN);
+	public static final RegistryObject<Item> SIDEWALK = block(SchoolModBlocks.SIDEWALK);
+	public static final RegistryObject<Item> BRICKWALL = block(SchoolModBlocks.BRICKWALL);
+	public static final RegistryObject<Item> POF = block(SchoolModBlocks.POF);
+	public static final RegistryObject<Item> HPMPC = block(SchoolModBlocks.HPMPC);
+	public static final RegistryObject<Item> CHOA_RR = block(SchoolModBlocks.CHOA_RR);
+	public static final RegistryObject<Item> CURTAIN = block(SchoolModBlocks.CURTAIN);
+	public static final RegistryObject<Item> RRH = block(SchoolModBlocks.RRH);
+	public static final RegistryObject<Item> RORH = block(SchoolModBlocks.RORH);
+	public static final RegistryObject<Item> O_RB = block(SchoolModBlocks.O_RB);
+	public static final RegistryObject<Item> ORBQ = block(SchoolModBlocks.ORBQ);
+	public static final RegistryObject<Item> ONC = block(SchoolModBlocks.ONC);
+	public static final RegistryObject<Item> ONCQ = block(SchoolModBlocks.ONCQ);
+	public static final RegistryObject<Item> RS = block(SchoolModBlocks.RS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -5,7 +5,25 @@
   "projectBrowserSplitPos": 0,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, Chinese-style school as well as home]"
+      "[, Chinese-style school as well as home]",
+      "[, Chinese-style school as well as home, Source (Gradle)]",
+      "[, Chinese-style school as well as home, Source (Gradle), E:\\MCR\\GTY\\src\\main\\java\\net]",
+      "[, Chinese-style school as well as home, Source (Gradle), E:\\MCR\\GTY\\src\\main\\java\\net, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio]",
+      "[, Chinese-style school as well as home, Source (Gradle), E:\\MCR\\GTY\\src\\main\\java\\net, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio\\school]",
+      "[, Chinese-style school as well as home, Source (Gradle), E:\\MCR\\GTY\\src\\main\\java\\net, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio\\school, E:\\MCR\\GTY\\src\\main\\java\\net\\xbtstudio\\school\\block]",
+      "[, Chinese-style school as well as home, Resources (Gradle)]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\blockstates]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models\\block]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models\\custom]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\models\\item]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\textures]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\assets, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\textures, E:\\MCR\\GTY\\src\\main\\resources\\assets\\school\\textures\\block]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\data]",
+      "[, Chinese-style school as well as home, Resources (Gradle), E:\\MCR\\GTY\\src\\main\\resources\\data, E:\\MCR\\GTY\\src\\main\\resources\\data\\school]",
+      "[, Chinese-style school as well as home, Models]"
     ]
   }
 }

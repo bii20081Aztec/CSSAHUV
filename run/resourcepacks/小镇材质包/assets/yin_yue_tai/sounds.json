@@ -1,0 +1,155 @@
+{
+  "shandong": {
+    "subtitle": "山东全运会-相亲你相爱",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:shandong",
+        "stream": true
+      }
+    ]
+  },
+  "joy": {
+    "subtitle": "拥抱春天",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:joy",
+        "stream": true
+      }
+    ]
+  },
+  "bupabupa": {
+    "subtitle": "不怕",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:bupabupa",
+        "stream": true
+      }
+    ]
+  },
+  "mayi": {
+    "subtitle": "墨西哥民歌",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:mayi",
+        "stream": true
+      }
+    ]
+  },
+  "linmiaoke": {
+    "subtitle": "歌唱祖国",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:limniacke",
+        "stream": true
+      }
+    ]
+  },
+  "zhongguorenminjiefangjunjinxingqu": {
+    "subtitle": "中国人民解放军进行曲",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:zhongguorenminjiefangjunjinxingqu",
+        "stream": true
+      }
+    ]
+  },
+  "beijing": {
+    "subtitle": "北京欢迎你",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:beijing",
+        "stream": true
+      }
+    ]
+  },
+  "nap_bell": {
+    "subtitle": "忘记时间 胡歌",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:nap_bell",
+        "stream": true
+      }
+    ]
+  },
+  "2008yan_bao_jian_cao": {
+    "subtitle": "2008眼保健操",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:2008yan_bao_jian_cao",
+        "stream": true
+      }
+    ]
+  },
+  "athlete_march": {
+    "subtitle": "运动员进行曲",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:athlete_march",
+        "stream": true
+      }
+    ]
+  },
+  "doctor_sound1": {
+    "subtitle": "蓝猫淘气三千问",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:doctor_sound1",
+        "stream": true
+      }
+    ]
+  },
+  "june_children_s_network": {
+    "subtitle": "六一儿童网",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:june_children_s_network",
+        "stream": true
+      }
+    ]
+  },
+  "pao_cao_yin_le": {
+    "subtitle": "跑操音乐",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:pao_cao_yin_le_ogg",
+        "stream": true
+      }
+    ]
+  },
+  "qi_cai_yang_guang": {
+    "subtitle": "七彩阳光",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:qi_cai_yang_guang_ogg",
+        "stream": true
+      }
+    ]
+  },
+  "ring": {
+    "subtitle": "铃声",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:ring",
+        "stream": true
+      }
+    ]
+  },
+  "wu_dong_qing_chun": {
+    "subtitle": "舞动青春",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:wu_dong_qing_chun_ogg",
+        "stream": true
+      }
+    ]
+  },
+  "how_do_you_sleep": {
+    "subtitle": "你怎么睡觉",
+    "sounds": [
+      {
+        "name": "yin_yue_tai:how_do_you_sleep",
+        "stream": true
+      }
+    ]
+  }
+}

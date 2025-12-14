@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/ferul"
+    },
+    "facing=east": {
+      "model": "school:block/ferul",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/ferul",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/ferul",
+      "y": 270
+    }
+  }
+}

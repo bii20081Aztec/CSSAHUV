@@ -22,6 +22,9 @@
     "enchantability": 88,
     "damageVsEntity": 6.0,
     "usageCount": 114,
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [
       {
         "value": "Items.STICK"
@@ -31,6 +34,9 @@
     "blockDropsTier": "STONE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedOnBlock": {
+      "name": "Setsquar"
+    }
   }
 }

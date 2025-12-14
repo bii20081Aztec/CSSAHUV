@@ -51,10 +51,10 @@ public class SpringFestivalCoupletsBlock extends Block implements SimpleWaterlog
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(10, 2.1, -0.1, 14.9, 22, 0), box(1, 2.1, -0.1, 5.9, 22, 0), box(3, 23.1, -0.1, 12.9, 27, 0));
-			case NORTH -> Shapes.or(box(1.1, 2.1, 16, 6, 22, 16.1), box(10.1, 2.1, 16, 15, 22, 16.1), box(3.1, 23.1, 16, 13, 27, 16.1));
-			case EAST -> Shapes.or(box(-0.1, 2.1, 1.1, 0, 22, 6), box(-0.1, 2.1, 10.1, 0, 22, 15), box(-0.1, 23.1, 3.1, 0, 27, 13));
-			case WEST -> Shapes.or(box(16, 2.1, 10, 16.1, 22, 14.9), box(16, 2.1, 1, 16.1, 22, 5.9), box(16, 23.1, 3, 16.1, 27, 12.9));
+			default -> box(0, 16, 0, 16, 32, 16);
+			case NORTH -> box(0, 16, 0, 16, 32, 16);
+			case EAST -> box(0, 16, 0, 16, 32, 16);
+			case WEST -> box(0, 16, 0, 16, 32, 16);
 		};
 	}
 

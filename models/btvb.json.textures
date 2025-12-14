@@ -11,6 +11,12 @@
         "2": "tvclose"
       },
       "name": "no"
+    },
+    "dvb": {
+      "map": {
+        "2": "tvopendvb"
+      },
+      "name": "dvb"
     }
   }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/air_source_heat_pump",
+  "textures": {
+    "all": "school:block/air_source_heat_pump",
+    "particle": "school:block/air_source_heat_pump",
+    "3": "school:block/air_source_heat_pump"
+  },
+  "render_type": "solid"
+}

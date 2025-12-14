@@ -6,6 +6,7 @@ package net.xbtstudio.school.init;
 
 import net.xbtstudio.school.client.gui.SchoolBellControllerGUIScreen;
 import net.xbtstudio.school.client.gui.PrinterGuiScreen;
+import net.xbtstudio.school.client.gui.NOCATScreen;
 import net.xbtstudio.school.client.gui.MusicselectionpageScreen;
 import net.xbtstudio.school.client.gui.BoxScreen;
 
@@ -25,6 +26,7 @@ public class SchoolModScreens {
 			MenuScreens.register(SchoolModMenus.SCHOOL_BELL_CONTROLLER_GUI.get(), SchoolBellControllerGUIScreen::new);
 			MenuScreens.register(SchoolModMenus.PRINTER_GUI.get(), PrinterGuiScreen::new);
 			MenuScreens.register(SchoolModMenus.MUSICSELECTIONPAGE.get(), MusicselectionpageScreen::new);
+			MenuScreens.register(SchoolModMenus.NOCAT.get(), NOCATScreen::new);
 		});
 	}
 }

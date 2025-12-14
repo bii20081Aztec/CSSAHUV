@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "air_source_heat_pump"
+      },
+      "name": "default"
+    }
+  }
+}

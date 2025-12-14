@@ -1,0 +1,86 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_have_been_attacked_by_a_cat",
+          "text": {
+            "fixedValue": "You have been attacked by a cat, and you are attacked by a cat,"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 55,
+          "y": 29,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_and_you_can_find_a_way_to_do_it",
+          "text": {
+            "fixedValue": "and you can find a way to do it yourself, hahaha"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 103,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rebirth",
+          "text": "Rebirth",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Reborn"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 189,
+          "y": 103,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_you_still_want_to_be_reborn_dre",
+          "text": {
+            "fixedValue": "You still want to be reborn? Dream on. Clicking does nothing."
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "x": 67,
+          "y": 157,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

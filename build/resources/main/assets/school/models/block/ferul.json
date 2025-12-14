@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/ferule",
+  "textures": {
+    "all": "school:block/bulletin_board",
+    "particle": "school:block/bulletin_board",
+    "0": "school:block/ferule"
+  },
+  "render_type": "solid"
+}

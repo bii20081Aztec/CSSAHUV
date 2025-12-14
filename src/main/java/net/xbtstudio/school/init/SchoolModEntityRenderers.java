@@ -4,6 +4,7 @@
  */
 package net.xbtstudio.school.init;
 
+import net.xbtstudio.school.client.renderer.SighingCatRenderer;
 import net.xbtstudio.school.client.renderer.ChalkSMGProjectileRenderer;
 import net.xbtstudio.school.client.renderer.ChalkRFProjectileRenderer;
 import net.xbtstudio.school.client.renderer.ChalkHairSprayerProjectileRenderer;
@@ -22,5 +23,6 @@ public class SchoolModEntityRenderers {
 		event.registerEntityRenderer(SchoolModEntities.CHALK_SMG_PROJECTILE.get(), ChalkSMGProjectileRenderer::new);
 		event.registerEntityRenderer(SchoolModEntities.CHALK_RF_PROJECTILE.get(), ChalkRFProjectileRenderer::new);
 		event.registerEntityRenderer(SchoolModEntities.CHALK_CANNON_PROJECTILE.get(), ChalkCannonProjectileRenderer::new);
+		event.registerEntityRenderer(SchoolModEntities.SIGHING_CAT.get(), SighingCatRenderer::new);
 	}
 }

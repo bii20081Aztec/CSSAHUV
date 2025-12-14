@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blackstone_top",
+    "up": "school:block/cao_ping_7",
+    "north": "school:block/cao_ping_7",
+    "east": "school:block/cao_ping_7",
+    "south": "school:block/cao_ping_7",
+    "west": "school:block/cao_ping_7",
+    "particle": "minecraft:block/blackstone_top"
+  },
+  "render_type": "solid"
+}

@@ -75,6 +75,10 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.OFFS_NETWORK.get().asItem());
 				tabData.accept(SchoolModBlocks.WATERDISPENSER.get().asItem());
 				tabData.accept(SchoolModBlocks.LIGHTCATSETTOPBOX.get().asItem());
+				tabData.accept(SchoolModBlocks.HPC.get().asItem());
+				tabData.accept(SchoolModBlocks.AEAT.get().asItem());
+				tabData.accept(SchoolModBlocks.POF.get().asItem());
+				tabData.accept(SchoolModBlocks.HPMPC.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> SCHOOL = REGISTRY.register("school",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.school")).icon(() -> new ItemStack(Blocks.BELL)).displayItems((parameters, tabData) -> {
@@ -307,6 +311,20 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.FLUORESCENTLAMPS.get().asItem());
 				tabData.accept(SchoolModBlocks.RECALSOOM.get().asItem());
 				tabData.accept(SchoolModBlocks.RESTAURANTEXHAUSTHOOD.get().asItem());
+				tabData.accept(SchoolModBlocks.BLACK_BOARD_LIGHT.get().asItem());
+				tabData.accept(SchoolModBlocks.CLASSROOM_IRON_DOOR.get().asItem());
+				tabData.accept(SchoolModBlocks.LAWN.get().asItem());
+				tabData.accept(SchoolModBlocks.SIDEWALK.get().asItem());
+				tabData.accept(SchoolModBlocks.BRICKWALL.get().asItem());
+				tabData.accept(SchoolModBlocks.CHOA_RR.get().asItem());
+				tabData.accept(SchoolModBlocks.CURTAIN.get().asItem());
+				tabData.accept(SchoolModBlocks.RRH.get().asItem());
+				tabData.accept(SchoolModBlocks.RORH.get().asItem());
+				tabData.accept(SchoolModBlocks.O_RB.get().asItem());
+				tabData.accept(SchoolModBlocks.ORBQ.get().asItem());
+				tabData.accept(SchoolModBlocks.ONC.get().asItem());
+				tabData.accept(SchoolModBlocks.ONCQ.get().asItem());
+				tabData.accept(SchoolModBlocks.RS.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
 
 	@SubscribeEvent

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/tvdvb"
+    },
+    "facing=east": {
+      "model": "school:block/tvdvb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/tvdvb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/tvdvb",
+      "y": 270
+    }
+  }
+}

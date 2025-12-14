@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/roman_rod_hook1",
+  "textures": {
+    "all": "school:block/grey_tall_wall",
+    "particle": "school:block/grey_tall_wall",
+    "missing": "school:block/grey_concrete"
+  },
+  "render_type": "solid"
+}

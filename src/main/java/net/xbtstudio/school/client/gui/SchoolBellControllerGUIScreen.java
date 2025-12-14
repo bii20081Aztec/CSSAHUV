@@ -30,6 +30,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 	Button button_eye_exercises;
 	Button button_running_drills;
 	Button button_shut_down;
+	Button button_nap_bell;
 
 	public SchoolBellControllerGUIScreen(SchoolBellControllerGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -39,7 +40,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 220;
-		this.imageHeight = 140;
+		this.imageHeight = 143;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("school:textures/screens/school_bell_controller_gui.png");
@@ -71,8 +72,8 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.school.school_bell_controller_gui.label_school_bell_controller"), 10, 6, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.school.school_bell_controller_gui.label_modified_based_on_the_rabbit_ver"), 7, 120, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.school.school_bell_controller_gui.label_school_bell_controller"), 10, 7, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.school.school_bell_controller_gui.label_modified_based_on_the_rabbit_ver"), 7, 121, -12829636, false);
 	}
 
 	@Override
@@ -83,7 +84,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(0, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 92, 93, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 93, 93, 20).build();
 		guistate.put("button:button_class_beginover", button_class_beginover);
 		this.addRenderableWidget(button_class_beginover);
 		button_go_downstairs = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_go_downstairs"), e -> {
@@ -91,7 +92,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(1, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 100, this.topPos + 92, 113, 20).build();
+		}).bounds(this.leftPos + 100, this.topPos + 93, 113, 20).build();
 		guistate.put("button:button_go_downstairs", button_go_downstairs);
 		this.addRenderableWidget(button_go_downstairs);
 		button_stop_all_sound = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_stop_all_sound"), e -> {
@@ -99,7 +100,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(2, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 22, 120, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 23, 120, 20).build();
 		guistate.put("button:button_stop_all_sound", button_stop_all_sound);
 		this.addRenderableWidget(button_stop_all_sound);
 		button_dancing_youth = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_dancing_youth"), e -> {
@@ -107,7 +108,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(3, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 69, 93, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 70, 93, 20).build();
 		guistate.put("button:button_dancing_youth", button_dancing_youth);
 		this.addRenderableWidget(button_dancing_youth);
 		button_colorful_sunshine = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_colorful_sunshine"), e -> {
@@ -115,7 +116,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(4, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
-		}).bounds(this.leftPos + 100, this.topPos + 69, 113, 20).build();
+		}).bounds(this.leftPos + 100, this.topPos + 70, 113, 20).build();
 		guistate.put("button:button_colorful_sunshine", button_colorful_sunshine);
 		this.addRenderableWidget(button_colorful_sunshine);
 		button_eye_exercises = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_eye_exercises"), e -> {
@@ -123,7 +124,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(5, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 46, 93, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 47, 93, 20).build();
 		guistate.put("button:button_eye_exercises", button_eye_exercises);
 		this.addRenderableWidget(button_eye_exercises);
 		button_running_drills = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_running_drills"), e -> {
@@ -131,7 +132,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(6, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
-		}).bounds(this.leftPos + 99, this.topPos + 46, 113, 20).build();
+		}).bounds(this.leftPos + 99, this.topPos + 47, 113, 20).build();
 		guistate.put("button:button_running_drills", button_running_drills);
 		this.addRenderableWidget(button_running_drills);
 		button_shut_down = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_shut_down"), e -> {
@@ -139,8 +140,16 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(7, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 160, this.topPos + 4, 55, 20).build();
+		}).bounds(this.leftPos + 161, this.topPos + 2, 55, 20).build();
 		guistate.put("button:button_shut_down", button_shut_down);
 		this.addRenderableWidget(button_shut_down);
+		button_nap_bell = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_nap_bell"), e -> {
+			if (true) {
+				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(8, x, y, z));
+				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + 125, this.topPos + 23, 66, 20).build();
+		guistate.put("button:button_nap_bell", button_nap_bell);
+		this.addRenderableWidget(button_nap_bell);
 	}
 }

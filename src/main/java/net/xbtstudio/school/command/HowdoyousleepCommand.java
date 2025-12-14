@@ -32,7 +32,7 @@ public class HowdoyousleepCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			AtProcedure.execute(world, x, y, z, entity);
+			AtProcedure.execute(world, x, y, z);
 			return 0;
 		}));
 	}

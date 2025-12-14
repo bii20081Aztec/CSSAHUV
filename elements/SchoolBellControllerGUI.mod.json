@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 220,
-    "height": 140,
+    "height": 143,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -165,14 +165,30 @@
           },
           "width": 55,
           "height": 20,
-          "x": 264,
-          "y": 54,
+          "x": 265,
+          "y": 51,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_nap_bell",
+          "text": "Nap bell",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Napbell"
+          },
+          "width": 66,
+          "height": 20,
+          "x": 229,
+          "y": 72,
           "locked": false
         }
       }
     ],
     "gridSettings": {
-      "sx": 20,
+      "sx": 10,
       "sy": 18,
       "ox": 11,
       "oy": 15,

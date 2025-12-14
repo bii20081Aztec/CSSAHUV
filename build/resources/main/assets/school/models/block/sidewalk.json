@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "school:block/ren_xing_dao_7",
+    "up": "school:block/ren_xing_dao_7",
+    "north": "school:block/ren_xing_dao_7",
+    "east": "school:block/ren_xing_dao_7",
+    "south": "school:block/ren_xing_dao_7",
+    "west": "school:block/ren_xing_dao_7",
+    "particle": "school:block/ren_xing_dao_7"
+  },
+  "render_type": "solid"
+}

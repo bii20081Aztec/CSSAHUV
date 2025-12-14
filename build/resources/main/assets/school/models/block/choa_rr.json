@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/curtains_hung_on_a_roman_rod",
+  "textures": {
+    "all": "school:block/grey_concrete",
+    "particle": "school:block/grey_concrete",
+    "0": "school:block/grey_concrete",
+    "missing": "school:block/light_blue_concrete"
+  },
+  "render_type": "solid"
+}

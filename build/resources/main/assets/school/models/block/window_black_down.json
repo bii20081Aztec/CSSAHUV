@@ -5,5 +5,5 @@
     "particle": "school:block/black-down",
     "1": "school:block/black-down"
   },
-  "render_type": "translucent"
+  "render_type": "cutout"
 }

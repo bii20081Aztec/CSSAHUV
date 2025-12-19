@@ -175,6 +175,7 @@ import net.xbtstudio.school.block.ONCQBlock;
 import net.xbtstudio.school.block.OFFSNetworkBlock;
 import net.xbtstudio.school.block.NOTVBlock;
 import net.xbtstudio.school.block.NOCRTTVBlock;
+import net.xbtstudio.school.block.MopsinkBlock;
 import net.xbtstudio.school.block.MobileblackBlock;
 import net.xbtstudio.school.block.MobileRedFlagsBlock;
 import net.xbtstudio.school.block.MinislidingwindowGreenBlock;
@@ -692,6 +693,7 @@ public class SchoolModBlocks {
 	public static final RegistryObject<Block> ONC = REGISTRY.register("onc", () -> new OncBlock());
 	public static final RegistryObject<Block> ONCQ = REGISTRY.register("oncq", () -> new ONCQBlock());
 	public static final RegistryObject<Block> RS = REGISTRY.register("rs", () -> new RSBlock());
+	public static final RegistryObject<Block> MOPSINK = REGISTRY.register("mopsink", () -> new MopsinkBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

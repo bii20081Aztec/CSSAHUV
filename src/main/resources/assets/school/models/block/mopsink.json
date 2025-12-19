@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/mop_sink",
+  "textures": {
+    "all": "school:block/red_concrete",
+    "particle": "school:block/red_concrete",
+    "0": "school:block/mop_sink"
+  },
+  "render_type": "solid"
+}

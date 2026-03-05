@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ceramic_tile",
+        "1": "public_restroom_sink"
+      },
+      "name": "default"
+    }
+  }
+}

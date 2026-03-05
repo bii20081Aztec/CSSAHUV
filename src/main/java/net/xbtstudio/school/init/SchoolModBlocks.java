@@ -58,6 +58,7 @@ import net.xbtstudio.school.block.StudyhardBlock;
 import net.xbtstudio.school.block.StripChandelierBlock;
 import net.xbtstudio.school.block.SscreeedBlock;
 import net.xbtstudio.school.block.SquattingurinalBlock;
+import net.xbtstudio.school.block.Squattingurinal1Block;
 import net.xbtstudio.school.block.SpringFestivalCoupletsBlock;
 import net.xbtstudio.school.block.SpacewalkerBlock;
 import net.xbtstudio.school.block.SmartBrandOnBlock;
@@ -125,6 +126,7 @@ import net.xbtstudio.school.block.Pushandpullchalkboard4Block;
 import net.xbtstudio.school.block.Pushandpullchalkboard3Block;
 import net.xbtstudio.school.block.Pushandpullchalkboard2Block;
 import net.xbtstudio.school.block.Pushandpullchalkboard1Block;
+import net.xbtstudio.school.block.PrsBlock;
 import net.xbtstudio.school.block.ProjectorBlock;
 import net.xbtstudio.school.block.PrinterBlock;
 import net.xbtstudio.school.block.PodiumBlock;
@@ -694,6 +696,8 @@ public class SchoolModBlocks {
 	public static final RegistryObject<Block> ONCQ = REGISTRY.register("oncq", () -> new ONCQBlock());
 	public static final RegistryObject<Block> RS = REGISTRY.register("rs", () -> new RSBlock());
 	public static final RegistryObject<Block> MOPSINK = REGISTRY.register("mopsink", () -> new MopsinkBlock());
+	public static final RegistryObject<Block> SQUATTINGURINAL_1 = REGISTRY.register("squattingurinal_1", () -> new Squattingurinal1Block());
+	public static final RegistryObject<Block> PRS = REGISTRY.register("prs", () -> new PrsBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -8,3 +8,8 @@
 # Other Files (In Eclipse)
 .classpath
 .project
+
+# 本地运行环境（包含其他作者的内容，有法律风险！）
+/run/
+/run/**
+!run/.gitkeep  # 如果想保留空文件夹，可以用这个

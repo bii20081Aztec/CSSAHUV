@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/public_restroom_sink",
+  "textures": {
+    "all": "school:block/public_restroom_sink",
+    "particle": "school:block/public_restroom_sink",
+    "0": "school:block/ceramic_tile",
+    "1": "school:block/public_restroom_sink"
+  },
+  "render_type": "solid"
+}

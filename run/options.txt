@@ -12,7 +12,7 @@ discrete_mouse_scroll:false
 invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
-showSubtitles:false
+showSubtitles:true
 directionalAudio:false
 touchscreen:false
 fullscreen:false
@@ -42,7 +42,7 @@ ao:false
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","file/小镇材质包"]
+resourcePacks:["vanilla","mod_resources","file/小镇材质包","file/学校模组经典材质包 V0.1.12.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
 lang:zh_cn

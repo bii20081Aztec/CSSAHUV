@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/squatting_urinal_2",
+  "textures": {
+    "all": "school:block/squatting_urinal",
+    "particle": "school:block/squatting_urinal",
+    "1": "school:block/squatting_urinal_2",
+    "4": "school:block/ceramic_tile"
+  },
+  "render_type": "solid"
+}

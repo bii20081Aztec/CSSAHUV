@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "squatting_urinal_2",
+        "4": "ceramic_tile"
+      },
+      "name": "default"
+    }
+  }
+}

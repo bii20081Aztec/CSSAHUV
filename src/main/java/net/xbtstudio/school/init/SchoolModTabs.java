@@ -326,6 +326,8 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.ONCQ.get().asItem());
 				tabData.accept(SchoolModBlocks.RS.get().asItem());
 				tabData.accept(SchoolModBlocks.MOPSINK.get().asItem());
+				tabData.accept(SchoolModBlocks.SQUATTINGURINAL_1.get().asItem());
+				tabData.accept(SchoolModBlocks.PRS.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
 
 	@SubscribeEvent

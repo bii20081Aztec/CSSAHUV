@@ -389,6 +389,8 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> ONCQ = block(SchoolModBlocks.ONCQ);
 	public static final RegistryObject<Item> RS = block(SchoolModBlocks.RS);
 	public static final RegistryObject<Item> MOPSINK = block(SchoolModBlocks.MOPSINK);
+	public static final RegistryObject<Item> SQUATTINGURINAL_1 = block(SchoolModBlocks.SQUATTINGURINAL_1);
+	public static final RegistryObject<Item> PRS = block(SchoolModBlocks.PRS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -26,11 +26,16 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
 
 public class PCMCBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
@@ -39,6 +44,12 @@ public class PCMCBlock extends Block implements SimpleWaterloggedBlock {
 	public PCMCBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GLASS).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter level, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, level, list, flag);
+		list.add(Component.translatable("block.school.pcmc.description_0"));
 	}
 
 	@Override
@@ -59,10 +70,10 @@ public class PCMCBlock extends Block implements SimpleWaterloggedBlock {
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		return switch (state.getValue(FACING)) {
-			default -> Shapes.or(box(6.5, 0, 2, 17.5, 0.6, 6), box(4, 0, 9, 12, 1, 12), box(-2.5, 4, 10, 18.5, 16.5, 11), box(7, 1, 10, 9, 4, 11), box(-1.8, 0, 1, 2.2, 0.2, 6), box(-0.65, 0, 2.5, 1, 1, 5));
-			case NORTH -> Shapes.or(box(-1.5, 0, 10, 9.5, 0.6, 14), box(4, 0, 4, 12, 1, 7), box(-2.5, 4, 5, 18.5, 16.5, 6), box(7, 1, 5, 9, 4, 6), box(13.8, 0, 10, 17.8, 0.2, 15), box(15, 0, 11, 16.65, 1, 13.5));
-			case EAST -> Shapes.or(box(2, 0, -1.5, 6, 0.6, 9.5), box(9, 0, 4, 12, 1, 12), box(10, 4, -2.5, 11, 16.5, 18.5), box(10, 1, 7, 11, 4, 9), box(1, 0, 13.8, 6, 0.2, 17.8), box(2.5, 0, 15, 5, 1, 16.65));
-			case WEST -> Shapes.or(box(10, 0, 6.5, 14, 0.6, 17.5), box(4, 0, 4, 7, 1, 12), box(5, 4, -2.5, 6, 16.5, 18.5), box(5, 1, 7, 6, 4, 9), box(10, 0, -1.8, 15, 0.2, 2.2), box(11, 0, -0.65, 13.5, 1, 1));
+			default -> Shapes.or(box(5, 0, 9, 13, 0.3, 16), box(8.2, 0, 13.5, 9.7, 7, 15), box(-5, 4, 12.5, 24, 21, 13), box(-3, 4, 12.1, 22, 12, 13.6), box(9.5, 0, 2, 20.5, 0.6, 6), box(0.35, 0, 3.5, 2, 1, 6));
+			case NORTH -> Shapes.or(box(3, 0, 0, 11, 0.3, 7), box(6.3, 0, 1, 7.8, 7, 2.5), box(-8, 4, 3, 21, 21, 3.5), box(-6, 4, 2.4, 19, 12, 3.9), box(-4.5, 0, 10, 6.5, 0.6, 14), box(14, 0, 10, 15.65, 1, 12.5));
+			case EAST -> Shapes.or(box(9, 0, 3, 16, 0.3, 11), box(13.5, 0, 6.3, 15, 7, 7.8), box(12.5, 4, -8, 13, 21, 21), box(12.1, 4, -6, 13.6, 12, 19), box(2, 0, -4.5, 6, 0.6, 6.5), box(3.5, 0, 14, 6, 1, 15.65));
+			case WEST -> Shapes.or(box(0, 0, 5, 7, 0.3, 13), box(1, 0, 8.2, 2.5, 7, 9.7), box(3, 4, -5, 3.5, 21, 24), box(2.4, 4, -3, 3.9, 12, 22), box(10, 0, 9.5, 14, 0.6, 20.5), box(10, 0, 0.35, 12.5, 1, 2));
 		};
 	}
 

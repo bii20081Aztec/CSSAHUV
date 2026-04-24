@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
 modId="school"
-version="0.90.5"
+version="0.90.6"
 displayName="Chinese-style school as well as home"
 displayURL="https://space.bilibili.com/1685065897"
 logoFile="logo.png"

@@ -30,6 +30,8 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 	Button button_mexican_folk_songs;
 	Button button_naughty_blue_cat;
 	Button button_stop_the_audio;
+	Button button_ode_to_the_motherland;
+	Button button_pla_march;
 
 	public MusicselectionpageScreen(MusicselectionpageMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -39,7 +41,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 260;
-		this.imageHeight = 120;
+		this.imageHeight = 140;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("school:textures/screens/musicselectionpage.png");
@@ -71,7 +73,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.school.musicselectionpage.label_school_bell_controller"), 6, 3, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.school.musicselectionpage.label_school_bell_controller"), 7, 7, -12829636, false);
 	}
 
 	@Override
@@ -82,7 +84,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(0, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 188, this.topPos + 18, 55, 20).build();
+		}).bounds(this.leftPos + 186, this.topPos + 18, 68, 20).build();
 		guistate.put("button:button_shut_down", button_shut_down);
 		this.addRenderableWidget(button_shut_down);
 		button_blind_date_you_love_each_other = Button.builder(Component.translatable("gui.school.musicselectionpage.button_blind_date_you_love_each_other"), e -> {
@@ -90,7 +92,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(1, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 6, this.topPos + 18, 181, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 18, 181, 20).build();
 		guistate.put("button:button_blind_date_you_love_each_other", button_blind_date_you_love_each_other);
 		this.addRenderableWidget(button_blind_date_you_love_each_other);
 		button_welcome_to_beijing = Button.builder(Component.translatable("gui.school.musicselectionpage.button_welcome_to_beijing"), e -> {
@@ -98,7 +100,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(2, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 7, this.topPos + 64, 119, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 60, 135, 20).build();
 		guistate.put("button:button_welcome_to_beijing", button_welcome_to_beijing);
 		this.addRenderableWidget(button_welcome_to_beijing);
 		button_embrace_spring = Button.builder(Component.translatable("gui.school.musicselectionpage.button_embrace_spring"), e -> {
@@ -106,7 +108,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(3, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 28, this.topPos + 41, 98, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 39, 129, 20).build();
 		guistate.put("button:button_embrace_spring", button_embrace_spring);
 		this.addRenderableWidget(button_embrace_spring);
 		button_unafraid = Button.builder(Component.translatable("gui.school.musicselectionpage.button_unafraid"), e -> {
@@ -114,7 +116,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(4, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
-		}).bounds(this.leftPos + 59, this.topPos + 86, 67, 20).build();
+		}).bounds(this.leftPos + 4, this.topPos + 82, 135, 20).build();
 		guistate.put("button:button_unafraid", button_unafraid);
 		this.addRenderableWidget(button_unafraid);
 		button_mexican_folk_songs = Button.builder(Component.translatable("gui.school.musicselectionpage.button_mexican_folk_songs"), e -> {
@@ -122,7 +124,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(5, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
-		}).bounds(this.leftPos + 127, this.topPos + 41, 119, 20).build();
+		}).bounds(this.leftPos + 135, this.topPos + 39, 119, 20).build();
 		guistate.put("button:button_mexican_folk_songs", button_mexican_folk_songs);
 		this.addRenderableWidget(button_mexican_folk_songs);
 		button_naughty_blue_cat = Button.builder(Component.translatable("gui.school.musicselectionpage.button_naughty_blue_cat"), e -> {
@@ -130,7 +132,7 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(6, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
-		}).bounds(this.leftPos + 127, this.topPos + 64, 108, 20).build();
+		}).bounds(this.leftPos + 141, this.topPos + 60, 113, 20).build();
 		guistate.put("button:button_naughty_blue_cat", button_naughty_blue_cat);
 		this.addRenderableWidget(button_naughty_blue_cat);
 		button_stop_the_audio = Button.builder(Component.translatable("gui.school.musicselectionpage.button_stop_the_audio"), e -> {
@@ -138,8 +140,24 @@ public class MusicselectionpageScreen extends AbstractContainerScreen<Musicselec
 				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(7, x, y, z));
 				MusicselectionpageButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
-		}).bounds(this.leftPos + 127, this.topPos + 86, 98, 20).build();
+		}).bounds(this.leftPos + 141, this.topPos + 82, 113, 20).build();
 		guistate.put("button:button_stop_the_audio", button_stop_the_audio);
 		this.addRenderableWidget(button_stop_the_audio);
+		button_ode_to_the_motherland = Button.builder(Component.translatable("gui.school.musicselectionpage.button_ode_to_the_motherland"), e -> {
+			if (true) {
+				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(8, x, y, z));
+				MusicselectionpageButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 104, 135, 20).build();
+		guistate.put("button:button_ode_to_the_motherland", button_ode_to_the_motherland);
+		this.addRenderableWidget(button_ode_to_the_motherland);
+		button_pla_march = Button.builder(Component.translatable("gui.school.musicselectionpage.button_pla_march"), e -> {
+			if (true) {
+				SchoolMod.PACKET_HANDLER.sendToServer(new MusicselectionpageButtonMessage(9, x, y, z));
+				MusicselectionpageButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		}).bounds(this.leftPos + 141, this.topPos + 104, 113, 20).build();
+		guistate.put("button:button_pla_march", button_pla_march);
+		this.addRenderableWidget(button_pla_march);
 	}
 }

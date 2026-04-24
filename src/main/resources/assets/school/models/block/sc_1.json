@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/surveillance_camera1",
+  "textures": {
+    "all": "school:block/surveillance_camera1",
+    "particle": "school:block/surveillance_camera1",
+    "0": "school:block/surveillance_camera1"
+  },
+  "render_type": "solid"
+}

@@ -106,6 +106,9 @@ import net.xbtstudio.school.block.ScreenBlock;
 import net.xbtstudio.school.block.SchooltablesBlock;
 import net.xbtstudio.school.block.SchoolBellControllerBlock;
 import net.xbtstudio.school.block.SatellitetelevisionBlock;
+import net.xbtstudio.school.block.SCBlock;
+import net.xbtstudio.school.block.SC2Block;
+import net.xbtstudio.school.block.SC1Block;
 import net.xbtstudio.school.block.RrhBlock;
 import net.xbtstudio.school.block.RockerboardforchildrenBlock;
 import net.xbtstudio.school.block.RestaurantexhausthoodBlock;
@@ -177,6 +180,7 @@ import net.xbtstudio.school.block.ONCQBlock;
 import net.xbtstudio.school.block.OFFSNetworkBlock;
 import net.xbtstudio.school.block.NOTVBlock;
 import net.xbtstudio.school.block.NOCRTTVBlock;
+import net.xbtstudio.school.block.NDVRBlock;
 import net.xbtstudio.school.block.MopsinkBlock;
 import net.xbtstudio.school.block.MobileblackBlock;
 import net.xbtstudio.school.block.MobileRedFlagsBlock;
@@ -698,6 +702,10 @@ public class SchoolModBlocks {
 	public static final RegistryObject<Block> MOPSINK = REGISTRY.register("mopsink", () -> new MopsinkBlock());
 	public static final RegistryObject<Block> SQUATTINGURINAL_1 = REGISTRY.register("squattingurinal_1", () -> new Squattingurinal1Block());
 	public static final RegistryObject<Block> PRS = REGISTRY.register("prs", () -> new PrsBlock());
+	public static final RegistryObject<Block> SC = REGISTRY.register("sc", () -> new SCBlock());
+	public static final RegistryObject<Block> SC_1 = REGISTRY.register("sc_1", () -> new SC1Block());
+	public static final RegistryObject<Block> SC_2 = REGISTRY.register("sc_2", () -> new SC2Block());
+	public static final RegistryObject<Block> NDVR = REGISTRY.register("ndvr", () -> new NDVRBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

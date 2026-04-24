@@ -10652,6 +10652,108 @@
           "src/main/resources/assets/school/blockstates/prs.json"
         ]
       }
+    },
+    {
+      "name": "SC",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/blockstates/sc.json",
+          "src/main/resources/assets/school/models/block/sc.json",
+          "src/main/resources/assets/school/models/item/sc.json",
+          "src/main/java/net/xbtstudio/school/block/SCBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/sc.json"
+        ]
+      }
+    },
+    {
+      "name": "SC1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/sc_1.json",
+          "src/main/resources/assets/school/blockstates/sc_1.json",
+          "src/main/resources/data/school/loot_tables/blocks/sc_1.json",
+          "src/main/resources/assets/school/models/block/sc_1.json",
+          "src/main/java/net/xbtstudio/school/block/SC1Block.java"
+        ]
+      }
+    },
+    {
+      "name": "SC2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sc_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/block/sc_2.json",
+          "src/main/java/net/xbtstudio/school/block/SC2Block.java",
+          "src/main/resources/assets/school/models/item/sc_2.json",
+          "src/main/resources/data/school/loot_tables/blocks/sc_2.json",
+          "src/main/resources/assets/school/blockstates/sc_2.json"
+        ]
+      }
+    },
+    {
+      "name": "NDVR",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ndvr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/ndvr.json",
+          "src/main/java/net/xbtstudio/school/block/NDVRBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/ndvr.json",
+          "src/main/resources/assets/school/models/block/ndvr.json",
+          "src/main/resources/assets/school/blockstates/ndvr.json"
+        ]
+      }
+    },
+    {
+      "name": "OGGTA6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oggta_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/OGGTA6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/oggta"
+    },
+    {
+      "name": "Oggta7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oggta_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/Oggta7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/oggta"
     }
   ],
   "variable_elements": [
@@ -10829,7 +10931,7 @@
       "block.school.mopsink": "Mop sink",
       "block.school.laptop": "Laptop",
       "block.school.slidingwindows_blue": "Sliding windows (Blue)",
-      "block.school.old_pc": "Old Pc",
+      "block.school.old_pc": "Horizontal computer with CRT monitor",
       "block.school.outdoorslidingdoors_1": "Outdoor sliding door structure",
       "block.school.toiletdoorpanels_mi": "Toilet door panels",
       "block.school.oncq": "Curtain",
@@ -10866,7 +10968,7 @@
       "block.school.classroom_iron_door": "Classroom iron door",
       "block.school.itmusthavebeen_optifinetodoit": "It must have been Optifine to do it!",
       "gui.school.musicselectionpage.button_shut_down": "Shut down",
-      "gui.school.school_bell_controller_gui.button_colorful_sunshine": "Colorful sunshine",
+      "gui.school.school_bell_controller_gui.button_colorful_sunshine": "Primary Exercises",
       "block.school.smallslidinwindowblue": "Small sliding window (Blue)",
       "block.school.extralargeslidingwindows_blue_1": "Extra-large sliding windows (Blue)",
       "block.school.studyhard": "§4Study hard",
@@ -10878,8 +10980,10 @@
       "advancements.seewoq.title": "USB flash drive guillotine",
       "block.school.window_white_down_single": "Window White Down Single",
       "block.school.ac_large_out": "AC Large Out",
+      "block.school.sc_2": "Surveillance camera",
       "block.school.smallwindows_1": "2X2 windows ( white )",
       "block.school.casementwindows_1x_2": "Casement windows 1x2",
+      "block.school.sc_1": "Surveillance camera",
       "subtitles.eyeexercises": "Play - eye exercises",
       "block.school.extralargeslidingwindows": "Extra-large sliding windows",
       "block.school.minislidingwindow_blue_1": "Small sliding window (Blue)",
@@ -10888,6 +10992,7 @@
       "block.school.satellitetelevision": "satellite television",
       "block.school.blueconcretewall": "Blue Concrete Wall",
       "gui.school.school_bell_controller_gui.label_school_bell_controller": "School Bell Controller",
+      "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS Monitor - Education Edition",
       "item.school.chalk_smg": "Chalk SMG",
       "subtitles.dancingyouth": "Play - Dancing Youth",
       "block.school.greentallwall": "Green Tall Wall",
@@ -10903,7 +11008,7 @@
       "block.school.windowairconditionergreenwindow": "Window air conditioner (green window)",
       "block.school.greenconcretestair": "Green Concrete Stair",
       "item.school.chip": "Chip",
-      "block.school.old_pc_gslc": "Old Pc",
+      "block.school.old_pc_gslc": "Horizontal computer with CRT monitor - with Genshin Impact",
       "block.school.nocrttv": "NO CRT TV",
       "subtitles.welcometoeijing": "Naughty blue cat 3,000 questions",
       "block.school.cornerwindows_hengsu_4": "Corner windows Hengsu ( green )",
@@ -10993,7 +11098,7 @@
       "block.school.smallslidiwindowblue": "Small sliding window (Blue)",
       "block.school.caasementwindows_1x_22": "Casement windows 1x2",
       "block.school.white_concrete_stair": "White Concrete Stair",
-      "block.school.pcmc": "PC",
+      "block.school.pcmc": "Hisense 23.8\" Monitor  PC Minecraft",
       "block.school.ontheminislidingwindow_blue": "on the mini sliding window (Blue)",
       "block.school.window_black_down": "Window Black Down",
       "block.school.smallwindowsgreen": "2x2 windows ( green )",
@@ -11006,6 +11111,7 @@
       "block.school.laboratoryexhausthood": "Laboratory exhaust hood",
       "block.school.largeslidingwindowsbbk": "Large sliding windows (Black)",
       "block.school.tall_wall_corner": "White Tall Wall Corner",
+      "block.school.ndvr": "Network Digital Video Recorder",
       "block.school.window_old_up_single": "Window Old Up Single",
       "block.school.laptop_on": "Laptop Power On",
       "block.school.extralargeslidingwindows_black_1": "Extra-large sliding windows (Black)",
@@ -11024,9 +11130,11 @@
       "block.school.greendoubleglasswindows": "old-fashioned Green glass window",
       "item.school.set_square": "Set Square",
       "block.school.blacktallwallcorner": "Black Tall Wall Corner",
+      "gui.school.musicselectionpage.button_pla_march": "PLA March",
       "block.school.mobile_red_flags": "§4Mobile Red Flags",
       "block.school.ubuntu": "Desk with desktop computer",
       "block.school.books": "Books",
+      "block.school.sc": "Surveillance camera",
       "block.school.bluemusicchair": "Blue music chair",
       "block.school.halfwallfence": "Half wall fence",
       "block.school.classroomdoors": "Classroom doors",
@@ -11081,8 +11189,8 @@
       "advancements.paperless_office.title": "Paperless Office",
       "gui.school.box.label_laboratory_cabinet": "Laboratory Cabinet",
       "subtitles.june_1st_children_s_network": "June 1st Children\u0027s Network",
-      "gui.school.school_bell_controller_gui.button_dancing_youth": "Dancing youth",
-      "block.school.pc": "PC",
+      "gui.school.school_bell_controller_gui.button_dancing_youth": "SecondaryExercises",
+      "block.school.pc": "Hisense 23.8\" Monitor PC",
       "block.school.blacktiles": "Black tiles",
       "block.school.white_concrete_wall": "White Concrete Wall",
       "gui.school.nocat.label_you_still_want_to_be_reborn_dre": "You still want to be reborn? Dream on. Clicking does nothing.",
@@ -11116,6 +11224,7 @@
       "block.school.cornerwindowssmall_3": "Corner windows small ( green )",
       "block.school.cornerwindowssmall_1": "Corner windows small ( black )",
       "block.school.cornerwindowssmall_2": "Corner windows small ( blue )",
+      "block.school.p_con.description_0": "§fHisense 24N3G §7IPS Monitor - Education Edition",
       "block.school.slidingwindows": "Sliding windows",
       "block.school.curtain": "Curtain",
       "block.school.classroom_light": "Classroom Light",
@@ -11129,6 +11238,7 @@
       "gui.school.school_bell_controller_gui.button_nap_bell": "Nap bell",
       "block.school.extralargeslidingwindows_green_1": "Extra-large sliding windows (Green)",
       "block.school.window_black_up": "Window Black Up",
+      "block.school.pc.description_0": "§fHisense 24N3G §7IPS Monitor - Education Edition",
       "block.school.june_1st_childrens_network": "June 1st Childrens Network",
       "block.school.smallwindowsblue": "2x2 windows ( blue )",
       "block.school.dtmbdvbt": "Digital TV antenna（DTMB DVB-T）",
@@ -11179,6 +11289,7 @@
       "block.school.window_white_up_single": "Window White Up Single",
       "advancements.gamble.descr": "Eat a bottle of laboratory sugar",
       "advancements.mobile_black_flag.descr": "Dirty, messy, poor",
+      "gui.school.musicselectionpage.button_ode_to_the_motherland": "Ode to the Motherland",
       "item.school.student_meal": "Student Meal",
       "gui.school.school_bell_controller_gui.button_running_drills": "Running drill music",
       "item_group.school.build": "Build",
@@ -11208,7 +11319,7 @@
       "block.school.broadcastcrew": "Broadcast crew",
       "block.school.smallslidingwindow_blue": "Small sliding window (Blue)",
       "block.school.smallslidingwindow": "Small sliding window",
-      "block.school.old_pc_on": "Old Pc",
+      "block.school.old_pc_on": "Horizontal computer with CRT monitor-ON",
       "advancements.school_mod.descr": "Is it school or prison?",
       "block.school.smallwindowswhite": "1X2 windows ( white )",
       "block.school.largetiles": "Large tiles",
@@ -11229,7 +11340,7 @@
       "block.school.antitheftnets_air": "Anti-theft nets AIR",
       "block.school.seewo.description_1": "Model map Contributors",
       "block.school.seewo.description_0": "mcmod Imposter",
-      "block.school.p_con": "PC (win11）",
+      "block.school.p_con": "Hisense 23.8\" Monitor PC (win11）",
       "block.school.blacktallwall": "Black Tall Wall",
       "block.school.on_deskwithdesktopcomputer": "Desk with desktop computer",
       "item.school.chalk_rf": "Chalk Rifle",
@@ -11265,6 +11376,7 @@
       "gui.school.musicselectionpage.button_running_drills": "Running drill music",
       "block.school.greytallwall": "灰色高墙",
       "block.school.see_10": "Seewo(Win11)",
+      "block.school.fu.description_0\\": "§5Happy New Year! 新年快乐！",
       "block.school.window_black_up_single": "迷你黑色玻璃窗（上半）",
       "block.school.onc": "窗帘",
       "block.school.acina": "空调挂机",
@@ -11290,7 +11402,7 @@
       "block.school.mopsink": "拖布池",
       "block.school.laptop": "笔记本电脑",
       "block.school.slidingwindows_blue": "推拉窗 ( 蓝色 )",
-      "block.school.old_pc": "老式电脑",
+      "block.school.old_pc": "带有CRT显示器的卧式电脑",
       "block.school.outdoorslidingdoors_1": "户外推拉门结构",
       "block.school.toiletdoorpanels_mi": "厕所门板",
       "block.school.oncq": "窗帘",
@@ -11327,7 +11439,7 @@
       "block.school.classroom_iron_door": "教室铁门",
       "block.school.itmusthavebeen_optifinetodoit": "一定是optifine干的！",
       "gui.school.musicselectionpage.button_shut_down": "关闭",
-      "gui.school.school_bell_controller_gui.button_colorful_sunshine": "七彩阳光",
+      "gui.school.school_bell_controller_gui.button_colorful_sunshine": "小学广播操",
       "block.school.smallslidinwindowblue": "推拉窗 ( 蓝色 )",
       "block.school.extralargeslidingwindows_blue_1": "特大推拉窗 （蓝）",
       "block.school.studyhard": "§4好好学习",
@@ -11339,8 +11451,10 @@
       "block.school.dvbts": "卫星-地面电视接收机 （DVB）",
       "block.school.window_white_down_single": "迷你白色玻璃窗（下半）",
       "block.school.ac_large_out": "大型空调外机",
+      "block.school.sc_2": "监控摄像头",
       "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
       "block.school.casementwindows_1x_2": "平开窗1X2",
+      "block.school.sc_1": "监控摄像头",
       "subtitles.eyeexercises": "眼保健操：播放 ",
       "block.school.extralargeslidingwindows": "特大推拉窗 ",
       "block.school.minislidingwindow_blue_1": "迷你推拉窗（蓝）",
@@ -11348,6 +11462,7 @@
       "advancements.itmusthavebeen_optifinetodo.descr": "你竟然在装optifine的Minecraft里头运行中国式学校及家庭模组!",
       "block.school.satellitetelevision": "卫星电视",
       "block.school.blueconcretewall": "蓝色混凝土墙",
+      "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS 显示器 - 教育版",
       "gui.school.school_bell_controller_gui.label_school_bell_controller": "欢迎使用学校铃声控制器",
       "item.school.chalk_smg": "粉笔头冲锋枪",
       "subtitles.dancingyouth": "舞动青春：播放",
@@ -11364,7 +11479,7 @@
       "block.school.windowairconditionergreenwindow": "窗式空调 ( 绿色窗 )",
       "block.school.greenconcretestair": "绿色混凝土台阶",
       "item.school.chip": "芯片",
-      "block.school.old_pc_gslc": "老式电脑（原神启动）",
+      "block.school.old_pc_gslc": "带有CRT显示器的卧式电脑-带有原神",
       "block.school.nocrttv": "CRT 电视",
       "subtitles.welcometoeijing": "淘气蓝猫三千问",
       "block.school.cornerwindows_hengsu_4": "带横杠转角窗户 ( 绿色 )",
@@ -11384,8 +11499,8 @@
       "block.school.largeslidingwindows_black_1": "大推拉窗（黑）",
       "block.school.redconcretewall": "红色混凝土墙",
       "block.school.screen": "显示器",
-      "block.school.sidewalk": "人行道",
       "block.school.fluorescentlamps": "教室专用荧光灯",
+      "block.school.sidewalk": "人行道",
       "block.school.minislidingwindow_green_1": "迷你推拉窗（绿）",
       "block.school.yellowtallwallcorner": "黄色高墙（拐角）",
       "block.school.smallslidingwindobbk": "推拉窗  ( 黑色 )",
@@ -11421,7 +11536,6 @@
       "block.school.pushandpullchalkboard_2": "推拉黑板  ( 开启 )",
       "itemGroup.tab_laboratory": "电子设备和杂物",
       "block.school.orangeconcretestair_q": "橙色混凝土墙",
-      "block.school.fu.description_0": "§5Happy New Year! 新年快乐！",
       "block.school.white_board": "传统白板",
       "advancements.tvas.descr": "您购买了一台新的电视并放置在了家里",
       "item.school.colorful_ink_bags": "彩色墨囊",
@@ -11454,7 +11568,7 @@
       "block.school.smallslidiwindowblue": "推拉窗 ( 蓝色 )",
       "block.school.caasementwindows_1x_22": "平开窗1X2 黑色",
       "block.school.white_concrete_stair": "白色混凝土台阶",
-      "block.school.pcmc": "电脑（我的世界打开）",
+      "block.school.pcmc": "Hisense 23.8\" 显示器 电脑 我的世界",
       "block.school.ontheminislidingwindow_blue": "上迷你推拉窗（蓝）",
       "block.school.window_black_down": "黑色玻璃窗（下半）",
       "block.school.smallwindowsgreen": "带横杠窗户 ( 绿色 )",
@@ -11467,6 +11581,7 @@
       "block.school.laboratoryexhausthood": "实验室排风罩",
       "block.school.largeslidingwindowsbbk": "大推拉窗（黑）",
       "block.school.tall_wall_corner": "白色高墙（拐角）",
+      "block.school.ndvr": "网络数字视频录像机",
       "block.school.window_old_up_single": "蓝色老式迷你玻璃窗（上半）",
       "block.school.laptop_on": "Laptop",
       "block.school.extralargeslidingwindows_black_1": "特大推拉窗 （黑）",
@@ -11485,9 +11600,11 @@
       "block.school.greendoubleglasswindows": "绿色老式玻璃窗 ( 下半 )",
       "item.school.set_square": "三角板",
       "block.school.blacktallwallcorner": "黑色高墙（拐角）",
+      "gui.school.musicselectionpage.button_pla_march": "中国人民解放军进行曲",
       "block.school.mobile_red_flags": "§4流动红旗",
       "block.school.ubuntu": "带有台式电脑的桌子",
       "block.school.books": "堆叠的书",
+      "block.school.sc": "监控摄像头",
       "block.school.bluemusicchair": "音乐教室板凳（蓝色）",
       "block.school.halfwallfence": "半墙围栏",
       "block.school.classroomdoors": "教室门",
@@ -11542,8 +11659,8 @@
       "advancements.paperless_office.title": "空地图制造厂",
       "gui.school.box.label_laboratory_cabinet": "实验室储物柜",
       "subtitles.june_1st_children_s_network": "六一儿童网 我爱洗澡",
-      "gui.school.school_bell_controller_gui.button_dancing_youth": "舞动青春",
-      "block.school.pc": "电脑",
+      "gui.school.school_bell_controller_gui.button_dancing_youth": "中学广播操",
+      "block.school.pc": "Hisense 23.8\" 显示器 电脑 ",
       "block.school.blacktiles": "黑色瓷砖",
       "block.school.white_concrete_wall": "白色混凝土墙",
       "gui.school.nocat.label_you_still_want_to_be_reborn_dre": "你还想重生吗？做梦吧。点击无效。",
@@ -11577,6 +11694,7 @@
       "block.school.cornerwindowssmall_3": "小转角窗户 ( 绿色 )",
       "block.school.cornerwindowssmall_1": "小转角窗户 ( 黑色 )",
       "block.school.cornerwindowssmall_2": "小转角窗户 ( 蓝色 )",
+      "block.school.p_con.description_0": "§fHisense 24N3G §7IPS Monitor - Education Edition",
       "block.school.slidingwindows": "推拉窗",
       "block.school.curtain": "窗帘",
       "block.school.classroom_light": "教室灯",
@@ -11590,6 +11708,7 @@
       "gui.school.school_bell_controller_gui.button_nap_bell": "午睡铃",
       "block.school.extralargeslidingwindows_green_1": "特大推拉窗 （绿）",
       "block.school.window_black_up": "黑色玻璃窗（上半）",
+      "block.school.pc.description_0": "§fHisense 24N3G §7IPS 显示器 - 教育版",
       "block.school.june_1st_childrens_network": "六一儿童网",
       "block.school.smallwindowsblue": "带横杠窗户 ( 蓝色 )",
       "block.school.dtmbdvbt": "数字电视天线（DTMB DVB-T）",
@@ -11640,6 +11759,7 @@
       "block.school.window_white_up_single": "迷你白色玻璃窗（上半）",
       "advancements.gamble.descr": "食用一瓶实验室白糖",
       "advancements.mobile_black_flag.descr": "脏，乱，差 ",
+      "gui.school.musicselectionpage.button_ode_to_the_motherland": "歌唱祖国：林妙可",
       "item.school.student_meal": "学生便当",
       "gui.school.school_bell_controller_gui.button_running_drills": "跑操音乐",
       "item_group.school.build": "建筑结构",
@@ -11669,7 +11789,7 @@
       "block.school.broadcastcrew": "广播主机",
       "block.school.smallslidingwindow_blue": "小推拉窗 ( 蓝 )",
       "block.school.smallslidingwindow": "小推拉窗",
-      "block.school.old_pc_on": "老式电脑（开机）",
+      "block.school.old_pc_on": "带有CRT显示器的卧式电脑-开机",
       "advancements.school_mod.descr": "是学校，还是监狱？",
       "block.school.smallwindowswhite": "带横杠小窗户 ( 白色 )",
       "block.school.largetiles": "大瓷砖",
@@ -11690,7 +11810,7 @@
       "block.school.antitheftnets_air": "防盗网 空调 ",
       "block.school.seewo.description_1": "§5模型材质贡献者",
       "block.school.seewo.description_0": "§5MC百科 Imposter",
-      "block.school.p_con": "电脑（win11）",
+      "block.school.p_con": "Hisense 23.8\" 显示器 电脑（win11）",
       "block.school.blacktallwall": "黑色高墙",
       "block.school.on_deskwithdesktopcomputer": "带有台式电脑的桌子（开）",
       "item.school.chalk_rf": "粉笔头狙击枪",
@@ -11728,7 +11848,7 @@
   "workspaceSettings": {
     "modid": "school",
     "modName": "Chinese-style school as well as home",
-    "version": "0.90.5",
+    "version": "0.90.6",
     "description": "模组的原作者是江竹雨offical，目前作者不是原作者，所以模组会按照新作者的想法来做贡献者: MC百科 Imposter",
     "author": "Noel-Cornehl 江竹雨offical",
     "websiteURL": "https://space.bilibili.com/1685065897",

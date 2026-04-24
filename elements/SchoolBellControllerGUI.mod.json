@@ -78,7 +78,7 @@
         "type": "button",
         "data": {
           "name": "button_dancing_youth",
-          "text": "Dancing youth",
+          "text": "SecondaryExercises",
           "isUndecorated": false,
           "onClick": {
             "name": "DancingYouth"
@@ -94,7 +94,7 @@
         "type": "button",
         "data": {
           "name": "button_colorful_sunshine",
-          "text": "Colorful sunshine",
+          "text": "Primary Exercises",
           "isUndecorated": false,
           "onClick": {
             "name": "ColorfulSunshine"
@@ -133,7 +133,7 @@
           },
           "width": 113,
           "height": 20,
-          "x": 203,
+          "x": 204,
           "y": 96,
           "locked": false
         }
@@ -179,7 +179,7 @@
           "onClick": {
             "name": "Napbell"
           },
-          "width": 66,
+          "width": 88,
           "height": 20,
           "x": 229,
           "y": 72,

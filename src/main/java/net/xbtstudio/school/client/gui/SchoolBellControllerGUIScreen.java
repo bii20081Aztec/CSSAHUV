@@ -132,7 +132,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(6, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
-		}).bounds(this.leftPos + 99, this.topPos + 47, 113, 20).build();
+		}).bounds(this.leftPos + 100, this.topPos + 47, 113, 20).build();
 		guistate.put("button:button_running_drills", button_running_drills);
 		this.addRenderableWidget(button_running_drills);
 		button_shut_down = Button.builder(Component.translatable("gui.school.school_bell_controller_gui.button_shut_down"), e -> {
@@ -148,7 +148,7 @@ public class SchoolBellControllerGUIScreen extends AbstractContainerScreen<Schoo
 				SchoolMod.PACKET_HANDLER.sendToServer(new SchoolBellControllerGUIButtonMessage(8, x, y, z));
 				SchoolBellControllerGUIButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
-		}).bounds(this.leftPos + 125, this.topPos + 23, 66, 20).build();
+		}).bounds(this.leftPos + 125, this.topPos + 23, 88, 20).build();
 		guistate.put("button:button_nap_bell", button_nap_bell);
 		this.addRenderableWidget(button_nap_bell);
 	}

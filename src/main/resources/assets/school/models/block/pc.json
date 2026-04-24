@@ -1,10 +1,10 @@
 {
-  "parent": "school:custom/pc",
+  "parent": "school:custom/hisense_24_monitor",
   "textures": {
     "all": "school:block/pc",
     "particle": "school:block/pc",
-    "1": "school:block/pc",
-    "2": "school:block/qaza"
+    "0": "school:block/hisense_24monitor",
+    "1": "school:block/seewohd"
   },
   "render_type": "solid"
 }

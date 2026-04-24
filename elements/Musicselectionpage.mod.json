@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 260,
-    "height": 120,
+    "height": 140,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -21,8 +21,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 90,
-          "y": 63,
+          "x": 91,
+          "y": 57,
           "locked": false
         }
       },
@@ -35,10 +35,10 @@
           "onClick": {
             "name": "Shutdown"
           },
-          "width": 55,
+          "width": 68,
           "height": 20,
-          "x": 272,
-          "y": 78,
+          "x": 270,
+          "y": 68,
           "locked": false
         }
       },
@@ -53,8 +53,8 @@
           },
           "width": 181,
           "height": 20,
-          "x": 90,
-          "y": 78,
+          "x": 88,
+          "y": 68,
           "locked": false
         }
       },
@@ -67,10 +67,10 @@
           "onClick": {
             "name": "Oggta1"
           },
-          "width": 119,
+          "width": 135,
           "height": 20,
-          "x": 91,
-          "y": 124,
+          "x": 88,
+          "y": 110,
           "locked": false
         }
       },
@@ -83,10 +83,10 @@
           "onClick": {
             "name": "Oggta5"
           },
-          "width": 98,
+          "width": 129,
           "height": 20,
-          "x": 112,
-          "y": 101,
+          "x": 88,
+          "y": 89,
           "locked": false
         }
       },
@@ -99,10 +99,10 @@
           "onClick": {
             "name": "Oggta3"
           },
-          "width": 67,
+          "width": 135,
           "height": 20,
-          "x": 143,
-          "y": 146,
+          "x": 88,
+          "y": 132,
           "locked": false
         }
       },
@@ -117,8 +117,8 @@
           },
           "width": 119,
           "height": 20,
-          "x": 211,
-          "y": 101,
+          "x": 219,
+          "y": 89,
           "locked": false
         }
       },
@@ -131,10 +131,10 @@
           "onClick": {
             "name": "DoctorSound"
           },
-          "width": 108,
+          "width": 113,
           "height": 20,
-          "x": 211,
-          "y": 124,
+          "x": 225,
+          "y": 110,
           "locked": false
         }
       },
@@ -147,10 +147,42 @@
           "onClick": {
             "name": "StopSound"
           },
-          "width": 98,
+          "width": 113,
           "height": 20,
-          "x": 211,
-          "y": 146,
+          "x": 225,
+          "y": 132,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ode_to_the_motherland",
+          "text": "Ode to the Motherland",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "OGGTA6"
+          },
+          "width": 135,
+          "height": 20,
+          "x": 88,
+          "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_pla_march",
+          "text": "PLA March",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Oggta7"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 225,
+          "y": 154,
           "locked": false
         }
       }

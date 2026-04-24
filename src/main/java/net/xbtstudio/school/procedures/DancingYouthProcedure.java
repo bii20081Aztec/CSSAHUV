@@ -18,7 +18,7 @@ public class DancingYouthProcedure {
 			return;
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"playsound yin_yue_tai:wu_dong_qing_chun_ogg music @a");
+					"playsound yin_yue_tai:wu_dong_qing_chun music @a");
 		{
 			double _setval = 6;
 			entity.getCapability(SchoolModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "surveillance_camera"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -18,7 +18,7 @@ public class ColorfulSunshineProcedure {
 			return;
 		if (world instanceof ServerLevel _level)
 			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-					"playsound yin_yue_tai:qi_cai_yang_guang_ogg music @a");
+					"playsound yin_yue_tai:qi_cai_yang_guang music @a");
 		{
 			double _setval = 3;
 			entity.getCapability(SchoolModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

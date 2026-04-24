@@ -79,6 +79,10 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.AEAT.get().asItem());
 				tabData.accept(SchoolModBlocks.POF.get().asItem());
 				tabData.accept(SchoolModBlocks.HPMPC.get().asItem());
+				tabData.accept(SchoolModBlocks.SC.get().asItem());
+				tabData.accept(SchoolModBlocks.SC_1.get().asItem());
+				tabData.accept(SchoolModBlocks.SC_2.get().asItem());
+				tabData.accept(SchoolModBlocks.NDVR.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> SCHOOL = REGISTRY.register("school",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.school")).icon(() -> new ItemStack(Blocks.BELL)).displayItems((parameters, tabData) -> {

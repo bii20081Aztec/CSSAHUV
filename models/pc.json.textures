@@ -1,16 +1,9 @@
 {
   "mappings": {
-    "a": {
-      "map": {
-        "1": "pconn",
-        "2": "win8"
-      },
-      "name": "a"
-    },
     "default": {
       "map": {
         "1": "pconn",
-        "2": "ctyh"
+        "2": "win7"
       },
       "name": "default"
     },

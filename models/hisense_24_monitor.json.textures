@@ -1,0 +1,25 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hisense_24monitor",
+        "1": "ctyh"
+      },
+      "name": "default"
+    },
+    "a": {
+      "map": {
+        "0": "hisense_24monitor",
+        "1": "seewohd"
+      },
+      "name": "a"
+    },
+    "b": {
+      "map": {
+        "0": "hisense_24monitor",
+        "1": "pcminecraft"
+      },
+      "name": "b"
+    }
+  }
+}

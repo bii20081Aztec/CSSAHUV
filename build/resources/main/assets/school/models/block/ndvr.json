@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/network_digital_video_recorder",
+  "textures": {
+    "all": "school:block/network_digital_video_recorder",
+    "particle": "school:block/network_digital_video_recorder",
+    "0": "school:block/network_digital_video_recorder"
+  },
+  "render_type": "solid"
+}

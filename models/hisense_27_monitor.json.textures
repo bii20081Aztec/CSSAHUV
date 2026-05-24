@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "ctyh",
+        "2": "hisense_27monitor"
+      },
+      "name": "default"
+    },
+    "off": {
+      "map": {
+        "1": "qaza",
+        "2": "hisense_27monitor"
+      },
+      "name": "off"
+    }
+  }
+}

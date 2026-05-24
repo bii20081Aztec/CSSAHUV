@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "on_the_mini_sliding_window"
+      },
+      "name": "default"
+    },
+    "bg": {
+      "map": {
+        "0": "on_the_mini_sliding_window_blue"
+      },
+      "name": "bg"
+    },
+    "bl": {
+      "map": {
+        "0": "on_the_mini_sliding_window_black"
+      },
+      "name": "bl"
+    },
+    "gr": {
+      "map": {
+        "0": "on_the_mini_sliding_window_green"
+      },
+      "name": "gr"
+    }
+  }
+}

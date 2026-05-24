@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/toilet_door_stopper_assembly",
+  "textures": {
+    "all": "school:block/toilet_doors_on",
+    "particle": "school:block/toilet_doors_on",
+    "0": "school:block/toilet_doors_on",
+    "1": "school:block/toilet_door_panels"
+  },
+  "render_type": "solid"
+}

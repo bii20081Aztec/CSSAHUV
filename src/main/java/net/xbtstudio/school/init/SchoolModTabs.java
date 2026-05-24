@@ -83,6 +83,7 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.SC_1.get().asItem());
 				tabData.accept(SchoolModBlocks.SC_2.get().asItem());
 				tabData.accept(SchoolModBlocks.NDVR.get().asItem());
+				tabData.accept(SchoolModBlocks.PCL.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> SCHOOL = REGISTRY.register("school",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.school")).icon(() -> new ItemStack(Blocks.BELL)).displayItems((parameters, tabData) -> {
@@ -231,6 +232,14 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.LARGESLIDINGWINDOWS_BL.get().asItem());
 				tabData.accept(SchoolModBlocks.SMALLSLIDINGWINDOWGREE.get().asItem());
 				tabData.accept(SchoolModBlocks.LARGESLIDINGWINDOWS_GE.get().asItem());
+				tabData.accept(SchoolModBlocks.SSW.get().asItem());
+				tabData.accept(SchoolModBlocks.SSWB.get().asItem());
+				tabData.accept(SchoolModBlocks.SSWU.get().asItem());
+				tabData.accept(SchoolModBlocks.SSWG.get().asItem());
+				tabData.accept(SchoolModBlocks.LTABSW.get().asItem());
+				tabData.accept(SchoolModBlocks.LTABSWB.get().asItem());
+				tabData.accept(SchoolModBlocks.LTABSWU.get().asItem());
+				tabData.accept(SchoolModBlocks.LTABSWG.get().asItem());
 			}).withTabsBefore(SCHOOL.getId()).build());
 	public static final RegistryObject<CreativeModeTab> BUILD = REGISTRY.register("build",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.build")).icon(() -> new ItemStack(Items.DIAMOND_PICKAXE)).displayItems((parameters, tabData) -> {
@@ -332,6 +341,9 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.MOPSINK.get().asItem());
 				tabData.accept(SchoolModBlocks.SQUATTINGURINAL_1.get().asItem());
 				tabData.accept(SchoolModBlocks.PRS.get().asItem());
+				tabData.accept(SchoolModBlocks.URINAL.get().asItem());
+				tabData.accept(SchoolModBlocks.TOILET.get().asItem());
+				tabData.accept(SchoolModBlocks.TDSA.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
 
 	@SubscribeEvent

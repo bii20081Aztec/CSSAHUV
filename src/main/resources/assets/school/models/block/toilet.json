@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/toilet",
+  "textures": {
+    "all": "school:block/toilet",
+    "particle": "school:block/toilet",
+    "0": "school:block/toilet"
+  },
+  "render_type": "solid"
+}

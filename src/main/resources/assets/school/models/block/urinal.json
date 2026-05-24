@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/urinal",
+  "textures": {
+    "all": "school:block/urinal",
+    "particle": "school:block/urinal",
+    "0": "school:block/urinal"
+  },
+  "render_type": "solid"
+}

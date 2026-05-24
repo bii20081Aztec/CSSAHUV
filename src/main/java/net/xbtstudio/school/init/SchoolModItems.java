@@ -395,6 +395,28 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> SC_1 = block(SchoolModBlocks.SC_1);
 	public static final RegistryObject<Item> SC_2 = block(SchoolModBlocks.SC_2);
 	public static final RegistryObject<Item> NDVR = block(SchoolModBlocks.NDVR);
+	public static final RegistryObject<Item> PCLON = block(SchoolModBlocks.PCLON);
+	public static final RegistryObject<Item> PCL = block(SchoolModBlocks.PCL);
+	public static final RegistryObject<Item> SSW = block(SchoolModBlocks.SSW);
+	public static final RegistryObject<Item> SSWO = block(SchoolModBlocks.SSWO);
+	public static final RegistryObject<Item> SSWB = block(SchoolModBlocks.SSWB);
+	public static final RegistryObject<Item> SSWBO = block(SchoolModBlocks.SSWBO);
+	public static final RegistryObject<Item> SSWU = block(SchoolModBlocks.SSWU);
+	public static final RegistryObject<Item> SSWOU = block(SchoolModBlocks.SSWOU);
+	public static final RegistryObject<Item> SSWG = block(SchoolModBlocks.SSWG);
+	public static final RegistryObject<Item> SSWOG = block(SchoolModBlocks.SSWOG);
+	public static final RegistryObject<Item> LTABSW = block(SchoolModBlocks.LTABSW);
+	public static final RegistryObject<Item> LTABSWO = block(SchoolModBlocks.LTABSWO);
+	public static final RegistryObject<Item> LTABSWB = block(SchoolModBlocks.LTABSWB);
+	public static final RegistryObject<Item> LTABSWBO = block(SchoolModBlocks.LTABSWBO);
+	public static final RegistryObject<Item> LTABSWU = block(SchoolModBlocks.LTABSWU);
+	public static final RegistryObject<Item> LTABSWUO = block(SchoolModBlocks.LTABSWUO);
+	public static final RegistryObject<Item> LTABSWG = block(SchoolModBlocks.LTABSWG);
+	public static final RegistryObject<Item> LTABSWGO = block(SchoolModBlocks.LTABSWGO);
+	public static final RegistryObject<Item> URINAL = block(SchoolModBlocks.URINAL);
+	public static final RegistryObject<Item> TOILET = block(SchoolModBlocks.TOILET);
+	public static final RegistryObject<Item> TOSAO = block(SchoolModBlocks.TOSAO);
+	public static final RegistryObject<Item> TDSA = block(SchoolModBlocks.TDSA);
 
 	// Start of user code block custom items
 	// End of user code block custom items

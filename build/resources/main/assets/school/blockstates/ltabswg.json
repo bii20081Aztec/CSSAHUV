@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/ltabswg"
+    },
+    "facing=east": {
+      "model": "school:block/ltabswg",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/ltabswg",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/ltabswg",
+      "y": 270
+    }
+  }
+}

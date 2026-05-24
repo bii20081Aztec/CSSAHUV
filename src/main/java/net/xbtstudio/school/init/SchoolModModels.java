@@ -16,7 +16,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class SchoolModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
-		event.registerLayerDefinition(Modelchalks.LAYER_LOCATION, Modelchalks::createBodyLayer);
 		event.registerLayerDefinition(Modelchalk.LAYER_LOCATION, Modelchalk::createBodyLayer);
+		event.registerLayerDefinition(Modelchalks.LAYER_LOCATION, Modelchalks::createBodyLayer);
 	}
 }

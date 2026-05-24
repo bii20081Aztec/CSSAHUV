@@ -1,0 +1,520 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        0
+      ],
+      "to": [
+        12,
+        0.3,
+        7
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            28.5,
+            23.5,
+            32.5,
+            23.625
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            10.5,
+            29,
+            14,
+            29.125
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            6,
+            29,
+            10,
+            29.125
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            29,
+            17,
+            32.5,
+            17.125
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            4,
+            27,
+            0,
+            23.5
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            8,
+            23.5,
+            4,
+            27
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "from": [
+        7.3,
+        0,
+        1
+      ],
+      "to": [
+        8.8,
+        7,
+        2.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          0,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            27,
+            1.75,
+            30.5
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            2,
+            27,
+            2.75,
+            30.5
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            3,
+            27,
+            3.75,
+            30.5
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            4,
+            27,
+            4.75,
+            30.5
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            29.25,
+            23.25,
+            28.5,
+            22.5
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            5.75,
+            29,
+            5,
+            29.75
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "from": [
+        -13,
+        4,
+        3
+      ],
+      "to": [
+        29,
+        26,
+        3.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5,
+          4,
+          3
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            21,
+            11
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            0,
+            27,
+            0.25,
+            38
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            0,
+            11,
+            21,
+            22
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            0.5,
+            27,
+            0.75,
+            38
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            46,
+            25.25,
+            25,
+            25
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            46,
+            25.5,
+            25,
+            25.75
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "from": [
+        -9,
+        4,
+        2.1
+      ],
+      "to": [
+        25,
+        11,
+        3.1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          -8,
+          4,
+          1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            17,
+            28.5,
+            20.5
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            17,
+            28.5,
+            17.25,
+            32
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            21,
+            20.5,
+            28.5,
+            24
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            28.5,
+            17,
+            28.75,
+            20.5
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            18,
+            26.75,
+            10.5,
+            26.5
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            18,
+            27,
+            10.5,
+            27.25
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "name": "Keyboard",
+      "from": [
+        -6.5,
+        0,
+        10
+      ],
+      "to": [
+        4.5,
+        0.6,
+        14
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          -7,
+          0,
+          0
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            20,
+            28,
+            25.5,
+            28.3125
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            6,
+            27,
+            8,
+            27.3125
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            25.5,
+            28,
+            31,
+            28.3125
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            6,
+            27.5,
+            8,
+            27.8125
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            13.5,
+            25.5,
+            8,
+            23.5
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            19,
+            23.5,
+            13.5,
+            25.5
+          ],
+          "texture": "#missing"
+        }
+      }
+    },
+    {
+      "name": "Mouse2",
+      "from": [
+        16,
+        0,
+        10
+      ],
+      "to": [
+        17.65,
+        1,
+        12.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          3,
+          0,
+          -1
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            18,
+            27,
+            18.8125,
+            27.5
+          ],
+          "texture": "#missing"
+        },
+        "east": {
+          "uv": [
+            6,
+            28,
+            7.25,
+            28.5
+          ],
+          "texture": "#missing"
+        },
+        "south": {
+          "uv": [
+            14,
+            29,
+            14.8125,
+            29.5
+          ],
+          "texture": "#missing"
+        },
+        "west": {
+          "uv": [
+            28.5,
+            22,
+            29.75,
+            22.5
+          ],
+          "texture": "#missing"
+        },
+        "up": {
+          "uv": [
+            18.8125,
+            26.75,
+            18,
+            25.5
+          ],
+          "texture": "#missing"
+        },
+        "down": {
+          "uv": [
+            5.8125,
+            27,
+            5,
+            28.25
+          ],
+          "texture": "#missing"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "translation": [
+        -3.5,
+        -4.25,
+        0
+      ],
+      "scale": [
+        1,
+        0.54,
+        1
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "group",
+      "origin": [
+        8,
+        8,
+        8
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        {
+          "name": "screen",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "scope": 0,
+          "color": 0,
+          "children": [
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  ]
+}

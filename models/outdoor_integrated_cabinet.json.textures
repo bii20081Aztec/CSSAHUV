@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "outdoor_integrated_cabinet"
+      },
+      "name": "default"
+    }
+  }
+}

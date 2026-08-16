@@ -1,7 +1,7 @@
 
 package net.xbtstudio.school.block;
 
-import net.xbtstudio.school.procedures.DoAlcoholLampBreakProcedure;
+import net.xbtstudio.school.procedures.ScreenDProcedure;
 import net.xbtstudio.school.init.SchoolModBlocks;
 
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
@@ -120,7 +120,7 @@ public class ScreenBlock extends Block implements SimpleWaterloggedBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		DoAlcoholLampBreakProcedure.execute(world, x, y, z);
+		ScreenDProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

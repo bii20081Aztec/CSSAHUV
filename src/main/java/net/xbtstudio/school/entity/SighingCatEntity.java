@@ -87,7 +87,7 @@ public class SighingCatEntity extends Monster {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(5, new HurtByTargetGoal(this));
+		this.targetSelector.addGoal(5, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Player.class, false, false));

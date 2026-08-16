@@ -1,7 +1,7 @@
 
 package net.xbtstudio.school.block;
 
-import net.xbtstudio.school.procedures.ChalkRFColdProcedure;
+import net.xbtstudio.school.procedures.SscreeedDProcedure;
 import net.xbtstudio.school.init.SchoolModBlocks;
 
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
@@ -120,7 +120,7 @@ public class SscreeedBlock extends Block implements SimpleWaterloggedBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		ChalkRFColdProcedure.execute(world, x, y, z);
+		SscreeedDProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

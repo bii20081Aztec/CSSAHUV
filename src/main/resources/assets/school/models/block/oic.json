@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/outdoor_integrated_cabinet",
+  "textures": {
+    "all": "school:block/outdoor_integrated_cabinet",
+    "particle": "school:block/outdoor_integrated_cabinet",
+    "0": "school:block/outdoor_integrated_cabinet"
+  },
+  "render_type": "solid"
+}

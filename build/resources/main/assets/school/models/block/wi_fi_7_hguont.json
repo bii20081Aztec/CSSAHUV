@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/wi-fi_7_hgu_ont",
+  "textures": {
+    "all": "school:block/wi-fi_7_hgu_ont",
+    "particle": "school:block/wi-fi_7_hgu_ont",
+    "0": "school:block/wi-fi_7_hgu_ont"
+  },
+  "render_type": "solid"
+}

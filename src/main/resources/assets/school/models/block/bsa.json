@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/base_station_antenna",
+  "textures": {
+    "all": "minecraft:block/bee_nest_bottom",
+    "particle": "minecraft:block/bee_nest_bottom",
+    "0": "school:block/base_station_antenna"
+  },
+  "render_type": "solid"
+}

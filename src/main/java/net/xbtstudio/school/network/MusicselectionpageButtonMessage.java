@@ -4,6 +4,7 @@ package net.xbtstudio.school.network;
 import net.xbtstudio.school.world.inventory.MusicselectionpageMenu;
 import net.xbtstudio.school.procedures.StopSoundProcedure;
 import net.xbtstudio.school.procedures.ShutdownProcedure;
+import net.xbtstudio.school.procedures.OpProcedure;
 import net.xbtstudio.school.procedures.Oggta7Procedure;
 import net.xbtstudio.school.procedures.Oggta5Procedure;
 import net.xbtstudio.school.procedures.Oggta4Procedure;
@@ -110,6 +111,10 @@ public class MusicselectionpageButtonMessage {
 		if (buttonID == 9) {
 
 			Oggta7Procedure.execute(entity);
+		}
+		if (buttonID == 10) {
+
+			OpProcedure.execute(world, x, y, z);
 		}
 	}
 

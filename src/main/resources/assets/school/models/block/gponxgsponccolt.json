@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/7-slot_gponxgs-pon_combo_chassis_olt",
+  "textures": {
+    "all": "school:block/xgs-pon_combo_chassis_olt",
+    "particle": "school:block/xgs-pon_combo_chassis_olt",
+    "0": "school:block/pof",
+    "1": "school:block/xgs-pon_combo_chassis_olt"
+  },
+  "render_type": "solid"
+}

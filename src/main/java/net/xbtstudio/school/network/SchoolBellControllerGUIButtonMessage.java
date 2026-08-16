@@ -4,9 +4,10 @@ package net.xbtstudio.school.network;
 import net.xbtstudio.school.world.inventory.SchoolBellControllerGUIMenu;
 import net.xbtstudio.school.procedures.StopSoundProcedure;
 import net.xbtstudio.school.procedures.ShutdownProcedure;
+import net.xbtstudio.school.procedures.Self0Procedure;
+import net.xbtstudio.school.procedures.SNEAProcedure;
 import net.xbtstudio.school.procedures.RunningdrillmusicProcedure;
 import net.xbtstudio.school.procedures.RecessProcedure;
-import net.xbtstudio.school.procedures.NapbellProcedure;
 import net.xbtstudio.school.procedures.EyeexercisesProcedure;
 import net.xbtstudio.school.procedures.DancingYouthProcedure;
 import net.xbtstudio.school.procedures.ColorfulSunshineProcedure;
@@ -104,7 +105,11 @@ public class SchoolBellControllerGUIButtonMessage {
 		}
 		if (buttonID == 8) {
 
-			NapbellProcedure.execute(world, x, y, z, entity);
+			SNEAProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			Self0Procedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "school:blocks/wi_fi_7_hguont",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "school:wi_fi_7_hguont"
+        }
+      ]
+    }
+  ]
+}

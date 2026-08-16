@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/wi_fi_7_hguont"
+    },
+    "facing=east": {
+      "model": "school:block/wi_fi_7_hguont",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/wi_fi_7_hguont",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/wi_fi_7_hguont",
+      "y": 270
+    }
+  }
+}

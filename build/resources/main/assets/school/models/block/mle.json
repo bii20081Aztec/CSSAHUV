@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/mle",
+  "textures": {
+    "all": "school:block/mle",
+    "particle": "school:block/mle",
+    "0": "school:block/mle"
+  },
+  "render_type": "solid"
+}

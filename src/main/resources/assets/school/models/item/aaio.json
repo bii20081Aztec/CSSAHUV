@@ -1,0 +1,7 @@
+{
+  "parent": "school:custom/vivoy22",
+  "textures": {
+    "0": "school:block/vivoy22",
+    "particle": "school:item/chalk"
+  }
+}

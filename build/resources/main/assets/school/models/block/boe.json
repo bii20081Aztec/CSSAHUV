@@ -1,0 +1,10 @@
+{
+  "parent": "school:custom/pog",
+  "textures": {
+    "all": "school:block/boe",
+    "particle": "school:block/boe",
+    "0": "school:block/pof",
+    "1": "school:block/boe"
+  },
+  "render_type": "cutout_mipped"
+}

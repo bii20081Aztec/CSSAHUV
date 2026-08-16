@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "built-in_panel_optical_modem_86_type"
+      },
+      "name": "default"
+    }
+  }
+}

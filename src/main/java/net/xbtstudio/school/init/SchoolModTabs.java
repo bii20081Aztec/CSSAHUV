@@ -84,6 +84,16 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.SC_2.get().asItem());
 				tabData.accept(SchoolModBlocks.NDVR.get().asItem());
 				tabData.accept(SchoolModBlocks.PCL.get().asItem());
+				tabData.accept(SchoolModItems.AAIO.get());
+				tabData.accept(SchoolModBlocks.BSA.get().asItem());
+				tabData.accept(SchoolModBlocks.BSAR.get().asItem());
+				tabData.accept(SchoolModBlocks.OIC.get().asItem());
+				tabData.accept(SchoolModBlocks.WI_FI_7_HGUONT.get().asItem());
+				tabData.accept(SchoolModBlocks.WI_FI_7ROUTER.get().asItem());
+				tabData.accept(SchoolModBlocks.BIPOM_86T.get().asItem());
+				tabData.accept(SchoolModBlocks.WI_FI_6_CMONT.get().asItem());
+				tabData.accept(SchoolModBlocks.BOE.get().asItem());
+				tabData.accept(SchoolModBlocks.GPONXGSPONCCOLT.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> SCHOOL = REGISTRY.register("school",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.school")).icon(() -> new ItemStack(Blocks.BELL)).displayItems((parameters, tabData) -> {
@@ -344,6 +354,7 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.URINAL.get().asItem());
 				tabData.accept(SchoolModBlocks.TOILET.get().asItem());
 				tabData.accept(SchoolModBlocks.TDSA.get().asItem());
+				tabData.accept(SchoolModBlocks.MLE.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
 
 	@SubscribeEvent

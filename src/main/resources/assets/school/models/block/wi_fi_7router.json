@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/wi-fi_7_router",
+  "textures": {
+    "all": "school:block/wi-fi_7_router",
+    "particle": "school:block/wi-fi_7_router",
+    "0": "school:block/wi-fi_7_router"
+  },
+  "render_type": "solid"
+}

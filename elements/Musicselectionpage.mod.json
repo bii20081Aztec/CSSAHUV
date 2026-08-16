@@ -4,7 +4,7 @@
   "definition": {
     "type": 0,
     "width": 260,
-    "height": 140,
+    "height": 160,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -21,8 +21,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 91,
-          "y": 57,
+          "x": 88,
+          "y": 44,
           "locked": false
         }
       },
@@ -183,6 +183,22 @@
           "height": 20,
           "x": 225,
           "y": 154,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_everyday_life_under_the_eternal",
+          "text": "Everyday Life Under the Eternal Stars",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Op"
+          },
+          "width": 250,
+          "height": 20,
+          "x": 88,
+          "y": 176,
           "locked": false
         }
       }

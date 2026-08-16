@@ -185,7 +185,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "DoAlcoholLampBreak"
+      "name": "ScreenD"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

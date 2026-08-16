@@ -20,6 +20,7 @@ import net.xbtstudio.school.item.ChalkRFItem;
 import net.xbtstudio.school.item.ChalkItem;
 import net.xbtstudio.school.item.ChalkHairSprayerItem;
 import net.xbtstudio.school.item.ChalkCannonItem;
+import net.xbtstudio.school.item.AAIOItem;
 import net.xbtstudio.school.SchoolMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -417,6 +418,17 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> TOILET = block(SchoolModBlocks.TOILET);
 	public static final RegistryObject<Item> TOSAO = block(SchoolModBlocks.TOSAO);
 	public static final RegistryObject<Item> TDSA = block(SchoolModBlocks.TDSA);
+	public static final RegistryObject<Item> AAIO = REGISTRY.register("aaio", () -> new AAIOItem());
+	public static final RegistryObject<Item> MLE = block(SchoolModBlocks.MLE);
+	public static final RegistryObject<Item> BSA = block(SchoolModBlocks.BSA);
+	public static final RegistryObject<Item> BSAR = block(SchoolModBlocks.BSAR);
+	public static final RegistryObject<Item> OIC = block(SchoolModBlocks.OIC);
+	public static final RegistryObject<Item> WI_FI_7_HGUONT = block(SchoolModBlocks.WI_FI_7_HGUONT);
+	public static final RegistryObject<Item> WI_FI_7ROUTER = block(SchoolModBlocks.WI_FI_7ROUTER);
+	public static final RegistryObject<Item> BIPOM_86T = block(SchoolModBlocks.BIPOM_86T);
+	public static final RegistryObject<Item> WI_FI_6_CMONT = block(SchoolModBlocks.WI_FI_6_CMONT);
+	public static final RegistryObject<Item> BOE = block(SchoolModBlocks.BOE);
+	public static final RegistryObject<Item> GPONXGSPONCCOLT = block(SchoolModBlocks.GPONXGSPONCCOLT);
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -19,6 +19,9 @@
     "useDuration": 72000,
     "toolType": 0.0,
     "damageCount": 8,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -46,10 +49,17 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "none",
     "isMusicDisc": false,
+    "musicDiscMusic": {
+      "value": ""
+    },
+    "musicDiscDescription": "",
     "musicDiscLengthInTicks": 0,
     "musicDiscAnalogOutput": 0
   }

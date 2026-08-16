@@ -1,0 +1,86 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_forget_the_time",
+          "text": "Forget the time",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Napbell"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 130,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_my_future_is_not_dream",
+          "text": "My future is not dream",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Msind"
+          },
+          "width": 139,
+          "height": 20,
+          "x": 130,
+          "y": 89,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_conquer",
+          "text": "Conquer",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Conquer"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 130,
+          "y": 112,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_school_nap_bell_expansion_panel",
+          "text": {
+            "fixedValue": "School nap bell expansion panel"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 42,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

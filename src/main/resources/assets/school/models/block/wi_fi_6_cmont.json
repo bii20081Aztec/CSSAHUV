@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/wifi6_ceiling-mount_ont",
+  "textures": {
+    "all": "school:block/wifi6_ceiling-mount_ont",
+    "particle": "school:block/wifi6_ceiling-mount_ont",
+    "0": "school:block/wifi6_ceiling-mount_ont"
+  },
+  "render_type": "solid"
+}

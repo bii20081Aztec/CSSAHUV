@@ -42,7 +42,7 @@ ao:false
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","file/小镇材质包","file/DVB.zip"]
+resourcePacks:["vanilla","mod_resources","file/DVB.zip","file/学校模组附属音乐包"]
 incompatibleResourcePacks:[]
 lastServer:localhost:25463
 lang:zh_cn
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0

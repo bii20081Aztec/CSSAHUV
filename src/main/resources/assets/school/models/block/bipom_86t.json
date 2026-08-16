@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/built-in_panel_optical_modem_86_type",
+  "textures": {
+    "all": "school:block/built-in_panel_optical_modem_86_type",
+    "particle": "school:block/built-in_panel_optical_modem_86_type",
+    "0": "school:block/built-in_panel_optical_modem_86_type"
+  },
+  "render_type": "solid"
+}

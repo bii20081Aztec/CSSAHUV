@@ -65,7 +65,7 @@ public class ChalkCannonItem extends Item {
 							player.getInventory().removeItem(stack);
 					}
 				}
-				ChalkRFColdProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+				ChalkRFColdProcedure.execute();
 			}
 		}
 	}

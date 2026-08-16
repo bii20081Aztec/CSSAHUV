@@ -5,6 +5,7 @@
 package net.xbtstudio.school.init;
 
 import net.xbtstudio.school.world.inventory.SchoolBellControllerGUIMenu;
+import net.xbtstudio.school.world.inventory.SNEMenu;
 import net.xbtstudio.school.world.inventory.PrinterGuiMenu;
 import net.xbtstudio.school.world.inventory.NOCATMenu;
 import net.xbtstudio.school.world.inventory.MusicselectionpageMenu;
@@ -25,4 +26,5 @@ public class SchoolModMenus {
 	public static final RegistryObject<MenuType<PrinterGuiMenu>> PRINTER_GUI = REGISTRY.register("printer_gui", () -> IForgeMenuType.create(PrinterGuiMenu::new));
 	public static final RegistryObject<MenuType<MusicselectionpageMenu>> MUSICSELECTIONPAGE = REGISTRY.register("musicselectionpage", () -> IForgeMenuType.create(MusicselectionpageMenu::new));
 	public static final RegistryObject<MenuType<NOCATMenu>> NOCAT = REGISTRY.register("nocat", () -> IForgeMenuType.create(NOCATMenu::new));
+	public static final RegistryObject<MenuType<SNEMenu>> SNE = REGISTRY.register("sne", () -> IForgeMenuType.create(SNEMenu::new));
 }

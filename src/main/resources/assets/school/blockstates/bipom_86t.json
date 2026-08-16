@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/bipom_86t"
+    },
+    "facing=east": {
+      "model": "school:block/bipom_86t",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/bipom_86t",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/bipom_86t",
+      "y": 270
+    }
+  }
+}

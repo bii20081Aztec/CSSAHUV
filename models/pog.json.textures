@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pof",
+        "1": "boe"
+      },
+      "name": "default"
+    }
+  }
+}

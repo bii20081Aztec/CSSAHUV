@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/gponxgsponccolt"
+    },
+    "facing=east": {
+      "model": "school:block/gponxgsponccolt",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/gponxgsponccolt",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/gponxgsponccolt",
+      "y": 270
+    }
+  }
+}

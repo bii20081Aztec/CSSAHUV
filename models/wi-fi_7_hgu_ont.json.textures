@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "wi-fi_7_hgu_ont"
+      },
+      "name": "default"
+    }
+  }
+}

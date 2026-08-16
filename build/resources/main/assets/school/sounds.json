@@ -24,5 +24,13 @@
         "stream": false
       }
     ]
+  },
+  "aaio": {
+    "sounds": [
+      {
+        "name": "school:sf_express",
+        "stream": false
+      }
+    ]
   }
 }

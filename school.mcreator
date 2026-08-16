@@ -1128,24 +1128,7 @@
         "files": [
           "src/main/java/net/xbtstudio/school/procedures/ChalkRFColdProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -11738,6 +11721,449 @@
           }
         ]
       }
+    },
+    {
+      "name": "SNE",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/network/SNEButtonMessage.java",
+          "src/main/java/net/xbtstudio/school/world/inventory/SNEMenu.java",
+          "src/main/java/net/xbtstudio/school/client/gui/SNEScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "SNEA",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snea",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/SNEAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conquer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conquer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/ConquerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Msind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "msind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/MsindProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Self0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "self_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/Self0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ScreenD",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screen_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/ScreenDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SscreeedD",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sscreeed_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/SscreeedDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AAIOY",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaioy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/AAIOYProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AAIO",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aaio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/item/AAIOItem.java",
+          "src/main/resources/assets/school/models/item/aaio.json"
+        ]
+      }
+    },
+    {
+      "name": "Op",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/procedures/OpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MLE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/blockstates/mle.json",
+          "src/main/resources/data/school/loot_tables/blocks/mle.json",
+          "src/main/java/net/xbtstudio/school/block/MLEBlock.java",
+          "src/main/resources/assets/school/models/item/mle.json",
+          "src/main/resources/assets/school/models/block/mle.json"
+        ]
+      }
+    },
+    {
+      "name": "Bsa",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/school/loot_tables/blocks/bsa.json",
+          "src/main/resources/assets/school/models/block/bsa.json",
+          "src/main/resources/assets/school/blockstates/bsa.json",
+          "src/main/java/net/xbtstudio/school/block/BsaBlock.java",
+          "src/main/resources/assets/school/models/item/bsa.json"
+        ]
+      }
+    },
+    {
+      "name": "BSAR",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/school/loot_tables/blocks/bsar.json",
+          "src/main/resources/assets/school/blockstates/bsar.json",
+          "src/main/resources/assets/school/models/block/bsar.json",
+          "src/main/java/net/xbtstudio/school/block/BSARBlock.java",
+          "src/main/resources/assets/school/models/item/bsar.json"
+        ]
+      }
+    },
+    {
+      "name": "Oic",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/block/OicBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/oic.json",
+          "src/main/resources/assets/school/models/item/oic.json",
+          "src/main/resources/assets/school/models/block/oic.json",
+          "src/main/resources/assets/school/blockstates/oic.json"
+        ]
+      }
+    },
+    {
+      "name": "WiFi7HGUONT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wi_fi_7_hguont",
+      "metadata": {
+        "files": [
+          "src/main/java/net/xbtstudio/school/block/WiFi7HGUONTBlock.java",
+          "src/main/resources/assets/school/models/block/wi_fi_7_hguont.json",
+          "src/main/resources/assets/school/blockstates/wi_fi_7_hguont.json",
+          "src/main/resources/assets/school/models/item/wi_fi_7_hguont.json",
+          "src/main/resources/data/school/loot_tables/blocks/wi_fi_7_hguont.json"
+        ]
+      }
+    },
+    {
+      "name": "WiFi7router",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wi_fi_7router",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/block/wi_fi_7router.json",
+          "src/main/resources/assets/school/models/item/wi_fi_7router.json",
+          "src/main/resources/assets/school/blockstates/wi_fi_7router.json",
+          "src/main/resources/data/school/loot_tables/blocks/wi_fi_7router.json",
+          "src/main/java/net/xbtstudio/school/block/WiFi7routerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Bipom86t",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bipom_86t",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/bipom_86t.json",
+          "src/main/java/net/xbtstudio/school/block/Bipom86tBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/bipom_86t.json",
+          "src/main/resources/assets/school/blockstates/bipom_86t.json",
+          "src/main/resources/assets/school/models/block/bipom_86t.json"
+        ]
+      }
+    },
+    {
+      "name": "WiFi6CMONT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wi_fi_6_cmont",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/blockstates/wi_fi_6_cmont.json",
+          "src/main/resources/assets/school/models/block/wi_fi_6_cmont.json",
+          "src/main/resources/data/school/loot_tables/blocks/wi_fi_6_cmont.json",
+          "src/main/resources/assets/school/models/item/wi_fi_6_cmont.json",
+          "src/main/java/net/xbtstudio/school/block/WiFi6CMONTBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "BOE",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/school/loot_tables/blocks/boe.json",
+          "src/main/resources/assets/school/models/item/boe.json",
+          "src/main/resources/assets/school/models/block/boe.json",
+          "src/main/resources/assets/school/blockstates/boe.json",
+          "src/main/java/net/xbtstudio/school/block/BOEBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GPONXGSPONCCOLT",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gponxgsponccolt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/gponxgsponccolt.json",
+          "src/main/java/net/xbtstudio/school/block/GPONXGSPONCCOLTBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/gponxgsponccolt.json",
+          "src/main/resources/assets/school/blockstates/gponxgsponccolt.json",
+          "src/main/resources/assets/school/models/block/gponxgsponccolt.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11777,6 +12203,14 @@
         "crash"
       ],
       "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "aaio",
+      "files": [
+        "sf_express"
+      ],
+      "category": "master",
       "subtitle": ""
     }
   ],
@@ -11877,9 +12311,9 @@
   "language_map": {
     "en_us": {
       "block.school.ubuntu_seewo": "Seewo",
-      "block.school.largeglasswindows_blue": "Large glass window (Blue)",
-      "block.school.upperwideglasswindowsblac_k_1": "Upper wide glass windows (Black)",
       "block.school.pof": "Switching unit with power supply",
+      "block.school.upperwideglasswindowsblac_k_1": "Upper wide glass windows (Black)",
+      "block.school.largeglasswindows_blue": "Large glass window (Blue)",
       "block.school.ontheminislidingwindow_black_1": "on the mini sliding window (Black)",
       "block.school.toiletdoors_mi": "Toilet doors",
       "block.school.casementwindows_11": "Casement windows 1x1 black",
@@ -11909,8 +12343,8 @@
       "item_group.school.laboratory": "Electronic devices and sundries",
       "block.school.school_bell_controller": "School Bell Controller",
       "block.school.minigreenvintageglasswindows": "old-fashioned Green glass window (small)",
-      "block.school.desk": "Desk",
       "block.school.smallslidingwindobk": "Small sliding window (Black)",
+      "block.school.desk": "Desk",
       "advancements.paperless_office.descr": "Print something with Printer!",
       "block.school.rrh": "Roman rod hook",
       "block.school.mopsink": "Mop sink",
@@ -11922,6 +12356,7 @@
       "block.school.oncq": "Curtain",
       "block.school.largeslidingwindobbk": "Large sliding windows (Black)",
       "block.school.deskwithdesktopcomputer": "Desk with desktop computer",
+      "block.school.bsa": "Base station antenna ( RRU )",
       "block.school.laboratoryexhausthood_2_x_2": "Laboratory exhaust hood",
       "gui.school.school_bell_controller_gui.button_class_beginover": "Class Begin/Over",
       "block.school.ontheminislidingwindow": "on the mini sliding window",
@@ -11931,10 +12366,11 @@
       "block.school.largeglassslidingwindowsblue": "Large glass sliding windows (blue)",
       "block.school.black_board_light": "Black Board Light",
       "block.school.strip_chandelier": "Strip Chandelier",
-      "block.school.sswog": "Sliding sash window (Green)",
+      "block.school.wi_fi_6_cmont": "WiFi6 Ceiling-Mount ONT",
       "block.school.pipe": "Bridge",
-      "block.school.toiletdoors_mion": "Toilet doors",
+      "block.school.sswog": "Sliding sash window (Green)",
       "subtitles.smgshoot": "Chalk SMG:shoot",
+      "block.school.toiletdoors_mion": "Toilet doors",
       "subtitles.classover-ring": "School:Ring",
       "item.school.ferule": "Ferule",
       "block.school.smallwindowsblack_1": "Small windows ( small black )",
@@ -11943,12 +12379,15 @@
       "block.school.mobileblack": "§0Mobile black",
       "block.school.seewo_bsod": "§6Seewo BSOD",
       "block.school.largeglasswindows_black": "Large glass window (Black)",
+      "block.school.oic": "Outdoor integrated cabinet ( BBU )",
+      "gui.school.sne.button_conquer": "Conquer",
       "block.school.window_white_down": "Window White Down",
       "subtitles.colorfulsunshine": "Play - Colorful Sunshine",
       "gui.school.nocat.label_you_have_been_attacked_by_a_cat": "You have been attacked by a cat, and you are attacked by a cat,",
       "block.school.largeglasswindow_q": "Large glass window",
       "advancements.angry_chemistry_teacher.descr": "Using an alcohol lamp to heat the alcohol lamp!",
       "block.school.squattingurinal_1": "Squatting urinal",
+      "gui.school.sne.button_forget_the_time": "Forget the time",
       "advancements.time_changed.descr": "Shoot Something with Chalk Cannon!",
       "advancements.mygraduationseason.title": "My graduation season",
       "block.school.classroom_iron_door": "Classroom iron door",
@@ -11956,20 +12395,23 @@
       "gui.school.musicselectionpage.button_shut_down": "Shut down",
       "gui.school.school_bell_controller_gui.button_colorful_sunshine": "Primary Exercises",
       "block.school.smallslidinwindowblue": "Small sliding window (Blue)",
+      "gui.school.school_bell_controller_gui.button_selfdevised_exercises2": "Self-devised exercises2",
       "block.school.extralargeslidingwindows_blue_1": "Extra-large sliding windows (Blue)",
-      "block.school.studyhard": "§4Study hard",
-      "advancements.placeanyairconditioner.descr": "Sorry, we don\u0027t have any money to install air conditioning",
       "advancements.computer_time.descr": "Own a PC!",
+      "advancements.placeanyairconditioner.descr": "Sorry, we don\u0027t have any money to install air conditioning",
+      "block.school.studyhard": "§4Study hard",
       "block.school.main_unit": "Main Unit",
+      "block.school.bipom_86t": "Built-in panel optical modem (86 type)",
       "gui.school.musicselectionpage.button_naughty_blue_cat": "Naughty blue cat",
       "block.school.dvbts": "Digital Satellite Ground TV Set-Top Box",
       "advancements.seewoq.title": "USB flash drive guillotine",
       "block.school.window_white_down_single": "Window White Down Single",
       "block.school.ac_large_out": "AC Large Out",
       "block.school.sc_2": "Surveillance camera",
-      "block.school.smallwindows_1": "2X2 windows ( white )",
-      "block.school.casementwindows_1x_2": "Casement windows 1x2",
       "block.school.sc_1": "Surveillance camera",
+      "block.school.casementwindows_1x_2": "Casement windows 1x2",
+      "block.school.smallwindows_1": "2X2 windows ( white )",
+      "block.school.wi_fi_7router": "Wi-Fi 7 router",
       "subtitles.eyeexercises": "Play - eye exercises",
       "block.school.extralargeslidingwindows": "Extra-large sliding windows",
       "block.school.ltabswuo": "Large top-and-bottom sliding window (Blue)",
@@ -11978,8 +12420,8 @@
       "advancements.itmusthavebeen_optifinetodo.descr": "You\u0027re running Chinese-style school and home mods in Minecraft with optifine!",
       "block.school.satellitetelevision": "satellite television",
       "block.school.blueconcretewall": "Blue Concrete Wall",
-      "gui.school.school_bell_controller_gui.label_school_bell_controller": "School Bell Controller",
       "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS Monitor - Education Edition",
+      "gui.school.school_bell_controller_gui.label_school_bell_controller": "School Bell Controller",
       "item.school.chalk_smg": "Chalk SMG",
       "subtitles.dancingyouth": "Play - Dancing Youth",
       "block.school.greentallwall": "Green Tall Wall",
@@ -11996,6 +12438,7 @@
       "block.school.greenconcretestair": "Green Concrete Stair",
       "item.school.chip": "Chip",
       "block.school.old_pc_gslc": "Horizontal computer with CRT monitor - with Genshin Impact",
+      "block.school.boe": "Enterprise router",
       "block.school.nocrttv": "NO CRT TV",
       "subtitles.welcometoeijing": "Naughty blue cat 3,000 questions",
       "block.school.cornerwindows_hengsu_4": "Corner windows Hengsu ( green )",
@@ -12003,11 +12446,12 @@
       "block.school.upperwideglasswindows_ge": "Upper wide glass windows (Green)",
       "block.school.yellowconcretewall": "Yellow Concrete Wall",
       "block.school.cornerwindows_hengsu_1": "Corner windows Hengsu ( black )",
-      "block.school.orangeconcretestair": "Orange Concrete Wall",
       "block.school.largeslidingwindows_green": "Large sliding windows (Green)",
+      "block.school.orangeconcretestair": "Orange Concrete Wall",
       "block.school.q_largeglassslidingwindows": "Large glass sliding windows",
       "block.school.canteenkitchenstove": "Cafeteria kitchen sink",
       "block.school.window_white_up": "Window White Up",
+      "gui.school.sne.label_school_nap_bell_expansion_panel": "School nap bell expansion panel",
       "block.school.tall_wall": "White Tall Wall",
       "gui.school.musicselectionpage.button_dancing_youth": "Dancing youth",
       "subtitles.shoot": "ChalkHairSprayer:Shoot",
@@ -12061,6 +12505,7 @@
       "block.school.seewo_on": "Seewo(Win11)",
       "block.school.pushandpullchalkboard_4": "Push and pull chalkboard ( Shut down )",
       "block.school.ltabsw": "Large top-and-bottom sliding window",
+      "block.school.gponxgsponccolt": "7-slot GPON/XGS-PON Combo Chassis OLT",
       "block.school.laboratory_desk": "Laboratory Desk",
       "block.school.fu": "Fu",
       "block.school.ironbars": "Iron bars",
@@ -12112,6 +12557,7 @@
       "block.school.extralargeslidingwindows_black_1": "Extra-large sliding windows (Black)",
       "block.school.schooltables": "School tables",
       "block.school.upperwideglasswindowsbl_ue": "Upper wide glass windows (Blue)",
+      "block.school.mle": "MLE Fiber",
       "block.school.upperwideglasswindows_green": "Upper wide glass windows (Blue)",
       "item.school.chalk": "Chalk",
       "block.school.acin_b": "Acin B",
@@ -12121,6 +12567,7 @@
       "block.school.lawn": "Lawn",
       "block.school.minislidingwindow_blue": "Small sliding window (Blue)",
       "block.school.prs": "Public restroom sink",
+      "item.school.aaio": "AAIO Y22",
       "advancements.placeanyairconditioner.title": "Place any air conditioner",
       "block.school.greendoubleglasswindows": "old-fashioned Green glass window",
       "item.school.set_square": "Set Square",
@@ -12134,11 +12581,13 @@
       "block.school.halfwallfence": "Half wall fence",
       "block.school.classroomdoors": "Classroom doors",
       "block.school.largeslidingwindows_bl": "Large sliding windows (Blue)",
+      "block.school.bsar": "Base station antenna ( RRU )",
       "block.school.chair": "Chair",
       "block.school.restaurantexhausthood": "Restaurant exhaust hood",
       "advancements.angry_chemistry_teacher.title": "Angry Chemistry Teacher",
       "block.school.minislidingwindow_green": "Small sliding window (Green)",
       "itemGroup.tablaboratory": "Laboratory",
+      "gui.school.sne.button_my_future_is_not_dream": "My future is not dream",
       "block.school.printer": "Printer",
       "block.school.extralargeslidingwindows_blue": "Extra-large sliding windows (Blue)",
       "block.school.q_largeglassslidingwindowsblack": "Large glass sliding windows",
@@ -12195,6 +12644,7 @@
       "block.school.codeforstudents": "Code For Students",
       "advancements.yourclassisverygood.descr": "Your class is very good",
       "block.school.casementwindows_1": "Casement windows 1x1",
+      "block.school.wi_fi_7_hguont": "WiFi 7 HGU ONT",
       "block.school.classcard": "Class card",
       "block.school.alcohol_lamp": "Alcohol Lamp",
       "block.school.outdoorspeakers": "Outdoor speakers",
@@ -12207,6 +12657,7 @@
       "block.school.antitheftnets_2x_2": "Anti-theft nets 2X2",
       "block.school.smallwindowsblack": "Small windows ( black )",
       "block.school.spring_festival_couplets": "Spring Festival Couplets",
+      "gui.school.musicselectionpage.button_everyday_life_under_the_eternal": "Everyday Life Under the Eternal Stars",
       "block.school.cornerwindows_3": "Corner windows ( green )",
       "block.school.cornerwindows_2": "Corner windows ( blue )",
       "block.school.cornerwindows_1": "Corner windows ( black )",
@@ -12242,6 +12693,7 @@
       "block.school.window_black_down_single": "Window Black Down Single",
       "block.school.blackconcretestair": "black Concrete Stair",
       "block.school.cornerwindows_hengsu": "Corner windows Hengsu ( white )",
+      "gui.school.school_bell_controller_gui.button_selfdevised_exercises": "Self-devised exercises",
       "block.school.slidingwindows_black_1": "Sliding windows (Black)",
       "gui.school.nocat.label_and_you_can_find_a_way_to_do_it": "and you can find a way to do it yourself, hahaha",
       "block.school.projector": "Projector",
@@ -12334,7 +12786,9 @@
       "block.school.antitheftnets_2_x_1": "Anti-theft nets 2X1",
       "block.school.largeslidingwindows_blue_1": "Large sliding windows (Blue)",
       "block.school.windowairconditioning": "Window air conditioning",
+      "gui.school.school_bell_controller_gui.button_selfdevised3": "Self-devised3",
       "block.school.smallwindowsgreen_1": "1x2 windows ( green )",
+      "gui.school.school_bell_controller_gui.button_selfdevised4": "Self-devised4",
       "block.school.easicamera": "Easicamera",
       "gui.school.printer_gui.label_empty": "Printer",
       "block.school.yellowconcretestair": "Blue Concrete Stair",
@@ -12365,21 +12819,22 @@
       "block.school.toiletdoors": "Toilet doors",
       "block.school.pcw_10": "PC  (win10）",
       "block.school.tv": "TV",
+      "subtitles.aaio": "",
       "block.school.orangetallwall": "Orange Tall Wall",
       "advancements.time_changed.title": "Time Changed",
       "block.school.ontheminislidingwindow_green_1": "on the mini sliding window (Green)"
     },
     "zh_cn": {
       "block.school.ubuntu_seewo": "Seewo",
-      "block.school.pof": "带有供电的交换机柜",
-      "block.school.upperwideglasswindowsblac_k_1": "大玻璃窗（黑）（上）",
       "block.school.largeglasswindows_blue": "大玻璃窗（蓝）",
+      "block.school.upperwideglasswindowsblac_k_1": "大玻璃窗（黑）（上）",
+      "block.school.pof": "带有供电的交换机柜",
       "block.school.ontheminislidingwindow_black_1": "上迷你推拉窗（黑）",
       "block.school.toiletdoors_mi": "厕所门",
       "block.school.casementwindows_11": "平开窗1X1 黑色",
-      "block.school.casementwindows_12": "平开窗1X1 黑色",
-      "gui.school.school_bell_controller_gui.button_eye_exercises": "眼保健操",
       "item.school.sighing_cat_spawn_egg": "Sighing Cat Spawn Egg",
+      "gui.school.school_bell_controller_gui.button_eye_exercises": "眼保健操",
+      "block.school.casementwindows_12": "平开窗1X1 黑色",
       "block.school.hpmpc": "带有电脑的电脑桌",
       "gui.school.musicselectionpage.button_running_drills": "Running drill music",
       "block.school.greytallwall": "灰色高墙",
@@ -12404,8 +12859,8 @@
       "item_group.school.laboratory": "电子设备和杂物",
       "block.school.school_bell_controller": "学校铃声控制器",
       "block.school.minigreenvintageglasswindows": "迷你绿色老式玻璃窗 ( 下半 )",
-      "block.school.desk": "课桌",
       "block.school.smallslidingwindobk": "推拉窗  ( 黑色 )",
+      "block.school.desk": "课桌",
       "advancements.paperless_office.descr": "使用打印机打印一些东西",
       "block.school.rrh": "罗马杆挂钩 ",
       "block.school.mopsink": "拖布池",
@@ -12417,6 +12872,7 @@
       "block.school.oncq": "窗帘",
       "block.school.largeslidingwindobbk": "大推拉窗（黑）",
       "block.school.deskwithdesktopcomputer": "带有台式电脑的桌子",
+      "block.school.bsa": "基站天线 ( RRU )",
       "block.school.laboratoryexhausthood_2_x_2": "实验室排风罩",
       "gui.school.school_bell_controller_gui.button_class_beginover": "上下课铃",
       "block.school.ontheminislidingwindow": "上迷你推拉窗",
@@ -12426,10 +12882,11 @@
       "block.school.largeglassslidingwindowsblue": "大玻璃推拉窗 ( 蓝 )",
       "block.school.black_board_light": "黑板灯",
       "block.school.strip_chandelier": "条形吊灯",
-      "block.school.pipe": "桥架",
+      "block.school.wi_fi_6_cmont": " WiFi6 吸顶ONT",
       "block.school.sswog": "上下推拉窗 ( 绿 )",
-      "block.school.toiletdoors_mion": "厕所门",
+      "block.school.pipe": "桥架",
       "subtitles.smgshoot": "粉笔头冲锋枪：射击",
+      "block.school.toiletdoors_mion": "厕所门",
       "subtitles.classover-ring": "铃声：响起",
       "item.school.ferule": "戒尺",
       "block.school.smallwindowsblack_1": "带横杠小窗户 ( 黑色 )",
@@ -12438,12 +12895,15 @@
       "block.school.mobileblack": "§0流动黑旗",
       "block.school.seewo_bsod": "§3蓝屏的希沃一体机",
       "block.school.largeglasswindows_black": "大玻璃窗（黑）",
+      "block.school.oic": "室外一体化机柜 ( BBU )",
+      "gui.school.sne.button_conquer": "征服",
       "block.school.window_white_down": "白色玻璃窗（下半）",
       "subtitles.colorfulsunshine": "七彩阳光：播放",
       "gui.school.nocat.label_you_have_been_attacked_by_a_cat": "一只猫对你哈气，给你哈气死了",
       "block.school.largeglasswindow_q": "大玻璃窗",
       "advancements.angry_chemistry_teacher.descr": "使用酒精灯加热酒精灯！",
       "block.school.squattingurinal_1": "蹲便器",
+      "gui.school.sne.button_forget_the_time": "忘记时间",
       "advancements.time_changed.descr": "使用粉笔头大炮射点什么",
       "advancements.mygraduationseason.title": "我的毕业季",
       "block.school.classroom_iron_door": "教室铁门",
@@ -12451,20 +12911,23 @@
       "gui.school.musicselectionpage.button_shut_down": "关闭",
       "gui.school.school_bell_controller_gui.button_colorful_sunshine": "小学广播操",
       "block.school.smallslidinwindowblue": "推拉窗 ( 蓝色 )",
+      "gui.school.school_bell_controller_gui.button_selfdevised_exercises2": "自编操2",
       "block.school.extralargeslidingwindows_blue_1": "特大推拉窗 （蓝）",
-      "block.school.studyhard": "§4好好学习",
-      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
       "advancements.computer_time.descr": "拥有一台电脑！",
+      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
+      "block.school.studyhard": "§4好好学习",
       "block.school.main_unit": "电脑主机",
+      "block.school.bipom_86t": "内嵌式面板光猫 ( 86型 )",
       "gui.school.musicselectionpage.button_naughty_blue_cat": "淘气蓝猫",
       "advancements.seewoq.title": "U盘断头台",
       "block.school.dvbts": "卫星-地面电视接收机 （DVB）",
       "block.school.window_white_down_single": "迷你白色玻璃窗（下半）",
       "block.school.ac_large_out": "大型空调外机",
       "block.school.sc_2": "监控摄像头",
-      "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
-      "block.school.casementwindows_1x_2": "平开窗1X2",
       "block.school.sc_1": "监控摄像头",
+      "block.school.casementwindows_1x_2": "平开窗1X2",
+      "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
+      "block.school.wi_fi_7router": "Wi-Fi 7 路由器",
       "subtitles.eyeexercises": "眼保健操：播放 ",
       "block.school.extralargeslidingwindows": "特大推拉窗 ",
       "block.school.ltabswuo": "大上下推拉窗 ( 蓝 )",
@@ -12473,8 +12936,8 @@
       "advancements.itmusthavebeen_optifinetodo.descr": "你竟然在装optifine的Minecraft里头运行中国式学校及家庭模组!",
       "block.school.satellitetelevision": "卫星电视",
       "block.school.blueconcretewall": "蓝色混凝土墙",
-      "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS 显示器 - 教育版",
       "gui.school.school_bell_controller_gui.label_school_bell_controller": "欢迎使用学校铃声控制器",
+      "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS 显示器 - 教育版",
       "item.school.chalk_smg": "粉笔头冲锋枪",
       "subtitles.dancingyouth": "舞动青春：播放",
       "block.school.greentallwall": "绿色高墙 ",
@@ -12491,6 +12954,7 @@
       "block.school.greenconcretestair": "绿色混凝土台阶",
       "item.school.chip": "芯片",
       "block.school.old_pc_gslc": "带有CRT显示器的卧式电脑-带有原神",
+      "block.school.boe": "企业级路由器",
       "block.school.nocrttv": "CRT 电视",
       "subtitles.welcometoeijing": "淘气蓝猫三千问",
       "block.school.cornerwindows_hengsu_4": "带横杠转角窗户 ( 绿色 )",
@@ -12503,6 +12967,7 @@
       "block.school.q_largeglassslidingwindows": "大玻璃推拉窗 ",
       "block.school.canteenkitchenstove": "食堂厨房灶台 ",
       "block.school.window_white_up": "白色玻璃窗（上半）",
+      "gui.school.sne.label_school_nap_bell_expansion_panel": "学校午睡铃扩展面板",
       "block.school.tall_wall": "白色高墙",
       "gui.school.musicselectionpage.button_dancing_youth": "",
       "subtitles.shoot": "粉笔头发射器：射击",
@@ -12555,6 +13020,7 @@
       "block.school.seewo_on": "希沃一体机（win11）",
       "block.school.pushandpullchalkboard_4": "推拉黑板  ( 关闭  )",
       "block.school.ltabsw": "大上下推拉窗",
+      "block.school.gponxgsponccolt": "7槽位 GPON/XGS-PON Combo 机框式OLT",
       "block.school.laboratory_desk": "实验室桌",
       "block.school.fu": "§4福",
       "block.school.ironbars": "铁栏杆",
@@ -12598,7 +13064,7 @@
       "block.school.tall_wall_corner": "白色高墙（拐角）",
       "block.school.ltabswg": "大上下推拉窗 ( 绿 )",
       "block.school.ltabswo": "大上下推拉窗",
-      "block.school.toilet": "Toilet",
+      "block.school.toilet": "坐便器",
       "block.school.ltabswu": "大上下推拉窗 ( 蓝 )",
       "block.school.ndvr": "网络数字视频录像机",
       "block.school.window_old_up_single": "蓝色老式迷你玻璃窗（上半）",
@@ -12606,6 +13072,7 @@
       "block.school.extralargeslidingwindows_black_1": "特大推拉窗 （黑）",
       "block.school.schooltables": "学校餐桌",
       "block.school.upperwideglasswindowsbl_ue": "大玻璃窗（蓝）（上）",
+      "block.school.mle": "MLE Fiber",
       "block.school.upperwideglasswindows_green": "大玻璃窗（蓝）（上）",
       "item.school.chalk": "粉笔",
       "block.school.acin_b": "柜式空调",
@@ -12615,6 +13082,7 @@
       "block.school.lawn": "草坪",
       "block.school.minislidingwindow_blue": "迷你推拉窗（蓝）",
       "block.school.prs": "厕所水槽",
+      "item.school.aaio": "AAIO Y22",
       "advancements.placeanyairconditioner.title": "安装一台空调",
       "block.school.greendoubleglasswindows": "绿色老式玻璃窗 ( 下半 )",
       "item.school.set_square": "三角板",
@@ -12628,11 +13096,13 @@
       "block.school.halfwallfence": "半墙围栏",
       "block.school.classroomdoors": "教室门",
       "block.school.largeslidingwindows_bl": "大推拉窗（绿）",
+      "block.school.bsar": "基站天线 ( RRU )",
       "block.school.chair": "椅子",
       "block.school.restaurantexhausthood": "饭店吸烟机",
       "block.school.minislidingwindow_green": "迷你推拉窗（绿）",
       "advancements.angry_chemistry_teacher.title": "化学老师发出尖锐的爆鸣声",
       "itemGroup.tablaboratory": "实验室",
+      "gui.school.sne.button_my_future_is_not_dream": "我的未来不是梦",
       "block.school.printer": "打印机",
       "block.school.extralargeslidingwindows_blue": "特大推拉窗 （蓝）",
       "block.school.q_largeglassslidingwindowsblack": "大玻璃推拉窗 ",
@@ -12689,6 +13159,7 @@
       "block.school.codeforstudents": "中小学生守则",
       "advancements.yourclassisverygood.descr": "你的班级非常好",
       "block.school.casementwindows_1": "平开窗1X1",
+      "block.school.wi_fi_7_hguont": "WiFi 7 HGU ONT",
       "block.school.classcard": "班牌",
       "block.school.alcohol_lamp": "酒精灯",
       "block.school.outdoorspeakers": "户外音箱",
@@ -12701,6 +13172,7 @@
       "block.school.antitheftnets_2x_2": "防盗网 2X2",
       "block.school.smallwindowsblack": "带横杠窗户 ( 黑色 )",
       "block.school.spring_festival_couplets": "§4春联",
+      "gui.school.musicselectionpage.button_everyday_life_under_the_eternal": "永恒星辰下的日常",
       "block.school.cornerwindows_3": "转角窗户 ( 绿色 )",
       "block.school.cornerwindows_2": "转角窗户 ( 蓝色 )",
       "block.school.cornerwindows_1": "转角窗户 ( 黑色 )",
@@ -12736,6 +13208,7 @@
       "block.school.window_black_down_single": "迷你黑色玻璃窗（下半）",
       "block.school.blackconcretestair": "黑色混凝土台阶",
       "block.school.cornerwindows_hengsu": "带横杠转角窗户 ( 白色 )",
+      "gui.school.school_bell_controller_gui.button_selfdevised_exercises": "自编操",
       "block.school.slidingwindows_black_1": "推拉窗  ( 黑色 )",
       "gui.school.nocat.label_and_you_can_find_a_way_to_do_it": "你可以自己想办法做到，哈哈哈",
       "block.school.projector": "投影仪",
@@ -12828,7 +13301,9 @@
       "block.school.antitheftnets_2_x_1": "防盗网 2X1",
       "block.school.largeslidingwindows_blue_1": "大推拉窗（蓝）",
       "block.school.windowairconditioning": "窗式空调",
+      "gui.school.school_bell_controller_gui.button_selfdevised3": "自编操3",
       "block.school.smallwindowsgreen_1": "带横杠小窗户 ( 蓝色 )",
+      "gui.school.school_bell_controller_gui.button_selfdevised4": "自编操4",
       "block.school.easicamera": "视频展台",
       "gui.school.printer_gui.label_empty": "打印机",
       "block.school.yellowconcretestair": "黄色混凝土台阶",
@@ -12859,6 +13334,7 @@
       "block.school.toiletdoors": "厕所门",
       "block.school.pcw_10": "电脑  (win10）",
       "block.school.tv": "电视 ( 开 )",
+      "subtitles.aaio": "",
       "block.school.orangetallwall": "橙色高墙",
       "advancements.time_changed.title": "时代变了",
       "block.school.ontheminislidingwindow_green_1": "上迷你推拉窗（绿）"
@@ -12880,7 +13356,7 @@
   "workspaceSettings": {
     "modid": "school",
     "modName": "Chinese-style school as well as home",
-    "version": "0.90.6.8",
+    "version": "0.90.8.3",
     "description": "模组的原作者是江竹雨offical，目前作者不是原作者，所以模组会按照新作者的想法来做贡献者: MC百科 Imposter",
     "author": "Noel-Cornehl 江竹雨offical",
     "websiteURL": "https://space.bilibili.com/1685065897",

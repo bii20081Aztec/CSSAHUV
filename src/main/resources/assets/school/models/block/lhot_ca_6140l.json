@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/left_half_of_the_ca6140_lathe",
+  "textures": {
+    "all": "school:block/left_half_of_the_ca6140_lathe",
+    "particle": "school:block/left_half_of_the_ca6140_lathe",
+    "0": "school:block/left_half_of_the_ca6140_lathe"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/bdp"
+    },
+    "facing=east": {
+      "model": "school:block/bdp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/bdp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/bdp",
+      "y": 270
+    }
+  }
+}

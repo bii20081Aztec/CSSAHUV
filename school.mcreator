@@ -12164,6 +12164,100 @@
           "src/main/resources/assets/school/models/block/gponxgsponccolt.json"
         ]
       }
+    },
+    {
+      "name": "BSARB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bsarb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/blockstates/bsarb.json",
+          "src/main/java/net/xbtstudio/school/block/BSARBBlock.java",
+          "src/main/resources/assets/school/models/block/bsarb.json",
+          "src/main/resources/assets/school/models/item/bsarb.json",
+          "src/main/resources/data/school/loot_tables/blocks/bsarb.json"
+        ]
+      }
+    },
+    {
+      "name": "Ve",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ve",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bdp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/blockstates/bdp.json",
+          "src/main/resources/assets/school/models/block/bdp.json",
+          "src/main/java/net/xbtstudio/school/block/BdpBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/bdp.json",
+          "src/main/resources/assets/school/models/item/bdp.json"
+        ]
+      },
+      "path": "~/VS"
+    },
+    {
+      "name": "Bv",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/bv.json",
+          "src/main/resources/assets/school/models/block/bv.json",
+          "src/main/resources/assets/school/blockstates/bv.json",
+          "src/main/java/net/xbtstudio/school/block/BvBlock.java",
+          "src/main/resources/data/school/loot_tables/blocks/bv.json"
+        ]
+      },
+      "path": "~/VS"
+    },
+    {
+      "name": "LhotCA6140l",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lhot_ca_6140l",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/school/models/item/lhot_ca_6140l.json",
+          "src/main/resources/data/school/loot_tables/blocks/lhot_ca_6140l.json",
+          "src/main/resources/assets/school/blockstates/lhot_ca_6140l.json",
+          "src/main/resources/assets/school/models/block/lhot_ca_6140l.json",
+          "src/main/java/net/xbtstudio/school/block/LhotCA6140lBlock.java"
+        ]
+      },
+      "path": "~/VS"
+    },
+    {
+      "name": "RhotCA6140l",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rhot_ca_6140l",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/school/loot_tables/blocks/rhot_ca_6140l.json",
+          "src/main/java/net/xbtstudio/school/block/RhotCA6140lBlock.java",
+          "src/main/resources/assets/school/models/block/rhot_ca_6140l.json",
+          "src/main/resources/assets/school/blockstates/rhot_ca_6140l.json",
+          "src/main/resources/assets/school/models/item/rhot_ca_6140l.json"
+        ]
+      },
+      "path": "~/VS"
     }
   ],
   "variable_elements": [
@@ -12310,6 +12404,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.school.bv": "Bvbench vise",
       "block.school.ubuntu_seewo": "Seewo",
       "block.school.pof": "Switching unit with power supply",
       "block.school.upperwideglasswindowsblac_k_1": "Upper wide glass windows (Black)",
@@ -12337,6 +12432,7 @@
       "block.school.glass_floor": "Glass Floor",
       "block.school.toiletdoors_on": "Toilet doors",
       "block.school.dvbcable": "Digital Video Cable TV Set-Top Box",
+      "block.school.bsarb": "Base station antenna ( RRU ) bracket",
       "block.school.everyday": "§4Every day",
       "block.school.smallslidingwindowgre": "Small sliding window (Green)",
       "block.school.ssw": "Sliding sash window",
@@ -12356,6 +12452,7 @@
       "block.school.oncq": "Curtain",
       "block.school.largeslidingwindobbk": "Large sliding windows (Black)",
       "block.school.deskwithdesktopcomputer": "Desk with desktop computer",
+      "item_group.school.ve": "Vocational education",
       "block.school.bsa": "Base station antenna ( RRU )",
       "block.school.laboratoryexhausthood_2_x_2": "Laboratory exhaust hood",
       "gui.school.school_bell_controller_gui.button_class_beginover": "Class Begin/Over",
@@ -12478,6 +12575,7 @@
       "block.school.orangetallwallcorner": "Orange Tall Wall Corner",
       "block.school.choa_rr": "Curtains hung on a Roman rod",
       "block.school.black_board": "Black Board",
+      "block.school.rhot_ca_6140l": "Right half of the CA6140 lathe",
       "gui.school.musicselectionpage.button_stop_the_audio": "Stop the audio",
       "block.school.largeglasswindow": "Upper wide glass windows",
       "block.school.seewo": "Seewo",
@@ -12614,6 +12712,7 @@
       "advancements.tvas.title": "Televisions were placed",
       "block.school.slidingwindows_black": "Sliding windows (Black)",
       "block.school.tosao": "Toilet Door Stopper Assembly",
+      "block.school.bdp": "Benchtop drill press",
       "block.school.certificate_of_merit": "Certificate Of Merit",
       "block.school.smart_brand_on": "Smart Brand Power On",
       "block.school.largeslidingwindows_black": "Large sliding windows (Black)",
@@ -12748,6 +12847,7 @@
       "item.school.student_meal": "Student Meal",
       "gui.school.school_bell_controller_gui.button_running_drills": "Running drill music",
       "item_group.school.build": "Build",
+      "block.school.lhot_ca_6140l": "Left half of the CA6140 lathe",
       "subtitles.doctor_sound": "Naughty blue cat 3,000 questions",
       "block.school.lightcatsettopbox": "Light cat set-top box DVB-I",
       "block.school.windowairconditionerbluewindow": "Window air conditioner (blue window)",
@@ -12825,16 +12925,17 @@
       "block.school.ontheminislidingwindow_green_1": "on the mini sliding window (Green)"
     },
     "zh_cn": {
+      "block.school.bv": "台虎钳",
       "block.school.ubuntu_seewo": "Seewo",
-      "block.school.largeglasswindows_blue": "大玻璃窗（蓝）",
-      "block.school.upperwideglasswindowsblac_k_1": "大玻璃窗（黑）（上）",
       "block.school.pof": "带有供电的交换机柜",
+      "block.school.upperwideglasswindowsblac_k_1": "大玻璃窗（黑）（上）",
+      "block.school.largeglasswindows_blue": "大玻璃窗（蓝）",
       "block.school.ontheminislidingwindow_black_1": "上迷你推拉窗（黑）",
       "block.school.toiletdoors_mi": "厕所门",
       "block.school.casementwindows_11": "平开窗1X1 黑色",
-      "item.school.sighing_cat_spawn_egg": "Sighing Cat Spawn Egg",
-      "gui.school.school_bell_controller_gui.button_eye_exercises": "眼保健操",
       "block.school.casementwindows_12": "平开窗1X1 黑色",
+      "gui.school.school_bell_controller_gui.button_eye_exercises": "眼保健操",
+      "item.school.sighing_cat_spawn_egg": "Sighing Cat Spawn Egg",
       "block.school.hpmpc": "带有电脑的电脑桌",
       "gui.school.musicselectionpage.button_running_drills": "Running drill music",
       "block.school.greytallwall": "灰色高墙",
@@ -12853,14 +12954,15 @@
       "block.school.glass_floor": "玻璃地板",
       "block.school.toiletdoors_on": "厕所门",
       "block.school.dvbcable": "有线电视机顶盒（DVB）",
+      "block.school.bsarb": "基站天线 ( RRU ) 支架",
       "block.school.everyday": "§4天天向上",
       "block.school.smallslidingwindowgre": "推拉窗 ( 绿色 )",
       "block.school.ssw": "上下推拉窗",
       "item_group.school.laboratory": "电子设备和杂物",
       "block.school.school_bell_controller": "学校铃声控制器",
       "block.school.minigreenvintageglasswindows": "迷你绿色老式玻璃窗 ( 下半 )",
-      "block.school.smallslidingwindobk": "推拉窗  ( 黑色 )",
       "block.school.desk": "课桌",
+      "block.school.smallslidingwindobk": "推拉窗  ( 黑色 )",
       "advancements.paperless_office.descr": "使用打印机打印一些东西",
       "block.school.rrh": "罗马杆挂钩 ",
       "block.school.mopsink": "拖布池",
@@ -12872,6 +12974,7 @@
       "block.school.oncq": "窗帘",
       "block.school.largeslidingwindobbk": "大推拉窗（黑）",
       "block.school.deskwithdesktopcomputer": "带有台式电脑的桌子",
+      "item_group.school.ve": "职业教育",
       "block.school.bsa": "基站天线 ( RRU )",
       "block.school.laboratoryexhausthood_2_x_2": "实验室排风罩",
       "gui.school.school_bell_controller_gui.button_class_beginover": "上下课铃",
@@ -12885,8 +12988,8 @@
       "block.school.wi_fi_6_cmont": " WiFi6 吸顶ONT",
       "block.school.sswog": "上下推拉窗 ( 绿 )",
       "block.school.pipe": "桥架",
-      "subtitles.smgshoot": "粉笔头冲锋枪：射击",
       "block.school.toiletdoors_mion": "厕所门",
+      "subtitles.smgshoot": "粉笔头冲锋枪：射击",
       "subtitles.classover-ring": "铃声：响起",
       "item.school.ferule": "戒尺",
       "block.school.smallwindowsblack_1": "带横杠小窗户 ( 黑色 )",
@@ -12913,9 +13016,9 @@
       "block.school.smallslidinwindowblue": "推拉窗 ( 蓝色 )",
       "gui.school.school_bell_controller_gui.button_selfdevised_exercises2": "自编操2",
       "block.school.extralargeslidingwindows_blue_1": "特大推拉窗 （蓝）",
-      "advancements.computer_time.descr": "拥有一台电脑！",
-      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
       "block.school.studyhard": "§4好好学习",
+      "advancements.placeanyairconditioner.descr": "对不起,我们没有任何钱装空调 ",
+      "advancements.computer_time.descr": "拥有一台电脑！",
       "block.school.main_unit": "电脑主机",
       "block.school.bipom_86t": "内嵌式面板光猫 ( 86型 )",
       "gui.school.musicselectionpage.button_naughty_blue_cat": "淘气蓝猫",
@@ -12924,10 +13027,10 @@
       "block.school.window_white_down_single": "迷你白色玻璃窗（下半）",
       "block.school.ac_large_out": "大型空调外机",
       "block.school.sc_2": "监控摄像头",
-      "block.school.sc_1": "监控摄像头",
-      "block.school.casementwindows_1x_2": "平开窗1X2",
-      "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
       "block.school.wi_fi_7router": "Wi-Fi 7 路由器",
+      "block.school.smallwindows_1": "带横杠窗户 ( 白色 )",
+      "block.school.casementwindows_1x_2": "平开窗1X2",
+      "block.school.sc_1": "监控摄像头",
       "subtitles.eyeexercises": "眼保健操：播放 ",
       "block.school.extralargeslidingwindows": "特大推拉窗 ",
       "block.school.ltabswuo": "大上下推拉窗 ( 蓝 )",
@@ -12936,8 +13039,8 @@
       "advancements.itmusthavebeen_optifinetodo.descr": "你竟然在装optifine的Minecraft里头运行中国式学校及家庭模组!",
       "block.school.satellitetelevision": "卫星电视",
       "block.school.blueconcretewall": "蓝色混凝土墙",
-      "gui.school.school_bell_controller_gui.label_school_bell_controller": "欢迎使用学校铃声控制器",
       "block.school.pcmc.description_0": "§fHisense 24N3G §7IPS 显示器 - 教育版",
+      "gui.school.school_bell_controller_gui.label_school_bell_controller": "欢迎使用学校铃声控制器",
       "item.school.chalk_smg": "粉笔头冲锋枪",
       "subtitles.dancingyouth": "舞动青春：播放",
       "block.school.greentallwall": "绿色高墙 ",
@@ -12994,6 +13097,7 @@
       "block.school.orangetallwallcorner": "橙色高墙（拐角）",
       "block.school.choa_rr": "带有罗马杆的窗帘",
       "block.school.black_board": "黑板",
+      "block.school.rhot_ca_6140l": "CA6140车床右半",
       "gui.school.musicselectionpage.button_stop_the_audio": "暂停音频",
       "block.school.largeglasswindow": "大玻璃窗（上）",
       "block.school.seewo": "§3希沃一体机",
@@ -13129,6 +13233,7 @@
       "advancements.tvas.title": "放置了电视 ",
       "block.school.slidingwindows_black": "推拉窗  ( 黑色 )",
       "block.school.tosao": "厕所门挡板组合",
+      "block.school.bdp": "台式钻床",
       "block.school.certificate_of_merit": "奖状",
       "block.school.smart_brand_on": "智能班牌（打开）",
       "block.school.largeslidingwindows_black": "大推拉窗（黑）",
@@ -13263,6 +13368,7 @@
       "item.school.student_meal": "学生便当",
       "gui.school.school_bell_controller_gui.button_running_drills": "跑操音乐",
       "item_group.school.build": "建筑结构",
+      "block.school.lhot_ca_6140l": "CA6140车床左半",
       "subtitles.doctor_sound": "淘气蓝猫三千问",
       "block.school.lightcatsettopbox": "光猫机顶盒一体机",
       "block.school.windowairconditionerbluewindow": "窗式空调 ( 蓝色窗 )",
@@ -13350,14 +13456,18 @@
       {
         "name": "oggta",
         "children": []
+      },
+      {
+        "name": "VS",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "school",
     "modName": "Chinese-style school as well as home",
-    "version": "0.90.8.3",
-    "description": "模组的原作者是江竹雨offical，目前作者不是原作者，所以模组会按照新作者的想法来做贡献者: MC百科 Imposter",
+    "version": "0.90.9",
+    "description": "模组的原作者是江竹雨offical，目前作者不是原作者，所以模组会按照新作者的想法来做，部分技术基于DeepSeek，贡献者: MC百科 Imposter",
     "author": "Noel-Cornehl 江竹雨offical",
     "websiteURL": "https://space.bilibili.com/1685065897",
     "license": "MIT License",
@@ -13368,7 +13478,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "By MCreator",
+    "credits": "By MCreator DeepSeek",
     "modElementsPackage": "net.xbtstudio.school"
   },
   "mcreatorVersion": 202400452410

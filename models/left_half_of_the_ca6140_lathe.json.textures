@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "left_half_of_the_ca6140_lathe"
+      },
+      "name": "default"
+    }
+  }
+}

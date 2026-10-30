@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/benchtop_drill_press",
+  "textures": {
+    "all": "school:block/benchtop_drill_press",
+    "particle": "school:block/benchtop_drill_press",
+    "0": "school:block/benchtop_drill_press"
+  },
+  "render_type": "solid"
+}

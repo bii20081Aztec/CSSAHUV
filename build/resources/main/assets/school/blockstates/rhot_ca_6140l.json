@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "school:block/rhot_ca_6140l"
+    },
+    "facing=east": {
+      "model": "school:block/rhot_ca_6140l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "school:block/rhot_ca_6140l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "school:block/rhot_ca_6140l",
+      "y": 270
+    }
+  }
+}

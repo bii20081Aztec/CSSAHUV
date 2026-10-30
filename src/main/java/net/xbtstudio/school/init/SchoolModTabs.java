@@ -94,6 +94,7 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.WI_FI_6_CMONT.get().asItem());
 				tabData.accept(SchoolModBlocks.BOE.get().asItem());
 				tabData.accept(SchoolModBlocks.GPONXGSPONCCOLT.get().asItem());
+				tabData.accept(SchoolModBlocks.BSARB.get().asItem());
 			}).build());
 	public static final RegistryObject<CreativeModeTab> SCHOOL = REGISTRY.register("school",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.school")).icon(() -> new ItemStack(Blocks.BELL)).displayItems((parameters, tabData) -> {
@@ -356,6 +357,13 @@ public class SchoolModTabs {
 				tabData.accept(SchoolModBlocks.TDSA.get().asItem());
 				tabData.accept(SchoolModBlocks.MLE.get().asItem());
 			}).withTabsBefore(WINDOWSCANBEOPENED.getId()).build());
+	public static final RegistryObject<CreativeModeTab> VE = REGISTRY.register("ve",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.school.ve")).icon(() -> new ItemStack(Items.DIAMOND_AXE)).displayItems((parameters, tabData) -> {
+				tabData.accept(SchoolModBlocks.BDP.get().asItem());
+				tabData.accept(SchoolModBlocks.BV.get().asItem());
+				tabData.accept(SchoolModBlocks.LHOT_CA_6140L.get().asItem());
+				tabData.accept(SchoolModBlocks.RHOT_CA_6140L.get().asItem());
+			}).withSearchBar().withTabsBefore(BUILD.getId()).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

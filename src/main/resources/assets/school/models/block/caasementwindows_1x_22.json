@@ -3,7 +3,7 @@
   "textures": {
     "all": "school:block/casement_windows_1x2_black",
     "particle": "school:block/casement_windows_1x2_black",
-    "0": "school:block/casement_windows_1x2_black"
+    "1": "school:block/casement_windows_1x2_black"
   },
   "render_type": "translucent"
 }

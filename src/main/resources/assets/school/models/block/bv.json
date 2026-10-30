@@ -1,0 +1,9 @@
+{
+  "parent": "school:custom/bench_vise",
+  "textures": {
+    "all": "school:block/bench_vise",
+    "particle": "school:block/bench_vise",
+    "0": "school:block/bench_vise"
+  },
+  "render_type": "solid"
+}

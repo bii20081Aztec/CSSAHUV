@@ -126,6 +126,7 @@ import net.xbtstudio.school.block.SC2Block;
 import net.xbtstudio.school.block.SC1Block;
 import net.xbtstudio.school.block.RrhBlock;
 import net.xbtstudio.school.block.RockerboardforchildrenBlock;
+import net.xbtstudio.school.block.RhotCA6140lBlock;
 import net.xbtstudio.school.block.RestaurantexhausthoodBlock;
 import net.xbtstudio.school.block.RedtallwallBlock;
 import net.xbtstudio.school.block.RedmusicchairBlock;
@@ -217,6 +218,7 @@ import net.xbtstudio.school.block.MainUnitBlock;
 import net.xbtstudio.school.block.MLEBlock;
 import net.xbtstudio.school.block.LoudspeakerBlock;
 import net.xbtstudio.school.block.LightcatsettopboxBlock;
+import net.xbtstudio.school.block.LhotCA6140lBlock;
 import net.xbtstudio.school.block.LawnBlock;
 import net.xbtstudio.school.block.LargetilesBlock;
 import net.xbtstudio.school.block.LargeslidingwindowsbbkBlock;
@@ -345,6 +347,7 @@ import net.xbtstudio.school.block.CafeteriakitchensinkBlock;
 import net.xbtstudio.school.block.Caasementwindows1x2Block;
 import net.xbtstudio.school.block.Caasementwindows1x22Block;
 import net.xbtstudio.school.block.CRTTVBlock;
+import net.xbtstudio.school.block.BvBlock;
 import net.xbtstudio.school.block.BsaBlock;
 import net.xbtstudio.school.block.BroadcastcrewBlock;
 import net.xbtstudio.school.block.BrickwallBlock;
@@ -363,8 +366,10 @@ import net.xbtstudio.school.block.BlackboardlightBlock;
 import net.xbtstudio.school.block.BlackBoardBlock;
 import net.xbtstudio.school.block.Bipom86tBlock;
 import net.xbtstudio.school.block.BillboardsBlock;
+import net.xbtstudio.school.block.BdpBlock;
 import net.xbtstudio.school.block.BalanceBlock;
 import net.xbtstudio.school.block.BSARBlock;
+import net.xbtstudio.school.block.BSARBBlock;
 import net.xbtstudio.school.block.BOEBlock;
 import net.xbtstudio.school.block.AntitheftnetsAIRBlock;
 import net.xbtstudio.school.block.Antitheftnets2x2Block;
@@ -770,6 +775,11 @@ public class SchoolModBlocks {
 	public static final RegistryObject<Block> WI_FI_6_CMONT = REGISTRY.register("wi_fi_6_cmont", () -> new WiFi6CMONTBlock());
 	public static final RegistryObject<Block> BOE = REGISTRY.register("boe", () -> new BOEBlock());
 	public static final RegistryObject<Block> GPONXGSPONCCOLT = REGISTRY.register("gponxgsponccolt", () -> new GPONXGSPONCCOLTBlock());
+	public static final RegistryObject<Block> BSARB = REGISTRY.register("bsarb", () -> new BSARBBlock());
+	public static final RegistryObject<Block> BDP = REGISTRY.register("bdp", () -> new BdpBlock());
+	public static final RegistryObject<Block> BV = REGISTRY.register("bv", () -> new BvBlock());
+	public static final RegistryObject<Block> LHOT_CA_6140L = REGISTRY.register("lhot_ca_6140l", () -> new LhotCA6140lBlock());
+	public static final RegistryObject<Block> RHOT_CA_6140L = REGISTRY.register("rhot_ca_6140l", () -> new RhotCA6140lBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

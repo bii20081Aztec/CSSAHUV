@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "benchtop_drill_press"
+      },
+      "name": "default"
+    }
+  }
+}

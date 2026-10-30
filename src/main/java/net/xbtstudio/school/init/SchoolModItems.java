@@ -429,6 +429,11 @@ public class SchoolModItems {
 	public static final RegistryObject<Item> WI_FI_6_CMONT = block(SchoolModBlocks.WI_FI_6_CMONT);
 	public static final RegistryObject<Item> BOE = block(SchoolModBlocks.BOE);
 	public static final RegistryObject<Item> GPONXGSPONCCOLT = block(SchoolModBlocks.GPONXGSPONCCOLT);
+	public static final RegistryObject<Item> BSARB = block(SchoolModBlocks.BSARB);
+	public static final RegistryObject<Item> BDP = block(SchoolModBlocks.BDP);
+	public static final RegistryObject<Item> BV = block(SchoolModBlocks.BV);
+	public static final RegistryObject<Item> LHOT_CA_6140L = block(SchoolModBlocks.LHOT_CA_6140L);
+	public static final RegistryObject<Item> RHOT_CA_6140L = block(SchoolModBlocks.RHOT_CA_6140L);
 
 	// Start of user code block custom items
 	// End of user code block custom items
